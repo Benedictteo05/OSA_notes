@@ -150,3 +150,11 @@ fprintf(fileID, "%d", datum);
 - No human-computer interaction
 - OS optimizes resource utilization
 - Batch processing (as an option) still used today
+
+### Timesharing Systems
+- Uses multiprogramming 
+- Support interactive computing model (Illusion of multiple consoles)
+- Different scheduling & memory allocation strategies than batch
+- Tends to propagate processes
+- Considerable attention to resource isolation (security & protection)
+- Tend to optimize response time
