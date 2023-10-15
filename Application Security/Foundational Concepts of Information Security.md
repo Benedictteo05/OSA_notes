@@ -51,4 +51,9 @@ Establishing a set of "best practices" for limiting access can help to secure sy
 
 - Least Privilege
 	- A subject should have only the necessary rights and privileges to perform its task with no additional permissions. 
-	- Befor
+	- Before an OS is configured, an overall plan should be devised and standardized methods should be developed to ensure that a solid security baseline is actually implemented.
+
+- Separation of Duties
+	- Ensures that for any given task, more than one individual needs to be involved. The task is broken into different duties, each of which is accomplished by a separate individual.
+	- No single individual can abuse the system for his or her own gain.
+	- 
