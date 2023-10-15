@@ -20,4 +20,5 @@
 **Availability**
 - Assurance that people who are authorized to access information are able to do so.
 - Ensures that the data, or the system, is available for authorized user when required.
-- Ensuring availability requires routine main 
+- Ensuring availability requires routine maintenance and upgrading of hardware, software and operating system environments.
+- Security incidents 
