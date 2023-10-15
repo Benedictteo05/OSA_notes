@@ -46,4 +46,9 @@ Security equation:
 - Response
 	- Backups, Incident response team, Computer forensics.
 
-### Approaches to Se
+### Approaches to Security
+Establishing a set of "best practices" for limiting access can help to secure systems and their data.
+
+- Least Privilege
+	- A subject should have only the necessary rights and privileges to perform its task with no additional permissions. 
+	- Befor
