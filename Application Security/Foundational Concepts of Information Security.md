@@ -29,8 +29,11 @@
 		- i.e. fire and flooding
 
 | Availability Requirements | Explanation |
-|-----------------------------|--------------|
+|--------------------------|--------------|
 |Low | There is minimal impact on business if the assets are not available for up to 7 days|
 |Medium | There is significant impact on business if assets are not available for up to 48 hours|
-|High | The asset 
+|High | The asset is required on a 24/7 basis|
 
+### Operational Model of Security
+
+**Detection & RE** 
