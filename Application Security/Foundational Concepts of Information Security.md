@@ -63,3 +63,6 @@ Establishing a set of "best practices" for limiting access can help to secure sy
 	- Often a series of rules will be used to determine authorization to specific services for employees. 
 	- If a particular situation is not covered by any of the other rules, implicit deny approach states that access should not be granted.
 
+- Mandatory vacations
+	- Sensitive positions within an organization, an audit of the employees' activities is usually scheduled while they are away on vacation.
+	- This helps to break the daily routine of staff who plans to conduct fraud on a day-to-day basis
