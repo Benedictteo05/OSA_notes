@@ -12,8 +12,12 @@
 **Integrity**
 - Rules governing how and when information is modified by authorized users. 
 - Ensures that information remains consistent and unaltered.
-- Information s
+- Information stored in database, etc. must be protected through access controls and accepted procedure to change the data.
+- Measures such as:
+	- One way hashes.
+	- Password protection using hash function.
 
 **Availability**
 - Assurance that people who are authorized to access information are able to do so.
 - Ensures that the data, or the system, is available for authorized user when required.
+- Ensuring availability requires routine main 
