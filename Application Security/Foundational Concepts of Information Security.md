@@ -60,4 +60,6 @@ Establishing a set of "best practices" for limiting access can help to secure sy
 	- Task proceeding through several steps causes delay.
 
 - Implicit Deny
-	- 
+	- Often a series of rules will be used to determine authorization to specific services for employees. 
+	- If a particular situation is not covered by any of the other rules, implicit deny approach states that access should not be granted.
+
