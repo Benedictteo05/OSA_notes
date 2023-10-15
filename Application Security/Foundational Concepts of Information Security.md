@@ -56,4 +56,8 @@ Establishing a set of "best practices" for limiting access can help to secure sy
 - Separation of Duties
 	- Ensures that for any given task, more than one individual needs to be involved. The task is broken into different duties, each of which is accomplished by a separate individual.
 	- No single individual can abuse the system for his or her own gain.
+	- More than one individual is required when a single person could accomplish the task, thus potentially increasing the cost of the task. 
+	- Task proceeding through several steps causes delay.
+
+- Implicit Deny
 	- 
