@@ -36,4 +36,12 @@
 
 ### Operational Model of Security
 
-**Detection & RE** 
+Security equation:
+**PROTECTION = PREVENTION + ( DETECTION + RESPONSE )**
+
+- Prevention
+	- Access Control, Firewalls, Encryption.
+- Detection
+	- Audit logs, intrusion detection systems, Honey Pots.
+- Response
+	- Backups, Incident response team, Computer forensics.
