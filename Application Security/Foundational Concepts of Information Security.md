@@ -42,6 +42,8 @@ Security equation:
 - Prevention
 	- Access Control, Firewalls, Encryption.
 - Detection
-	- Audit logs, intrusion detection systems, Honey Pots.
+	- Audit logs, Intrusion Detection Systems, Honey Pots.
 - Response
 	- Backups, Incident response team, Computer forensics.
+
+### Approaches to Se
