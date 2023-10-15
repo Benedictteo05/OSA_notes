@@ -65,4 +65,6 @@ Establishing a set of "best practices" for limiting access can help to secure sy
 
 - Mandatory vacations
 	- Sensitive positions within an organization, an audit of the employees' activities is usually scheduled while they are away on vacation.
-	- This helps to break the daily routine of staff who plans to conduct fraud on a day-to-day basis
+	- This helps to break the daily routine of staff who plans to conduct fraud on a day-to-day basis.
+
+### Security trends and incidents
