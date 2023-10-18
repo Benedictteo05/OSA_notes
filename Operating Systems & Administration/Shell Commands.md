@@ -9,6 +9,6 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 - The directory with `..` refers to the parent directory.
 
 **Help**
-`help | more` or `[dir| md] /?`
+`help | more` or `[dir | md] /?`
 
 
