@@ -12,5 +12,9 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 `help | more` or `[dir | md] /?`
 
 **Delete**
+- Files: `del`
+- Directory: `rd`
+
+
 
 
