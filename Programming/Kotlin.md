@@ -1,6 +1,11 @@
 ### Syntax
-**Common Types**
+**Common Types** (Title case)
 - Integer types
+	- 32 bits: `Int`
+	- 64 bits: `Long`
+- Floating-point types
+	- 32 bits: `Float` (6 - 7 d.p.)
+	- 64 bits: `Double` (15-16 d.p.)
 
 **Program entry point**
 ```
