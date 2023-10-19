@@ -42,7 +42,21 @@ ________________________________
 Hello world
 ```
 
-- Print
+- String templates
+```
+val i = 1
+println("i = $i")
+________________________________
+i = 1
+```
+
+- Expression
+```
+val s = "abc"
+println("$s.length is ${s.length}")
+_____________________________________
+abc.length is 3
+```
 
 **Functions**
 - Function with 2 integer type parameters and integer return type
