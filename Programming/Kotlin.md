@@ -6,6 +6,13 @@
 - Floating-point types
 	- 32 bits: `Float` (6 - 7 d.p.)
 	- 64 bits: `Double` (15-16 d.p.)
+- Booleans
+	- OR
+
+**Type Conversion**
+- `toInt(): Int`
+- `toFloat(): Float`
+- `toDouble(): Double`
 
 **Program entry point**
 ```
