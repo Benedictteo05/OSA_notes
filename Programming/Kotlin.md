@@ -99,8 +99,19 @@ class Rectangle(var height: Double, var length: Double){
 **If expression**
 ```
 var max = a
-if (a >)
+if (a < b) max = b
+
+// with else
+if (a > b) {
+	max = a
+} else {
+	max = b
+}
+
+// as expression
+max = if (a > b) a else b
 ```
+
 
 
 **For loops**
