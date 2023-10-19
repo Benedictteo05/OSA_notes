@@ -1,4 +1,7 @@
 ### Syntax
+**Common Types**
+- Integer types
+
 **Program entry point**
 ```
 fun main(){
@@ -41,9 +44,13 @@ fun sum(a: Int, b: Int) = a + b
 - Read-only local variables (Immutable): `val`
 - Mutable variables: `var`
 
+
+
 **Classes and instances**
 ```
-ckass Rectangle(var height: Double, var length: Double){
+class Rectangle(var height: Double, var length: Double){
 	var perimeter = (height + length) * 2
 }
 ```
+
+
