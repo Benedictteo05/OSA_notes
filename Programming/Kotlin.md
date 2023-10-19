@@ -79,10 +79,9 @@ fun sum(a: Int, b: Int) = a + b
 - Mutable variables: `var`
 
 **Create arrays functions**
-- arrayOf()
-- arrayOfNulls()
-- 
-
+- `arrayOf()`
+- `arrayOfNulls()`
+- `emptyArray()`
 
 **Classes and instances**
 ```
@@ -91,4 +90,10 @@ class Rectangle(var height: Double, var length: Double){
 }
 ```
 
+**For loops**
+```
 
+for (i in 1..5){
+	println(i)
+}
+```
