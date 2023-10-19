@@ -12,6 +12,8 @@
 	- Logical NOT: `!`
 - Strings
 	- `Strings`
+- Array
+	- `Array<Type>`
 
 **Type Conversion**
 - `toInt(): Int`
@@ -76,6 +78,10 @@ fun sum(a: Int, b: Int) = a + b
 - Read-only local variables (Immutable): `val`
 - Mutable variables: `var`
 
+**Create arrays functions**
+- arrayOf()
+- arrayOfNulls()
+- 
 
 
 **Classes and instances**
