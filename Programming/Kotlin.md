@@ -95,6 +95,14 @@ class Rectangle(var height: Double, var length: Double){
 }
 ```
 
+#### Conditions and loops
+**If expression**
+```
+var max = a
+if (a >)
+```
+
+
 **For loops**
 ```
 // print from 1 to 5
@@ -108,3 +116,4 @@ _____________________________
 4
 5
 ```
+
