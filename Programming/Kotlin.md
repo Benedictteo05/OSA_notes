@@ -137,6 +137,11 @@ _____________________________
 ```
 class Rectangle(var height: Double, var length: Double,){
 	var perimeter = (height + length) * 2    //Property initializer
+	init {
+		self.height = height
+		self.length = length
+		self.perimeter = perimeter
+	}
 }
 
 // Class open for inheritance, default is final
