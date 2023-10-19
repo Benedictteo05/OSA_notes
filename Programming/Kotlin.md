@@ -98,6 +98,9 @@ class Rectangle(var height: Double, var length: Double){
 #### Conditions and loops
 **If expression**
 ```
+var a = 5
+var b = 10
+
 var max = a
 if (a < b) max = b
 
@@ -116,7 +119,10 @@ max = if (a > b) a else b
 ```
 when (x) {
 	1 -> println("x == 1")
-	2 
+	2 -> println("x == 2")
+	else -> {
+		println("x is neither 1 or 2")
+	}
 }
 ```
 
