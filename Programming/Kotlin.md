@@ -7,7 +7,11 @@
 	- 32 bits: `Float` (6 - 7 d.p.)
 	- 64 bits: `Double` (15-16 d.p.)
 - Booleans
-	- OR
+	- Logical OR: `||`
+	- Logical AND: `&&`
+	- Logical NOT: `!`
+- Strings
+	- `Strings`
 
 **Type Conversion**
 - `toInt(): Int`
