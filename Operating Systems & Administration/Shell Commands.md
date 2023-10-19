@@ -21,7 +21,17 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 **Rename**
 `rem`
 
+`/v `
+- Displays all lines NOT containing the specified string.
 
+`/c` 
+- Displays only the count of lines containing the string. 
+
+`/n` 
+- Displays line numbers with the displayed lines.
+
+`/i` 
+- Ignores the case of characters when searching for the string.
 
 
 
