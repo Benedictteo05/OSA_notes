@@ -112,7 +112,13 @@ if (a > b) {
 max = if (a > b) a else b
 ```
 
-
+**When expression**
+```
+when (x) {
+	1 -> println("x == 1")
+	2 
+}
+```
 
 **For loops**
 ```
