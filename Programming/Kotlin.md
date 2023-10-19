@@ -135,7 +135,7 @@ _____________________________
 #### Classes and Objects
 **Classes and instances**
 ```
-class Rectangle(var height: Double, var length: Double){
+class Rectangle(var height: Double, var length: Double,){
 	var perimeter = (height + length) * 2    //Property initializer
 }
 ```
