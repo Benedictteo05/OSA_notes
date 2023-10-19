@@ -87,14 +87,6 @@ fun sum(a: Int, b: Int) = a + b
 - `arrayOfNulls()`
 - `emptyArray()`
 
-
-**Classes and instances**
-```
-class Rectangle(var height: Double, var length: Double){
-	var perimeter = (height + length) * 2
-}
-```
-
 #### Conditions and loops
 **If expression**
 ```
@@ -121,14 +113,14 @@ when (x) {
 	3, 4 -> println("x is 3 or 4")
 	in 5..6 -> println("x is in range")
 	else -> {
-		println("x is neither 1 or 2")
+		println("none of the above")
 	}
 }
 ```
 
 **For loops**
 ```
-// print from 1 to 5
+// print from 1 to 4
 for (i in 1..5){
 	println(i)
 }
@@ -137,6 +129,13 @@ _____________________________
 2
 3
 4
-5
 ```
 
+
+#### Classes and Objects
+**Classes and instances**
+```
+class Rectangle(var height: Double, var length: Double){
+	var perimeter = (height + length) * 2    //Property initializer
+}
+```
