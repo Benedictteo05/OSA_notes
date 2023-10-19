@@ -98,20 +98,18 @@ class Rectangle(var height: Double, var length: Double){
 #### Conditions and loops
 **If expression**
 ```
-var a = 5
-var b = 10
-
+// Simple if statement
 var max = a
 if (a < b) max = b
 
-// with else
+// With else
 if (a > b) {
 	max = a
 } else {
 	max = b
 }
 
-// as expression
+// As expression
 max = if (a > b) a else b
 ```
 
@@ -120,6 +118,8 @@ max = if (a > b) a else b
 when (x) {
 	1 -> println("x == 1")
 	2 -> println("x == 2")
+	3, 4 -> println("x is 3 or 4")
+	in 5..6 -> println("x is in range")
 	else -> {
 		println("x is neither 1 or 2")
 	}
