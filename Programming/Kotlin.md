@@ -30,5 +30,15 @@ Hello world
 fun sum(a: Int, b: Int): Int{
 	return a + b
 }
+
+OR
+
+// Return type is infered
+fun sum(a: Int, b: Int) = a + b
 ```
 
+**Variables**
+- Read-only local variables (Immutable): `val`
+- Mutable variables: `var`
+
+**Classes and **
