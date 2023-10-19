@@ -42,6 +42,8 @@ ________________________________
 Hello world
 ```
 
+- Print
+
 **Functions**
 - Function with 2 integer type parameters and integer return type
 ```
