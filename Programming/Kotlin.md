@@ -20,6 +20,10 @@
 - `toFloat(): Float`
 - `toDouble(): Double`
 
+**Array Conversion**
+- To Set: `toSet()`
+- To List: `toList()`
+
 **Program entry point**
 ```
 fun main(){
@@ -83,6 +87,7 @@ fun sum(a: Int, b: Int) = a + b
 - `arrayOfNulls()`
 - `emptyArray()`
 
+
 **Classes and instances**
 ```
 class Rectangle(var height: Double, var length: Double){
@@ -92,8 +97,14 @@ class Rectangle(var height: Double, var length: Double){
 
 **For loops**
 ```
-
+// print from 1 to 5
 for (i in 1..5){
 	println(i)
 }
+_____________________________
+1
+2
+3
+4
+5
 ```
