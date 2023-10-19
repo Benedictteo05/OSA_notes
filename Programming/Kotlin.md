@@ -24,7 +24,7 @@ Hello world
 ```
 
 **Functions**
-- Function with 2 Int type parameters and Int return type
+- Function with 2 integer type parameters and integer return type
 ```
 // Addition function
 fun sum(a: Int, b: Int): Int{
@@ -41,4 +41,9 @@ fun sum(a: Int, b: Int) = a + b
 - Read-only local variables (Immutable): `val`
 - Mutable variables: `var`
 
-**Classes and **
+**Classes and instances**
+```
+ckass Rectangle(var height: Double, var length: Double){
+	var perimeter = (height + length) * 2
+}
+```
