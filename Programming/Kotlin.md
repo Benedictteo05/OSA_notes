@@ -24,9 +24,11 @@
 - To Set: `toSet()`
 - To List: `toList()`
 
+
 **Variables**
 - Read-only local variables (Immutable): `val`
 - Mutable variables: `var`
+
 
 **Program entry point**
 ```
@@ -34,6 +36,7 @@ fun main(){
 	println("Hello world")
 }
 ```
+
 
 **Prints**
 - Print without line break
@@ -69,6 +72,7 @@ _____________________________________
 abc.length is 3
 ```
 
+
 **Functions**
 - Function with 2 integer type parameters and integer return type
 ```
@@ -87,6 +91,7 @@ fun sum(a: Int, b: Int) = a + b
 - `arrayOf()`
 - `arrayOfNulls()`
 - `emptyArray()`
+
 
 #### Conditions and loops
 **If expression**
@@ -131,6 +136,7 @@ _____________________________
 3
 4
 ```
+
 
 #### Classes and Objects
 **Classes and instances**

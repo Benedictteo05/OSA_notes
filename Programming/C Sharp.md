@@ -9,10 +9,16 @@
 - String
 	- 16 bits/char: `string`
 
+**Type Conversion**
+- `Console.: Int`
+- `toFloat(): Float`
+- `toDouble(): Double`
+
 **Variables**
 - Immutable
-- 
-- `[type] variableName = value`
+	- `const [type] variableName = value` 
+- Mutable
+	- `[type] variableName = value`
 
 
 **Program entry point**
@@ -30,6 +36,7 @@ namespace HelloWorld
 	}
 }
 ```
+
 
 **Prints**
 - Print without line break
