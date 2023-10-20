@@ -59,7 +59,8 @@ World
 
 **User Input**
 ```
-Console.WriteLine("Enter your age: ")
-Console.ReadLine()
-COnsole.Writel
+Console.WriteLine("Enter your age: ");
+Console.ReadLine();   //input captured in string type
+COnsole.WriteLine("Your age is : " + age);
 ```
+
