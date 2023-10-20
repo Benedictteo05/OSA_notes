@@ -131,7 +131,6 @@ _____________________________
 4
 ```
 
-
 #### Classes and Objects
 **Classes and instances**
 ```
