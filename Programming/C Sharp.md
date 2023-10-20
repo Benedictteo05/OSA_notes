@@ -18,6 +18,20 @@ namespace HelloWorld
 	class Program
 	{
 		static void Main(string[] args)
+		{
+			Console.WriteLine("Hello World");
+		}
 	}
 }
 ```
+
+**Prints**
+- Print without line break
+```
+Console.Write("Hello")
+Console.Write("World")
+_____________________________
+Hello World
+```
+
+- Print with line break
