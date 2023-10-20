@@ -24,6 +24,10 @@
 - To Set: `toSet()`
 - To List: `toList()`
 
+**Variables**
+- Read-only local variables (Immutable): `val`
+- Mutable variables: `var`
+
 **Program entry point**
 ```
 fun main(){
@@ -78,10 +82,6 @@ OR
 // Return type is infered
 fun sum(a: Int, b: Int) = a + b
 ```
-
-**Variables**
-- Read-only local variables (Immutable): `val`
-- Mutable variables: `var`
 
 **Create arrays functions**
 - `arrayOf()`

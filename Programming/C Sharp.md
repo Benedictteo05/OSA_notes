@@ -9,6 +9,12 @@
 - String
 	- 16 bits/char: `string`
 
+**Variables**
+- Immutable
+- 
+- `[type] variableName = value`
+
+
 **Program entry point**
 ```
 using System;
