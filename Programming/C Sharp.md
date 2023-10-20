@@ -10,9 +10,9 @@
 	- 16 bits/char: `string`
 
 **Type Conversion**
-- `Console.: Int`
-- `toFloat(): Float`
-- `toDouble(): Double`
+- `Convert.ToInt32(): int`
+- `Convert.ToDouble(): double`
+- `Convert.ToString(): string`
 
 **Variables**
 - Immutable
@@ -56,3 +56,10 @@ Hello
 World
 ```
 
+
+**User Input**
+```
+Console.WriteLine("Enter your age: ")
+Console.ReadLine()
+COnsole.Writel
+```
