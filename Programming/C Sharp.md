@@ -35,3 +35,11 @@ Hello World
 ```
 
 - Print with line break
+```
+Console.Write("Hello")
+Console.Write("World")
+_____________________________
+Hello 
+World
+```
+

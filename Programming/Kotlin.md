@@ -45,7 +45,8 @@ Hello world
 print("Hello")
 print("world")
 ________________________________
-Hello world
+Hello 
+world
 ```
 
 - String templates
