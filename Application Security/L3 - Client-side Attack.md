@@ -14,6 +14,8 @@
 		- e.g. Loss of confidentiality, Loss of integrity, Loss of availability, Loss of accountability, Financial damage, Reputation damage, Non-compliance, Privacy violation
 	- Step 4: Determining Severity of the Risk
 	- Step 5: Deciding what to Fix 
+		- After the risks to the application have been classified there will be a prioritized list of what to fix.
+		- As a
 	- Step 6: Customizing your Risk Rating Model
 
 | Likelihood and impact levels| |
