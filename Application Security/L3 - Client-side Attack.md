@@ -13,7 +13,7 @@
 	- Step 3: Factors for Estimating Impact
 		- e.g. Loss of confidentiality, Loss of integrity, Loss of availability, Loss of accountability, Financial damage, Reputation damage, Non-compliance, Privacy violation
 	- Step 4: Determining Severity of the Risk
-| Likelihood and impact level
+
 
 	- Step 5: Deciding what to Fix
 	- Step 6: Customizing your Risk Rating Model
