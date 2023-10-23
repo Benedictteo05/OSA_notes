@@ -28,6 +28,14 @@
 	- Natural disasters. 
 		- i.e. fire and flooding
 
+##### CIA Extensions
+**Authenticity**
+- Ensures that an individual is who he claims to be.
+
+**Non-repudiation**
+- Ability to verify a sender had sent the message to a recipient.
+- Either party cannot deny later that they did not send or received the message.
+
 | Availability Requirements | Explanation |
 |--------------------------|--------------|
 |Low | There is minimal impact on business if the assets are not available for up to 7 days|
