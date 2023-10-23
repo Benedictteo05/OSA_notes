@@ -42,7 +42,7 @@
 - Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or trigged by a threat source.
 
 **Threat**
-
+- Any circumstance or event with the potential to adversely impact organizational operations (e.g. mission, functions, image, reputation), organizational assets, or individuals through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service.
 
 | Availability Requirements | Explanation |
 |--------------------------|--------------|
@@ -52,7 +52,7 @@
 
 ### Operational Model of Security
 
-Security equation:
+##### Security equation:
 **PROTECTION = PREVENTION + ( DETECTION + RESPONSE )**
 
 - Prevention
