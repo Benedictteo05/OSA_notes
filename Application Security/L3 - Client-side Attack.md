@@ -27,3 +27,6 @@
 |3 to < 6| Medium|
 |6 to 9| High|
 
+### Cross-Site Scripting (XSS)
+- A client-side code injection attack allowing the injection of malicious code into a website.
+
