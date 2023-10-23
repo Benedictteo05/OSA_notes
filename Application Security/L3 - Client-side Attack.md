@@ -7,6 +7,11 @@
 **OWASP Risk Rating Methodology**
 - Risk model: Risk = Likelihood * Impact
 	- Step 1: Identifying a risk
+		- 
 	- Step 2: Factors for Estimating Likelihood
+		- e.g. Skill level, Motive, Opportunity, Size, Ease of discovery, Ease of Exploit, Awareness, Intrusion detection
 	- Step 3: Factors for Estimating Impact
-	- Step 4: Determining Severit
+	- Step 4: Determining Severity of the Risk
+	- Step 5: Deciding what to Fix
+	- Step 6: Customizing your Risk Rating Model
+
