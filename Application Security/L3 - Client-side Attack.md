@@ -15,11 +15,15 @@
 	- Step 4: Determining Severity of the Risk
 	- Step 5: Deciding what to Fix 
 		- After the risks to the application have been classified there will be a prioritized list of what to fix.
-		- As a
+		- As a general rule, the most severe risks should be fixed first.
+		- Not all risks are worth fixing.
+		- Some loss is not only expected, but justifiable based upon the cost of fixing the issue.
 	- Step 6: Customizing your Risk Rating Model
+		- Risk ranking should be adapted to your own company purpose and mission
 
 | Likelihood and impact levels| |
 |-----------|-------|
 |0 to < 3| Low|
 |3 to < 6| Medium|
 |6 to 9| High|
+
