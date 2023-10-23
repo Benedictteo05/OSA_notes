@@ -36,6 +36,14 @@
 - Ability to verify a sender had sent the message to a recipient.
 - Either party cannot deny later that they did not send or received the message.
 
+
+### Vulnerability and Threat
+**Vulnerability**
+- Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or trigged by a threat source.
+
+**Threat**
+
+
 | Availability Requirements | Explanation |
 |--------------------------|--------------|
 |Low | There is minimal impact on business if the assets are not available for up to 7 days|
