@@ -208,4 +208,9 @@ android:layout_height="wrap_content"
 	- Gets compiled into binary format before becoming part of the installable package
 	- Use Android supplied XML readers to read the XML nodes
 
-- Non-
+- Non-Compiled resource
+	- Placed in res/raw/directory
+	- Gets copied as-is to the device
+	- Explicit stream-based APIs to read these files
+		- e.g. Audio and Video files
+
