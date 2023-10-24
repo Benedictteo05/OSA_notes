@@ -158,6 +158,15 @@ open class Rectangle(var height: Double, var length: Double,){
 
 
 ### Resources & Layout
+**Resource Directories**
+
+|Directory| |
+|-------|----|
+|color/|XML files that define a state list of colors|
+|drawable/|Bitmap files (.png, .9.png, .jpg, .gif) or XML files that are compiled into the following drawable resource subtypes: Bitmap files Nine-Patches (re-sizeable bitmaps) Statelist
+
+
+
 **ID**
 - XML resource that provides a unique identifier for application resources and components.
 - Unique resource ID defined in XML.
@@ -170,4 +179,19 @@ android:layout_height="wrap_content"
 />
 ```
 
-**Strubg**
+**String**
+- Provides text strings for application with optional text styling and formatting.
+- 3 types of resources that can provide your application with strings"
+	- String
+	- String Array
+	- Quantity Strings (Plurals)
+- Resides in /res/values subdirectory
+- File name as strings.xml
+- Name & Value pair method
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">hello</string>
+	<string name="app_name">hello appname</string>
+<resources>
+```
