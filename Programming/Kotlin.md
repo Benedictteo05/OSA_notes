@@ -157,3 +157,17 @@ open class Rectangle(var height: Double, var length: Double,){
 ```
 
 
+### Resources & Layout
+**ID**
+- XML resource that provides a unique identifier for application resources and components.
+- Unique resource ID defined in XML.
+```
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+			android:text="My TextView"
+			andriod:text="@+id/myTV"
+/>
+```
+
+**Strubg**
