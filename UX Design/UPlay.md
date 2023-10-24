@@ -3,7 +3,7 @@ Teens, Older Adult, Uplay team, sports enthusiast , business, family
 
 Project background, main goal, interview questions, 
 
-### User Research
+### User Research for Teens
 1. Interview
 2. Quantitative survey
 3. Contextual inquiry
