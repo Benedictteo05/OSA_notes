@@ -7,3 +7,8 @@ Project background, main goal, interview questions,
 1. Interview
 2. Quantitative survey
 3. Contextual inquiry
+
+Understand customer's pain points
+
+Quantitative vs qualitative
+Ask about website analytics 
