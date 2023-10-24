@@ -163,8 +163,15 @@ open class Rectangle(var height: Double, var length: Double,){
 |Directory| |
 |-------|----|
 |color/|XML files that define a state list of colors|
-|drawable/|Bitmap files (.png, .9.png, .jpg, .gif) or XML files that are compiled into the following drawable resource subtypes: Bitmap files Nine-Patches (re-sizeable bitmaps) Statelist
-
+|drawable/|Bitmap files (.png, .9.png, .jpg, .gif) or XML files that are compiled into the following drawable resource subtypes: Bitmap files Nine-Patches (re-sizeable bitmaps) StatelistsShapesAnimation drawablesOther drawables|
+|layout/|XML files that define a user interface layout|
+|menu/|XML files that define application menus, such as an Options Menu, Context Menu, or Sub Menu|
+|values/|XML files that contains simple values, such as strings, integers, and colors|
+|raw/|Arbitrary files to save in their raw form|
+|xml/|Arbitrary XML files that can be read at runtime by calling Resources.getXML()|
+|animator/| XML files that define property animations.  
+|anim/| XML files that define tween animations. (Property animations can also be saved in this directory, but the animator/ directory is preferred for property animations to distinguish between the two types.)| 
+|mipmap/| Drawable files for different launcher icon densities|
 
 
 **ID**
@@ -195,3 +202,10 @@ android:layout_height="wrap_content"
 	<string name="app_name">hello appname</string>
 <resources>
 ```
+
+**Compiled/ Non-Compiled Resource**
+- XML examples are compiled resources
+	- Gets compiled into binary format before becoming part of the installable package
+	- Use Android supplied XML readers to read the XML nodes
+
+- Non-
