@@ -33,4 +33,22 @@
 ### Functions of an Operating System
 - 4 Major group of basic functions common to all OS
 	- Device management
-	- Process, thread and resources 
+	- Process, thread and resource management
+	- Memory management
+	- File management
+- Close interactions between the 4 managers.
+
+**Disk management**
+- Refers to the way generic devices are handled. Includes disk, tapes, terminals, printers, etc
+- Special management approaches for processor and memory
+- Partitioning design simplifies adding and upgrading of devices
+
+**Process, thread and resource management**
+- Creates abstractions of processes, threads, resources
+- Allocates processor resource equitably 
+- Allocates and tracks abstract resource such as queues, semaphores (access control), messages
+- Cooperates with memory manager to administer the primary memory
+
+**Memory Management**
+- Ad
+
