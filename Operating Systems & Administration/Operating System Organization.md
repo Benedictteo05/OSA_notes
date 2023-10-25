@@ -50,5 +50,14 @@
 - Cooperates with memory manager to administer the primary memory
 
 **Memory Management**
-- Ad
+- Administer and allocate primary memory
+- Enforces resource isolation
+- Enables sharing between processes
+- Provides virtual memory extensions
+	- Abstract machine's memory appear larger than physical memory
+
+**File Management**
+- Creates abstraction of storage devices. i.e. I/O operations
+- Range from byte stream files to indexed records
+- Local and Remote file systems
 
