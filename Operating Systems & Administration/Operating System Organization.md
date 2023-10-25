@@ -32,4 +32,5 @@
 
 ### Functions of an Operating System
 - 4 Major group of basic functions common to all OS
-	- Device manage
+	- Device management
+	- Process, thread and resources 
