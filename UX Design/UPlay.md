@@ -12,3 +12,8 @@ Understand customer's pain points
 
 Quantitative vs qualitative
 Ask about website analytics 
+
+
+Types of interactions
+- Localized interaction
+	- One 
