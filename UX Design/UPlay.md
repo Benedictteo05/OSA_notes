@@ -16,4 +16,8 @@ Ask about website analytics
 
 Types of interactions
 - Localized interaction
-	- One 
+	- One person using one product doing one simple task
+- Activity-based interaction
+	- 
+- System Spanning interaction
+- 
