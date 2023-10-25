@@ -23,4 +23,13 @@
 		- Resources to be allocated among multiple users fairly 
 		- Different algorithms for different resources
 	- Accounting
-	- 
+		- Keep track of usage statistics. e.g. CPU, Printer, hard disk quota
+		- Reconfigure system to improve computing services
+	- Protection and security
+		- Security of system from outsiders
+		- Ensure access to all system resources is controlled
+		- Audit trail of access
+
+### Functions of an Operating System
+- 4 Major group of basic functions common to all OS
+	- Device manage
