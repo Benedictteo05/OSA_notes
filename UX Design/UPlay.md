@@ -20,4 +20,9 @@ Types of interactions
 - Activity-based interaction
 	- 
 - System Spanning interaction
+
+
+Interview answers
+**What are some of your interests and hobbies?**
+- Like to learn about new things and watch documentaries
 - 
