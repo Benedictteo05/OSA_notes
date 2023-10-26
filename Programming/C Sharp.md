@@ -64,3 +64,9 @@ Console.ReadLine();   //input captured in string type
 COnsole.WriteLine("Your age is : " + age);
 ```
 
+
+### EF Core Commands
+**Add Migration**
+```
+Add-Mig
+```
