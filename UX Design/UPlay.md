@@ -28,6 +28,10 @@ Interview
 - Cooking, socialize with friends
 - 2 - 3 times a week engage in reactional activities such as running, playing football.
 
-What apps of website do you use most often?
+**What apps of website do you use most often?**
 - IG, Tiktok, Google docs
-- Key features: Google docs (free, easy to interact with, satisfying - smooth), IG and Tiktok - Easy to use - one handed 
+- Key features: Google docs (free, easy to interact with, satisfying - smooth), IG and Tiktok - Easy to use - one handed, easy to reach functionality on phone. 
+
+**Do you use apps to book recreational activities**
+- No - Don't want to waste to must effort
+
