@@ -35,3 +35,7 @@ Interview
 **Do you use apps to book recreational activities**
 - No - Don't want to waste to must effort
 
+**Contextual inquiry**
+Dont expect dine and wine under uplay
+Not enough
+results in search 
