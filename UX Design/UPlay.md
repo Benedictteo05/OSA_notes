@@ -36,6 +36,9 @@ Interview
 - No - Don't want to waste to must effort
 
 **Contextual inquiry**
+Colors and buttons are out of place
 Dont expect dine and wine under uplay
-Not enough
-results in search 
+Not enough results
+results in search doesnt correspond to actual results when search in pressed
+Sign up 
+Frustrated at sign up.
