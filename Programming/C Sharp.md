@@ -68,5 +68,37 @@ COnsole.WriteLine("Your age is : " + age);
 ### EF Core Commands
 **Add Migration**
 ```
-Add-Mig
+Using Package Manager Console in Visual Studio:
+Add-Migration <MigrationName>
+
+Using .NET CLI:
+dotnet ef migrations add <MigrationName>
 ```
+
+**Update**
+```
+Using PMC in VS:
+Update-Database
+
+Using .NET CLI:
+dotnet ef database update
+```
+
+**Roll Back Migration**
+```
+Using PMC in VS:
+Update-Database <TargetMigration>
+
+Using .NET CLI:
+dotnet ef database update <TargetMigration>
+```
+
+**Remove Migration**
+```
+Using PMC in VS:
+Remove-Migration
+
+Using .NET CLI:
+dotnet ef migrations remove
+```
+
