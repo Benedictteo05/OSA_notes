@@ -52,3 +52,4 @@ Pain points for stuff:
 Payment system
 features of UPlay is based off other similar websites
 Take up rate (Create exposure)
+audience - Union members
