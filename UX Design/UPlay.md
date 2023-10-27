@@ -47,3 +47,8 @@ Frustrated at sign up.
 
 Ultimate vision for the revamped website:
 Ultimate is to earn money - How Uplay earns money
+
+Pain points for stuff:
+Payment system
+features of UPlay is based off other similar websites
+Take up rate (Create exposure)
