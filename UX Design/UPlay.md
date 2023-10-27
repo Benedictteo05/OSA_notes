@@ -13,6 +13,8 @@ Understand customer's pain points
 Quantitative vs qualitative
 Ask about website analytics 
 
+Nebo fo 
+
 
 Types of interactions
 - Localized interaction
