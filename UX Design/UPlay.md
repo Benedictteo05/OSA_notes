@@ -13,7 +13,7 @@ Understand customer's pain points
 Quantitative vs qualitative
 Ask about website analytics 
 
-Nebo fo 
+Nebo for youths
 
 
 Types of interactions
