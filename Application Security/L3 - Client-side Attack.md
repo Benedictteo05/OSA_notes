@@ -69,3 +69,10 @@ Hello message board. This is a message.
 </script>
 This is the end of my message.
 ```
+- When a victim navigates to the forum post, the malicious code may be executed unexpectedly.
+
+**Attack explained**
+1. The attacker uses one of the website's forms to insert a malicious string into the website's database.
+2. The victim requests a page from the website.
+3. The website includes the malicious string from the database in the response and sends it to the victim.
+4. The victim's browser executes the malicious script inside the response, sending the victim's cookies to the 
