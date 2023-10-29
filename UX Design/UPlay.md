@@ -64,6 +64,7 @@ audience - Union members
 	- straight-forward
 	- watching content
 	- A lot of content
+
 - ggdeals - Buy games
 	- good layout, categories 
 
@@ -71,5 +72,7 @@ audience - Union members
 - activeSG app
 	- Book for badminton courts
 	- Only viable option for booking courts
-	- bad UI
-	- 
+	- Not enough filters - Cant filter for availability
+	- Knows what they want to do before going on the website
+
+**Are they any emerging trends or technologies you'd like to see incorporated into recreational websites**
