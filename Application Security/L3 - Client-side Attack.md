@@ -46,5 +46,11 @@
 - Script is NOT stored on the server
 - When a user clicks on the URL, it is executed in the user's browser. This type of attack is often used to send personal data of a user back to an attacker. This attack is very simple to exploit, which is one reason it is so popular and effective.
 - Injected scripts are reflected off the web server.
-	- e.g. error message, search results, or any othe
+	- e.g. error message, search results, or any other response
+- e.g. Malicious code hidden inside links and embedded in emails or forum messages.
+	- When an unsuspecting user clicks on the link, the malicious code may be executed on the client.
+```
+<a href="http://example.com/comment.pl?mycomment=<script>malicious code</script>">Click here</a>
+```
 
+**Reflected XSS**
