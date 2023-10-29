@@ -39,7 +39,21 @@
 	- Spread web worms.
 	- Access browser history and clipboard contents.
 	- Control the browser remotely.
-	- Sca
+	- Scan and exploit intranet appliances and applications.
+
+**XSS Prevention**
+- **Encoding**
+	- Escapes the user input so that the browser interprets it only as data, not as code.
+	- e.g. Converting characters like `<` and `>` into `&lt;` and `&gt;`.
+- **Validation**
+	- Filters the user input so that the browser interprets it as code without malicious commands.
+- Configure Web.config file
+- The act of filtering user input so that all malicious parts of it are removed, without necessarily removing all code in it.
+- Input validation
+	- Filter out special characters in HTML body.
+	- Check input against a white-list.
+	- E.g. Using ASP.NET Validation Server Controls.
+
 
 **3 types of XSS**
 - **Reflected XSS** (non-persistent), where the malicious string originates from the victim's request. (form field, hidden field, URL, etc...). The website then includes this malicious string in the response sent back to the user.
