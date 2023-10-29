@@ -60,7 +60,16 @@ audience - Union members
 	- Boulder
 
 **What apps or website do you use most often?**
+- Youtube
+	- straight-forward
+	- watching content
+	- A lot of content
+- ggdeals - Buy games
+	- good layout, categories 
 
-
-
-**Do you use apps to book recreational activities**
+**Do you use any apps/websites to book recreational activities**
+- activeSG app
+	- Book for badminton courts
+	- Only viable option for booking courts
+	- bad UI
+	- 
