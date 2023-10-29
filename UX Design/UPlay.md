@@ -75,4 +75,7 @@ audience - Union members
 	- Not enough filters - Cant filter for availability
 	- Knows what they want to do before going on the website
 
-**Are they any emerging trends or technologies you'd like to see incorporated into recreational websites**
+**Contextual inquiry**
+- Does not know where to sign up on checkout
+- Want to select individual dates
+- 
