@@ -78,4 +78,4 @@ audience - Union members
 **Contextual inquiry**
 - Does not know where to sign up on checkout
 - Want to select individual dates
-- 
+- Clean layout, sort by
