@@ -29,4 +29,22 @@
 
 ### Cross-Site Scripting (XSS)
 - A client-side code injection attack allowing the injection of malicious code into a website.
-- XXS flaws occurs whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML a
+- XXS flaws occurs whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript.
+
+**Impacts of XSS**
+- Allows attackers to execute scripts in the victim's browser.
+	- Steal users cookies, allowing for someone to use the website pretending to be that user.
+	- Steal users session, steal sensitive data, rewrite web page, redirect user to phishing or malware site etc.
+
+**3 types of XSS**
+- **Reflected XSS** (non-persistent), where the malicious string originates from the victim's request. (form field, hidden field, URL, etc...). The website then includes this malicious string in the response sent back to the user.
+- **DOM-based XSS**, where the vulnerability is in the client-side code rather than the server-side code.
+- **Persistent (Stored) XSS**, where the malicious string originates from the website's database.
+
+**Reflected XSS**
+- Script is executed on the victim's side
+- Script is NOT stored on the server
+- When a user clicks on the URL, it is executed in the user's browser. This type of attack is often used to send personal data of a user back to an attacker. This attack is very simple to exploit, which is one reason it is so popular and effective.
+- Injected scripts are reflected off the web server.
+	- e.g. error message, search results, or any othe
+
