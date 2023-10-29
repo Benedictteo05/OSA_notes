@@ -148,4 +148,13 @@ document.querySelector('em').innerHTML = keyword;
 - By including anti-forgery tokens in your applications, two different values are sent to the server with each POST.
 	- One of the values is sent as a browser cookie.
 	- The other is submitted as form data.
-- U
+- Unless the server receives both values, it will refuse to allow the request to proceed.
+- Thus, the server ensures that all legitimate requests must come directly from the client, not from an external source.
+- ASP.NET Core Controller
+```
+[AutoValidateAntiforgeryToken]
+public class HomeController : Controller
+{
+	// Action methods go here
+}
+```
