@@ -55,9 +55,12 @@ Take up rate (Create exposure)
 audience - Union members
 
 **What are some of your interests and hobbies?**
-
+- Exercise 
+	- Running
+	- Boulder
 
 **What apps or website do you use most often?**
+
 
 
 **Do you use apps to book recreational activities**
