@@ -35,6 +35,11 @@
 - Allows attackers to execute scripts in the victim's browser.
 	- Steal users cookies, allowing for someone to use the website pretending to be that user.
 	- Steal users session, steal sensitive data, rewrite web page, redirect user to phishing or malware site etc.
+	- Hijack an account.
+	- Spread web worms.
+	- Access browser history and clipboard contents.
+	- Control the browser remotely.
+	- Sca
 
 **3 types of XSS**
 - **Reflected XSS** (non-persistent), where the malicious string originates from the victim's request. (form field, hidden field, URL, etc...). The website then includes this malicious string in the response sent back to the user.
@@ -88,4 +93,19 @@ This is the end of my message.
 	- A sink is a function or DOM object that allows JS code execution or rendering of HTML.
 		- e.g. `eval()`
 
+```
+<html>
+You searched for : <em><script>...</script></em>
+<script>
+var keyword = location.search.substring(6);
+document.querySelector('em').innerHTML = keyword;
+</script>
+</html>
+```
+
 **Attack explained**
+1. The attacker crafts a URL containing a malicious string and sends it to the victim.
+2. The victim is tricked by the attacker into requesting the URL from the website.
+3. The website receives the request, but does not include the malicious string in the response.
+4. The victim's browser executes the legitimate script inside the response, causing the malicious script to be inserted into the page.
+5. The victim's browser executes the malicious script inserted into the page, sending the victim's cookies to the attacker's server.
