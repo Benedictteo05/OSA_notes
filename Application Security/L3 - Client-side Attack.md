@@ -53,7 +53,9 @@
 	- Filter out special characters in HTML body.
 	- Check input against a white-list.
 	- E.g. Using ASP.NET Validation Server Controls.
-
+- ASP.NET Core and Razor.
+	- By default, they save us from the attack.
+	- if need to render HTML content, use `@Html.Raw(htmlContent)`
 
 **3 types of XSS**
 - **Reflected XSS** (non-persistent), where the malicious string originates from the victim's request. (form field, hidden field, URL, etc...). The website then includes this malicious string in the response sent back to the user.
@@ -123,3 +125,13 @@ document.querySelector('em').innerHTML = keyword;
 3. The website receives the request, but does not include the malicious string in the response.
 4. The victim's browser executes the legitimate script inside the response, causing the malicious script to be inserted into the page.
 5. The victim's browser executes the malicious script inserted into the page, sending the victim's cookies to the attacker's server.
+
+
+### Cross-Site Request Forgery (CSRF)
+- A client-side attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.
+- XSRF, Sea Surf of Session Riding
+
+**How it works?**
+- The attacker will typically use social engineering, such as an email or link that will trick a victim into sending a forger request to a server.
+- As the user is already authenticated by their application at the time the attack is happening, it's impossible for the application to differentiate a legitimate request from a forged one.
+
