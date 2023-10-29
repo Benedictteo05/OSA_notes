@@ -29,4 +29,4 @@
 
 ### Cross-Site Scripting (XSS)
 - A client-side code injection attack allowing the injection of malicious code into a website.
-
+- XXS flaws occurs whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML a
