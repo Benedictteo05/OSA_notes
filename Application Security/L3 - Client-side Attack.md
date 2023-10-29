@@ -135,3 +135,17 @@ document.querySelector('em').innerHTML = keyword;
 - The attacker will typically use social engineering, such as an email or link that will trick a victim into sending a forger request to a server.
 - As the user is already authenticated by their application at the time the attack is happening, it's impossible for the application to differentiate a legitimate request from a forged one.
 
+**Why does this happen?**
+- While the evil website can't see your cookies, those cookies associated with your bank are being sent along with the request.
+
+**CSRF vs XSS**
+- CSRF is restricted to the actions victims can perform. XSS works on the execution of malicious scripts enlarging the scope of actions the attacker can perform.
+- XSS requires only a vulnerability, while CSRF requires a user to access the malicious page or click a link.
+- CSRF works only one way - it can only send HTTP requests, but cannot view the response. XSS can send and receive HTTP requests and responses in order to extract the required data.
+
+**CSRF Prevention**
+- Use anti-forgery tokens in ASP.NET Core.
+- By including anti-forgery tokens in your applications, two different values are sent to the server with each POST.
+	- One of the values is sent as a browser cookie.
+	- The other is submitted as form data.
+- U
