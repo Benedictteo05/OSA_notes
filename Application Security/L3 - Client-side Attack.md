@@ -53,5 +53,7 @@
 <a href="http://example.com/comment.pl?mycomment=<script>malicious code</script>">Click here</a>
 ```
 
-**Reflected XSS**
-****
+**Attack explained**
+1. Attacker crafts a URL containing a malicious string and sends it to the victim.
+2. The victim is tricked by the attacker into requesting the URL from the vulnerable website.
+3. The vulnerable website includes the malicious string from the URL in the response
