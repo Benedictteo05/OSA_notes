@@ -75,4 +75,17 @@ This is the end of my message.
 1. The attacker uses one of the website's forms to insert a malicious string into the website's database.
 2. The victim requests a page from the website.
 3. The website includes the malicious string from the database in the response and sends it to the victim.
-4. The victim's browser executes the malicious script inside the response, sending the victim's cookies to the 
+4. The victim's browser executes the malicious script inside the response, sending the victim's cookies to the attacker's server.
+
+**DOM-based XSS**
+- The attack payload is executed as a result of modifying the DOM "environment" in the victim's browser so that the client side code runs in an "unexpected" manner.
+- Request does not travel to the server but stay at the browser the entire time.
+- The application contains client-side js that processes data from an untrusted source in an unsafe way, usually by writing the data to a potentially dangerous sink within in the DOM.
+- Source
+	- A source is a JS property that contains data that an attack could potentially control.
+		- e.g. `location.search`
+- Sink 
+	- A sink is a function or DOM object that allows JS code execution or rendering of HTML.
+		- e.g. `eval()`
+
+**Attack explained**
