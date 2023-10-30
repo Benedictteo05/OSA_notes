@@ -99,4 +99,4 @@ play video games, watch youtube or twitch.
 	- confusing featured promotions and friends of promotion
 	- Notification isn't needed, if keep spamming, even though activity is the same, in order summary it is different.
 	- Have to retype NRIC and DOB
-	- Different margin on different pages, 
+	- Different margin on different pages, FAQ and home page. feels like not enough effort
