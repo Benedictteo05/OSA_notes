@@ -79,3 +79,15 @@ audience - Union members
 - Does not know where to sign up on checkout
 - Want to select individual dates
 - Clean layout, sort by
+
+
+**What are some of your interests and hobbies?**
+
+
+**What apps or website do you use most often?**
+
+
+**Do you use any apps/websites to book recreational activities**
+
+
+**Contextual inquiry**
