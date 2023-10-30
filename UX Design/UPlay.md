@@ -100,3 +100,9 @@ play video games, watch youtube or twitch.
 	- Notification isn't needed, if keep spamming, even though activity is the same, in order summary it is different.
 	- Have to retype NRIC and DOB
 	- Different margin on different pages, FAQ and home page. feels like not enough effort
+
+**What are some of your interests and hobbies?**
+- Singing
+- Gaming
+- Playing board games
+
