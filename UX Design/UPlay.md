@@ -82,12 +82,15 @@ audience - Union members
 
 
 **What are some of your interests and hobbies?**
+play video games, watch youtube or twitch.
 
 
 **What apps or website do you use most often?**
+- familiar is important, lazy to learn other apps/ website
 
 
 **Do you use any apps/websites to book recreational activities**
+- doesn't go outside that much. mostly stay at home
 
 
 **Contextual inquiry**
