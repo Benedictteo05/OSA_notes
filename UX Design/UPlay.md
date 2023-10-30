@@ -120,3 +120,6 @@ play video games, watch youtube or twitch.
 - Book high tea session??
 - Dine and wine??
 - Impressed by the date and search
+- Accidentally went to go to cart instead of add to cart
+- Intuitive website
+- Important facts are well separated
