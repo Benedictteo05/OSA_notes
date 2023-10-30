@@ -98,3 +98,5 @@ play video games, watch youtube or twitch.
 	- can't select between the different prices
 	- confusing featured promotions and friends of promotion
 	- Notification isn't needed, if keep spamming, even though activity is the same, in order summary it is different.
+	- Have to retype NRIC and DOB
+	- Different margin on different pages, 
