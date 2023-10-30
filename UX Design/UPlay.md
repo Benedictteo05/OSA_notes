@@ -106,11 +106,17 @@ play video games, watch youtube or twitch.
 - Gaming
 - Playing board games
 
+
 **What apps or website do you use most often?**
 - Instagram
 - Youtube 
+
 
 **Do you use any apps/websites to book recreational activities**
 - ActiveSG - To book courts
 
 
+**Contextual inquiry**
+- Book high tea session??
+- Dine and wine??
+- Impressed by the date and search
