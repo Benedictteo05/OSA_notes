@@ -97,8 +97,8 @@ fprintf(fileID, "%d", datum);
 
 **3 Different abstractions**
 - Direct Control
-- write() abstraction
-- fprintf() abstraction
+- `write()` abstraction
+- `fprintf()` abstraction
 
 **Abstract Resources**
 - User Interface
