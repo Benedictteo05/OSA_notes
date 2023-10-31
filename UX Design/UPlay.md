@@ -101,6 +101,7 @@ play video games, watch youtube or twitch.
 	- Have to retype NRIC and DOB
 	- Different margin on different pages, FAQ and home page. feels like not enough effort
 
+
 **What are some of your interests and hobbies?**
 - Singing
 - Gaming
