@@ -62,5 +62,5 @@
 - Local and Remote file systems
 
 
-
-A system call is a call to the OS through the Supervisor Process
+### System Call
+A system call is a call to the OS through the Supervisor mode to do service for the application program. 
