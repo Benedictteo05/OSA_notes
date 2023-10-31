@@ -158,3 +158,10 @@ fprintf(fileID, "%d", datum);
 - Tends to propagate processes
 - Considerable attention to resource isolation (security & protection)
 - Tend to optimize response time
+
+**Kernel basic facilities**
+- The kernel's primary purpose is to manage the computer's resources and allow other programs to run and use these resources. 
+- Typically, the resources consist of:
+	- CPU
+	- Memory
+	- I/O Devices
