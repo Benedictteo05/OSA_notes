@@ -11,4 +11,8 @@
 	- Exit safely
 
 ### Security Guidelines
+1. CWE/SANS Top 25 software errors
+2. OWASP Secure coding practices checklist
+3. MITRE ATT&CK
+
 
