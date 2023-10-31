@@ -61,3 +61,6 @@
 - Range from byte stream files to indexed records
 - Local and Remote file systems
 
+
+
+A system call is a call to the OS through the Supervisor Process
