@@ -4,20 +4,21 @@
 - As such, specific services may differ, but common classes exist:
 	- Those that provides convenience for user/programmer
 	- Those that ensure efficient operations of the system
-- Services that provides convenience to user/programmer
-	- User interface
-		- Batch interface, CLI, GUI
-	- Program execution
-		- Able to load, run and terminate a program
-	- Input/ Output Operations
-		- File, CD/DVD drive, Display device, Smart Card
-	- File-system manipulation
-		- Create/Read/Write/Delete files and directories
-		- Permission management
-	- Communications
-		- Local/remote inter-process communication
-	- Error detection
-		- Able to detect error and take proper action to ensure consistent computing
+
+**Services that provides convenience to user/programmer:**
+-User interface
+	- Batch interface, CLI, GUI
+- Program execution
+	- Able to load, run and terminate a program
+- Input/ Output Operations
+	- File, CD/DVD drive, Display device, Smart Card
+- File-system manipulation
+	- Create/Read/Write/Delete files and directories
+	- Permission management
+- Communications
+	- Local/remote inter-process communication
+- Error detection
+	- Able to detect error and take proper action to ensure consistent computing
 - Services that ensures efficient operation of the system 
 	- Resource allocation
 		- Resources to be allocated among multiple users fairly 
