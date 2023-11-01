@@ -4,7 +4,7 @@
 - Rules limiting who has access to information.
 - Ensures that only authorized users are able to access information.
 - Measures are put in place to prevent data from falling into the hands of people who do not have the authorization to access said information. 
-- Three types of Authentication
+- 3 types of Authentication
 	- Something you know.
 	- Something you are.
 	- Something you have.

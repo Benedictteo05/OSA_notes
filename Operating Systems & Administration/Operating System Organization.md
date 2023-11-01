@@ -65,8 +65,17 @@
 
 **OS Requirements**
 - Manage resource sharing
-	- Time/space-multiplexing
+	- Time/space-multiplexing where appropriate.
 - Exclusive use of a resource
-	- Allow processes to use a resource exclusive
+	- Allow processes to use a resource exclusively as required.
+- Isolation
+	- Allow a resource to save information without fear of it being modified or tampered with.
+- Managed sharing
+	- Sharing must be done in an orderly fashion according to the properties of the resource.
+	- E.g. printer vs disk drive
+
+**Implementation mechanisms**
+- 3 basic mechanisms to address isolation and sharing:
+	- Processor modes (User vs Supervisor)
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program. 
