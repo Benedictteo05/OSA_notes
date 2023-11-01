@@ -5,8 +5,8 @@
 	- Those that provides convenience for user/programmer
 	- Those that ensure efficient operations of the system
 
-**Services that provides convenience to user/programmer:**
--User interface
+**Services that provides convenience to user/programmer EPICFU:**
+- User interface
 	- Batch interface, CLI, GUI
 - Program execution
 	- Able to load, run and terminate a program
@@ -19,17 +19,18 @@
 	- Local/remote inter-process communication
 - Error detection
 	- Able to detect error and take proper action to ensure consistent computing
-- Services that ensures efficient operation of the system 
-	- Resource allocation
-		- Resources to be allocated among multiple users fairly 
-		- Different algorithms for different resources
-	- Accounting
-		- Keep track of usage statistics. e.g. CPU, Printer, hard disk quota
-		- Reconfigure system to improve computing services
-	- Protection and security
-		- Security of system from outsiders
-		- Ensure access to all system resources is controlled
-		- Audit trail of access
+
+**Services that ensures efficient operation of the system (RAP):** 
+- Resource allocation
+	- Resources to be allocated among multiple users fairly 
+	- Different algorithms for different resources
+- Accounting
+	- Keep track of usage statistics. e.g. CPU, Printer, hard disk quota
+	- Reconfigure system to improve computing services
+- Protection and security
+	- Security of system from outsiders
+	- Ensure access to all system resources is controlled
+	- Audit trail of access
 
 ### Functions of an Operating System
 - 4 Major group of basic functions common to all OS
@@ -61,7 +62,6 @@
 - Creates abstraction of storage devices. i.e. I/O operations
 - Range from byte stream files to indexed records
 - Local and Remote file systems
-
 
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program. 
