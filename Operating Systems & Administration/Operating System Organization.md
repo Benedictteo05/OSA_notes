@@ -40,14 +40,14 @@
 	- File management
 - Close interactions between the 4 managers.
 
-**Disk management**
+**Device management**
 - Refers to the way generic devices are handled. Includes disk, tapes, terminals, printers, etc
 - Special management approaches for processor and memory
 - Partitioning design simplifies adding and upgrading of devices
 
 **Process, thread and resource management**
 - Creates abstractions of processes, threads, resources
-- Allocates processor resource equitably 
+- Allocates processor resource equitably (in a fair manner)
 - Allocates and tracks abstract resource such as queues, semaphores (access control), messages
 - Cooperates with memory manager to administer the primary memory
 
@@ -63,5 +63,10 @@
 - Range from byte stream files to indexed records
 - Local and Remote file systems
 
+**OS Requirements**
+- Manage resource sharing
+	- Time/space-multiplexing
+- Exclusive use of a resource
+	- Al
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program. 
