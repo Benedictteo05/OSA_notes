@@ -67,6 +67,6 @@
 - Manage resource sharing
 	- Time/space-multiplexing
 - Exclusive use of a resource
-	- Al
+	- Allow processes to use a resource exclusive
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program. 
