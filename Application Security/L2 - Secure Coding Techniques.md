@@ -10,9 +10,12 @@
 	- Request only sufficient privileges
 	- Exit safely
 
-### Security Guidelines
-1. CWE/SANS Top 25 software errors
-2. OWASP Secure coding practices checklist
-3. MITRE ATT&CK
-
+### Basic Application Security Guidelines
+- Secure the input
+	- Validate all input
+	- e.g. Form registration
+- Adopt Secure Application Processing
+	- Avoid Dangerous Language Constructs
+	- Check Bounds
+	- Ensure Exception S
 
