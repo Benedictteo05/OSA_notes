@@ -82,5 +82,4 @@ Session.Abandon();
 - Cache is use to set expiration policies:
 	- `Response.Cache.SetExpiresTime(DateTime.Now.AddDays(1));`
 
-
-### Session 
+### Session Management (Client)
