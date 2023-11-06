@@ -17,5 +17,11 @@
 - Adopt Secure Application Processing
 	- Avoid Dangerous Language Constructs
 	- Check Bounds
-	- Ensure Exception S
+	- Ensure Exception Safety 
+	- Adopt good programming practices
+	- Test and verify - Use test tools
+	- Request only sufficient privileges
+	- Exit safely
+- Produce Safe output
+	- Communicate safely to the outside world
 
