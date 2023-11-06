@@ -12,7 +12,7 @@
 	- All the information is stored in the user memory
 
 
-**Server**
+### Session Management (Server)
 - Session
 	- Session is used to store information and identity. The server stores information using `Session_id`.
 		- Session Ids are attractive to attackers because once obtained they can basically hijack user's identities.
@@ -21,14 +21,14 @@
 	- In a typical website, after authentication is successful verified from database, user will be redirected to the homepage.
 	- How do we know from the next page that the authentication was successful?
 
-e.g.
-- Store value to session variable
-- Sample code to create a session variable
-```
-Session.add("ssuser", txtboxloginid.Text);
-or
-Session["ssuser"] = txtboxloginid.Txt;
-```
+**Example**
+	- Store value to session variable
+	- Sample code to create a session variable
+	```
+	Session.add("ssuser", txtboxloginid.Text);
+	or
+	Session["ssuser"] = txtboxloginid.Txt;
+	```
 
 - Retrieve value from session
 - Need to cast the return value the correct data type
@@ -66,4 +66,19 @@ Session.Abandon();
 	- Session value stored when server starts and it ends when the server is restarted.
 	- Limited to ONLY one server
 - State Server Mode
-	- In this mode session data is stored in separat
+	- In this mode,, session data is stored in separated server.
+- SQL Server Mode
+	- in this mode, session data is stored in the database. It is a secure mode.
+
+**Application**
+- State is maintained throughout until application shut down.
+- Shared by all users accessing the application.
+- Mainly store user activity in server memory and application event shown in Global.asax file.
+- 3 events: `Application_start()`, `Application_Error()`, `Application_End()`
+
+**Cache**
+- Cache is stored on server side.
+- It implements Page Caching and data caching.
+- Cache is use to set expiration policies:
+	- `Response.Cache.SetExpiresTime(DateTime.Now.AddDays(1));`
+
