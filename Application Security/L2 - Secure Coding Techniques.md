@@ -36,4 +36,19 @@
 - Developers follow secure coding best practices and implement security features in their application to overcome vulnerabilities.
 - Ensure that the software design is secured right from the start.
 - Bad software design can make software difficult to secure later.
-- e.g. Your application handles s
+- e.g. Your application handles sensitive data, so you will encrypt the data and protect it from theft and tampering. This consideration to use cryptography in your application is done at the design stage.
+
+**Secure by Default**
+- Least privilege
+	- Allow each user/process minimum privileges to do his/its work.
+- Defense in depth
+	- Design software that will not easily break down just because one security mechanism has been broken. if possible, employ multiple security mechanisms such that an attacker would need to breach several layers before being successful.
+- Conservative default settings
+	- The development team is aware of that attack surface for the product and minimizes it in the default configuration.
+- Avoidance of risky default changes to operating system or security settings.
+
+**Secure in Deployment**
+- This means that applications can be maintained securely after deployment by updating with security patches, monitoring for attacks, and by auditing for malicious users and content.
+- Security functions must be easily administered by users.
+- Software must be easily patched to allow for security patches, if required.
+- In the event of application failure or errors, these events should be logged so that administrators can help resolve the issues.
