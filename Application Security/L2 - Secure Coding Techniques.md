@@ -27,4 +27,13 @@
 
 ### Security Strategies
 - Security should be built into applications right from the start.
-- Developers, designers, architects and project man
+- Developers, designers, architects and project managers would do well to follow these tried and tested security principles.
+- The principles are derived from the $SD^3+C$ strategies
+
+### $SD^3+C$ strategies 
+
+**Secure by Design**
+- Developers follow secure coding best practices and implement security features in their application to overcome vulnerabilities.
+- Ensure that the software design is secured right from the start.
+- Bad software design can make software difficult to secure later.
+- e.g. 
