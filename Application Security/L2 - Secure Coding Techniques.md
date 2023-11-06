@@ -52,3 +52,26 @@
 - Security functions must be easily administered by users.
 - Software must be easily patched to allow for security patches, if required.
 - In the event of application failure or errors, these events should be logged so that administrators can help resolve the issues.
+
+**Secure in Communications**
+- Security response
+	- Development teams responding promptly to reports of security vulnerabilities and communicate information about security updates.
+- Community engagement
+	- Development teams proactively engage with users to answer questions about security vulnerabilities, security updates, or changes in the security landscape.
+
+### Security Principles
+
+**Minimize your attack surface**
+- Reduce potential points of entry from which attackers can take advantage of.
+- In particular, take note of the following:
+	- Services running in elevated privilege
+	- Services that are running by default
+	- Applications that are running
+	- Open ports
+	- Open named pipes
+	- Accounts with administrative rights
+	- Files, directories and registry keys with weak access control lists (ACLs)
+
+**Employ secure defaults**
+- Most users would choose defaults when installing your software.
+- Ensure default settings/services are nec
