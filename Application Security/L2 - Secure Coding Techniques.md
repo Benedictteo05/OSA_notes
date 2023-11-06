@@ -1,15 +1,3 @@
-**Basic Application Security Guidelines**
-- Secure the input
-	- Validate all input
-- Adopt Secure Application processing
-	- Avoid Dangerous Language Constructs
-	- Check Bounds
-	- Ensure Exception Safety
-	- Adopt good programming practices
-	- Test and verify - use test tools
-	- Request only sufficient privileges
-	- Exit safely
-
 ### Basic Application Security Guidelines
 - Secure the input
 	- Validate all input
@@ -74,4 +62,24 @@
 
 **Employ secure defaults**
 - Most users would choose defaults when installing your software.
-- Ensure default settings/services are nec
+- Ensure default settings/services are necessary and not exploitable by hackers.
+- e.g. Windows 2000 installs IIS by default. This allows hackers to attack systems through the IIS.
+
+**Assume external systems are insecure**
+- For all data that is received from external sources, consider them to be possibly from attackers.
+- Filter these data for validity before allowing them into the system.
+
+**Fail Safely**
+- Design program to recover or terminate 'gracefully' upon any form of failure.
+- When the application fails, ensure that data is not lost or disclosed to unauthorized parties.
+
+**Remember that security features != Security**
+- Use correct security mechanisms to mitigate relevant threats.
+- Software will not be secure because a lot of security mechanisms are implemented.
+
+**Never depend on security through obscurity**
+- Always assume that the attacker knows everything you know.
+- Obscurity is a useful defense only when it is not the only defense.
+- Attacks can easily find information that you try to hide.
+
+
