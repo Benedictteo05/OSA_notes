@@ -19,4 +19,35 @@
 ### Common Weakness Scoring System (CWSS)
 - CWSS provides a mechanism for prioritizing software weaknesses in a consistent, flexible and open manner.
 - It is a collaborative, community-based effort that is addressing the needs of its stakeholders across government, academia, and industry.
-- CWSS is organized into three 
+- CWSS is organized into 3 metric groups:
+	- Base findings, Attack Surface, and Environmental.
+	- Each group contains multiple metrics/factors to compute a CWSS score.
+- 
+
+**Base Finding metric group**
+- Capture the inherent risk of the weakness, confidence in the accuracy of the finding, and strength of controls.
+- Factors:
+	- Technical Impact
+	- Acquired privilege
+	- Acquired privilege layer
+	- Internal Control Effectiveness
+	- Finding Confidence
+
+**Attack Surface metric group**
+- The barrier that an attack must overcome in order to exploit the weakness.
+- Factors:
+	- Required privilege
+	- Required privilege layer
+	- Access Vector
+	- Authentication Strength
+	- Level of Interaction
+	- Deployment Scope
+
+**Environmental metric group**
+- Characteristics of the weakness that are specific to a particular environment or operational context.
+- Factors:
+	- Business Impact
+	- Likelihood of Discovery
+	- Likelihood of Exploit
+	- External Control Effectiveness
+	- Prevalence
