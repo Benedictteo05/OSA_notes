@@ -3,12 +3,14 @@
 3. [SANS Top 25 Programming Errors](http://www.sans.org/top25-programming-errors/)
 4. [Qualys - Top 10](http://www.qualys.com/research/rnd/top10/)
 5. [MITRE ATT&CK](https://attack.mitre.org/)
-6. Common Weakness Enumeration (CWE)
+6. [[L0 - Best Practices & Vulnerabilities Info#^34f1fd|Common Weakness Enumeration (CWE)]]
 	- http://cwe.mitre.org/
 	- http://cwe.mitre.org/data/graphs/699.html
 - [Common Vulnerabilities and Exposures (CVE)](http://cve.mitre.org/)
 
-### Common Weakness Enumeration (CWE)
+### [Common Weakness Enumeration (CWE)](http://cwe.mitre.org/)
+
+^34f1fd
 - They help developers and security practitioners to:
 	- Describe and discuss software and hardware weaknesses in a common language.
 	- Check for weaknesses in existing software and hardware products.
@@ -22,7 +24,7 @@
 - CWSS is organized into 3 metric groups:
 	- Base findings, Attack Surface, and Environmental.
 	- Each group contains multiple metrics/factors to compute a CWSS score.
-- 
+- 3 sub scores are multiplied together, which produces a CWSS score between 0 - 100.
 
 **Base Finding metric group**
 - Capture the inherent risk of the weakness, confidence in the accuracy of the finding, and strength of controls.

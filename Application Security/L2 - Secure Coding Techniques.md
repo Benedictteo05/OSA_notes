@@ -25,3 +25,6 @@
 - Produce Safe output
 	- Communicate safely to the outside world
 
+### Security Strategies
+- Security should be built into applications right from the start.
+- Developers, designers, architects and project man
