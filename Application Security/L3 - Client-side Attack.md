@@ -128,6 +128,9 @@ document.querySelector('em').innerHTML = keyword;
 
 
 ### Cross-Site Request Forgery (CSRF)
+
+^fcd250
+
 - A client-side attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.
 - XSRF, Sea Surf of Session Riding
 
@@ -138,8 +141,8 @@ document.querySelector('em').innerHTML = keyword;
 **Why does this happen?**
 - While the evil website can't see your cookies, those cookies associated with your bank are being sent along with the request.
 
-**CSRF vs XSS**
-- CSRF is restricted to the actions victims can perform. XSS works on the execution of malicious scripts enlarging the scope of actions the attacker can perform.
+**[[L3 - Client-side Attack#^fcd250|CSRF]] vs XSS**
+- [[L3 - Client-side Attack#^fcd250|CSRF]] is restricted to the actions victims can perform. XSS works on the execution of malicious scripts enlarging the scope of actions the attacker can perform.
 - XSS requires only a vulnerability, while CSRF requires a user to access the malicious page or click a link.
 - CSRF works only one way - it can only send HTTP requests, but cannot view the response. XSS can send and receive HTTP requests and responses in order to extract the required data.
 
