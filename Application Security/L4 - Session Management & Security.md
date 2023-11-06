@@ -40,4 +40,30 @@ Int loancnt = (int)Session["ssloadcount"];
 
 - Delete session object
 - To remove a specific session object
-	-
+```
+Session.Remove("cartValue");
+```
+- To remove all objects
+```
+Session.Abandon();
+```
+
+### Configuring Session Timeout
+- Session timeout value can be specified in the web.config file (.net Framework)
+- It indicates the time (in minutes) that the session can be idle before it is abandoned
+- Configure session timeout using `<sessionState>` attribute
+- By default, session timeout is 20 minutes
+- In the example below, the session will timeout in 1 minute in web.config
+```
+<system.web>
+	<sessionState timeout="1"></sessionState>
+</system.web>
+```
+
+**How is data stored in "Session"**
+- InProc Mode
+	- It is a default session mode and a value store in web server memory (IIS)
+	- Session value stored when server starts and it ends when the server is restarted.
+	- Limited to ONLY one server
+- State Server Mode
+	- In this mode session data is stored in separat
