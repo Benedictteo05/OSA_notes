@@ -36,4 +36,4 @@
 - Developers follow secure coding best practices and implement security features in their application to overcome vulnerabilities.
 - Ensure that the software design is secured right from the start.
 - Bad software design can make software difficult to secure later.
-- e.g. 
+- e.g. Your application handles s
