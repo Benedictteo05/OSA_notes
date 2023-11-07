@@ -196,7 +196,6 @@ dotnet ef migrations remove
 	```
 
 
-
 **Add class `MyDbContext`**
 
 **Add MS MSQL Server**
