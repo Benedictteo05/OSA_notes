@@ -7,4 +7,4 @@
 - Programs must be complied into machine language (exe file)
 
 
-### Program specification
+[[Program Specification]]

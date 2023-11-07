@@ -1,0 +1,2 @@
+- High-level language translates to low-level language.
+- Low-level language is compiled into machine language.
