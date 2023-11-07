@@ -161,11 +161,16 @@ dotnet ef migrations remove
 	- `Range(min, max)`
 	- `[MinLength(5)]`
 
+**Add class `MyDbContext`**
+
 **Add MS MSQL Server**
 - Install `Microsoft.EntityFrameworkCore.SqlServer` Nuget package.
 - Open `appsettings.json` and update connection string:
 	- `"Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=LearningDev"`
 - Open `MyDbContext.cs` and edit code to use MS SQL Server:
 	- `optionsBuilder.UseSqlServer(connectionString);`
-- In [[ASP .NET#^960f9f|package manager console]], run [[]]
+- In [[ASP .NET#^960f9f|package manager console]], run commands:
+	- `Add-Migration InitialCreate`
+	- `Update-Database`
+- Open SQL Server Object Explorer.
 
