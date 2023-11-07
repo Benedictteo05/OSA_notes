@@ -103,7 +103,13 @@ COnsole.WriteLine("Your age is : " + age);
 	```
 
 - `Program.cs`
-	- The `Program.cs` file is the entry point of the application. It typically contains the Main method, which is the starting point of
+	- The `Program.cs` file is the entry point of the application. It typically contains the Main method, which is the starting point for the application's execution. 
+
+- `appsettings.json`
+	- The `appsettings.json` file contains configuration settings for the application. These settings can include things like database connection strings, logging configurations, API keys, and other application-specific settings. The settings in this file can be accessed throughout your application to configure various aspects.
+
+- `Properties/launchSettings.json`
+	- It is used for configuring how your application is launched for debugging or running locally. It specifies settings such as the hosting environment, application URL, and other runtime options. This file can be used to define multiple profiles with different settings for different development scenarios.
 
 ### EF Core Commands
 **Add Migration**
