@@ -185,20 +185,56 @@ dotnet ef migrations remove
 	public IActionResult GetAll()
 	{
 		IQueryable<Lectures> result = _context.Lectures;
-var list = result.OrderByDescending(x => x.Id).ToList();
-return Ok(list); 
+		var list = result.OrderByDescending(x => x.Id).ToList();
+		return Ok(list); 
 	}
 	
 	[HttpPost]
 	public IActionResult AddTutorial(Tutorial tutorial)
 	{
-		list.Add(tutorial);
-		return Ok(tutorial);
+		var myLectures = new Lectures()
+		{
+		    Title = lectures.Title.Trim(),
+		    Description = lectures.Description.Trim()
+		};
+	
+		_context.Lectures.Add(myLectures);
+		_context.SaveChanges();
+		return Ok(myLectures);
 	}
 	```
 
 
 **Add class `MyDbContext`**
+```
+using LearningTestAPI.Models;
+using Microsoft.EntityFrameworkCore;
+namespace LearningAPI
+{
+    public class MyDbContext : DbContext
+    {
+        private readonly IConfiguration _configuration;
+        public MyDbContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder
+        optionsBuilder)
+        {
+            string? connectionString = _configuration.GetConnectionString(
+            "MyConnection");
+            if (connectionString != null)
+            {
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+        }
+        public DbSet<Lectures> Lectures { get; set; }
+    }
+}
+```
+- Update Code in `Program.cs` to add the DB context into services:
+	- `builder.Services.AddDbContext<MyDbContext>();`
+
 
 **Add MS MSQL Server**
 - Install `Microsoft.EntityFrameworkCore.SqlServer` Nuget package.
@@ -211,5 +247,4 @@ return Ok(list);
 	- `Update-Database`
 - Open SQL Server Object Explorer, under `(LocalDB)\\MSSQLLocalDB`, the database `LearningDev` is created with the table `Tutorials`.
 - Right click on table and select `View Data`
-- 
 
