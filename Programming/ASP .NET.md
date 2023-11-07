@@ -82,8 +82,26 @@ COnsole.WriteLine("Your age is : " + age);
 	```
 
 - Controllers
-	- Holds API controller classes. Controllers handle incoming HTTP requests, process them, and return appropriate responses. These classes define the endpoints of your API and the actions (methods) associated with each endpoint. Each action corresponds to an HTTP method (GET, POST, etc)
+	- Holds API controller classes. Controllers handle incoming HTTP requests, process them, and return appropriate responses. These classes define the endpoints of your API and the actions (methods) associated with each endpoint. Each action corresponds to an HTTP method (GET, POST, etc. ) and defines how your API handles requests and produces response
+	```
+	[ApiController]
+	[Route("controller")]
+	public class ProductController : ControllerBase
+	{
+		[HttpPost]
+		public IActionResult CreateProduct(Product product)
+		{
+			// logic to create new product
+		}
 
+		[HttpGet]
+		public IActionResult GetProduct()
+		{
+			// logic to retrieve product
+		}
+	}
+	```
+	
 
 ### EF Core Commands
 **Add Migration**
