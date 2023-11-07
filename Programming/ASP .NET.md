@@ -71,7 +71,19 @@ COnsole.WriteLine("Your age is : " + age);
 
 ### Key components
 - Models
-	- Typically contains data models, which represents structure of the data entities. These mo
+	- Typically contains data models, which represents structure of the data entities. These models are used to interact with the application's database, serialize/deserialize data, and define the structure of data exchanged via the API.
+	```
+	public class Product
+	{
+		public int Id {get; set;}
+		public string Name {get; set;}
+		public decimal Price {get; set;}
+	}
+	```
+
+- Controllers
+	- Holds API controller classes. Controllers handle incoming HTTP requests, process them, and return appropriate responses. These classes define the endpoints of your API and the actions (methods) associated with each endpoint. Each action corresponds to an HTTP method (GET, POST, etc)
+
 
 ### EF Core Commands
 **Add Migration**
