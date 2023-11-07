@@ -69,6 +69,10 @@ COnsole.WriteLine("Your age is : " + age);
 ```
 
 
+### Key components
+- Models
+	- Typically contains data models, which represents structure of the data entities. These mo
+
 ### EF Core Commands
 **Add Migration**
 ```
@@ -109,3 +113,6 @@ dotnet ef migrations remove
 
 ### Create API
 **Add a new model**
+- On the project, add a new folder Models.
+- In the new folder Models, add a new class (*.cs).
+
