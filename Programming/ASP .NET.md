@@ -169,7 +169,8 @@ dotnet ef migrations remove
 	namespace LearningAPI.Controllers
 	{
 		[ApiController]
-		[Route()]
+		[Route("Controller")]
+		public cl
 	}
 	```
 
