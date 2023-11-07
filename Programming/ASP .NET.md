@@ -106,3 +106,6 @@ Using .NET CLI:
 dotnet ef migrations remove
 ```
 
+
+### Create API
+**Add a new model**
