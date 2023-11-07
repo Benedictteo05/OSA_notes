@@ -172,5 +172,7 @@ dotnet ef migrations remove
 - In [[ASP .NET#^960f9f|package manager console]], run commands:
 	- `Add-Migration InitialCreate`
 	- `Update-Database`
-- Open SQL Server Object Explorer, under
+- Open SQL Server Object Explorer, under `(LocalDB)\\MSSQLLocalDB`, the database `LearningDev` is created with the table `Tutorials`.
+- Right click on table and select `View Data`
+- 
 
