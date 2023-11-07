@@ -161,6 +161,20 @@ dotnet ef migrations remove
 	- `Range(min, max)`
 	- `[MinLength(5)]`
 
+**Add a new controller**
+- Add a new class `*.cs` in `Controllers` folder
+- Prepare the class to be an API controller with route:
+	```
+	using Microsoft.AspNetCore.MVC;
+	namespace LearningAPI.Controllers
+	{
+		[ApiController]
+		[Route()]
+	}
+	```
+
+
+
 **Add class `MyDbContext`**
 
 **Add MS MSQL Server**
