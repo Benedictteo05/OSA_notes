@@ -89,10 +89,8 @@ Session.Abandon();
 
 **Scoped**
 - Only when you go to the next tab, it will refresh the session id
-- Different 
 
 **Singleton**
-- Same data in the 
-
+- Same data in the some scope, but session id will refresh in different scope
 
 ### Session Management (Client)
