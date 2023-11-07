@@ -112,6 +112,9 @@ COnsole.WriteLine("Your age is : " + age);
 	- It is used for configuring how your application is launched for debugging or running locally. It specifies settings such as the hosting environment, application URL, and other runtime options. This file can be used to define multiple profiles with different settings for different development scenarios.
 
 ### EF Core Commands
+
+^960f9f
+
 **Add Migration**
 ```
 Using Package Manager Console in Visual Studio:
@@ -121,7 +124,7 @@ Using .NET CLI:
 dotnet ef migrations add <MigrationName>
 ```
 
-**Update**
+**Update Migration** 
 ```
 Using PMC in VS:
 Update-Database
@@ -158,5 +161,11 @@ dotnet ef migrations remove
 	- `Range(min, max)`
 	- `[MinLength(5)]`
 
-
+**Add MS MSQL Server**
+- Install `Microsoft.EntityFrameworkCore.SqlServer` Nuget package.
+- Open `appsettings.json` and update connection string:
+	- `"Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=LearningDev"`
+- Open `MyDbContext.cs` and edit code to use MS SQL Server:
+	- `optionsBuilder.UseSqlServer(connectionString);`
+- In [[ASP .NET#^960f9f|package manager console]], run 
 
