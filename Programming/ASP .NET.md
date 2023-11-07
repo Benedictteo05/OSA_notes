@@ -172,5 +172,5 @@ dotnet ef migrations remove
 - In [[ASP .NET#^960f9f|package manager console]], run commands:
 	- `Add-Migration InitialCreate`
 	- `Update-Database`
-- Open SQL Server Object Explorer.
+- Open SQL Server Object Explorer, under
 
