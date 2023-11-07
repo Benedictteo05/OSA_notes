@@ -20,6 +20,10 @@
 - Mutable
 	- `[type] variableName = value`
 
+**MVC Flow interaction**
+- Model
+- View 
+- Controller
 
 **Program entry point**
 ```
