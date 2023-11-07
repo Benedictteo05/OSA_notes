@@ -167,5 +167,5 @@ dotnet ef migrations remove
 	- `"Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=LearningDev"`
 - Open `MyDbContext.cs` and edit code to use MS SQL Server:
 	- `optionsBuilder.UseSqlServer(connectionString);`
-- In [[ASP .NET#^960f9f|package manager console]], run 
+- In [[ASP .NET#^960f9f|package manager console]], run [[]]
 
