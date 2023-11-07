@@ -166,11 +166,32 @@ dotnet ef migrations remove
 - Prepare the class to be an API controller with route:
 	```
 	using Microsoft.AspNetCore.MVC;
+	using LearningAPI.Models; // import to store 
+	
 	namespace LearningAPI.Controllers
 	{
 		[ApiController]
 		[Route("Controller")]
-		public cl
+		public class TutorialController : ControllerBase
+		{
+			private static readonly List<Tutorial> list = new(); //define list to store 
+		}
+	}
+	```
+- Define Get and Post method:
+	```
+	...
+	[HttpGet]
+	public IActionResult GetAll()
+	{
+		return Ok(list);
+	}
+	
+	[HttpPost]
+	public IActionResult AddTutorial(Tutorial tutorial)
+	{
+		list.Add(tutorial);
+		return Ok(tutorial);
 	}
 	```
 
