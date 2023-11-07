@@ -82,4 +82,17 @@ Session.Abandon();
 - Cache is use to set expiration policies:
 	- `Response.Cache.SetExpiresTime(DateTime.Now.AddDays(1));`
 
+### Dependency Injection 
+**Transient**
+- Every time you refresh, the session id changes
+- Renewed Data for each page
+
+**Scoped**
+- Only when you go to the next tab, it will refresh the session id
+- Different 
+
+**Singleton**
+- Same data in the 
+
+
 ### Session Management (Client)
