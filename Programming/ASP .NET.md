@@ -152,5 +152,11 @@ dotnet ef migrations remove
 ### Create API
 **Add a new model**
 - On the project, add a new folder Models.
-- In the new folder Models, add a new class (*.cs).
+- In the new folder Models, add a new class (`*.cs`).
+- Add input validation.
+	- `[Required]`
+	- `Range(min, max)`
+	- `[MinLength(5)]`
+
+
 

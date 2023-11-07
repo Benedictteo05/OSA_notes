@@ -16,4 +16,6 @@
 	- Used to provide additional data to the server when making a request. Parameters can be included in the URL path or as query parameters.
 	- A path parameters is defined in the API endpoint annotation to specify what data is required for an endpoint.
 	- A query parameter is added to the URL after a question mark? and follows a key-value format.
-	- e.
+	- e.g. id (path), search (query)
+
+
