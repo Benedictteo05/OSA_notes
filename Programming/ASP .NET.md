@@ -101,7 +101,9 @@ COnsole.WriteLine("Your age is : " + age);
 		}
 	}
 	```
-	
+
+- `Program.cs`
+	- The `Program.cs` file is the entry point of the application. It typically contains the Main method, which is the starting point of
 
 ### EF Core Commands
 **Add Migration**
