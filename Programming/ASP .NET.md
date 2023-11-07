@@ -184,7 +184,9 @@ dotnet ef migrations remove
 	[HttpGet]
 	public IActionResult GetAll()
 	{
-		return Ok(list);
+		IQueryable<Lectures> result = _context.Lectures;
+var list = result.OrderByDescending(x => x.Id).ToList();
+return Ok(list); 
 	}
 	
 	[HttpPost]
