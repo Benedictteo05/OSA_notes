@@ -59,7 +59,8 @@
 	- Decode Unit
 		- Decode an instruction.
 	- Execute Unit
-		- Signal ALU to exec
+		- Signal ALU to execute instruction.
+	- Instructin
 
 
 ### Fetch execution cycle
