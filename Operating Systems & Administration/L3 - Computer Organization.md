@@ -60,7 +60,21 @@
 		- Decode an instruction.
 	- Execute Unit
 		- Signal ALU to execute instruction.
-	- Instructin
+	- Instruction Register (IR)
+		- Contains a copy of the current instruction.
+	- Program Counter register (PC)
+		- Contains the memory address of the next instruction the unit is to load.
+- Works based on fetch-execute cycle.
+- When the computer is powered up, the control unit begins to execute the **fetch-execute** cycle until the computer is shut down.
+
+### Fetch-execute cycle
+- Fetch phase
+	- Instruction retrieved from memory at location specified by Program Counter (PC)
+	- Loaded into Instruction Register (IR)
+	- PC is incremented
+- Execute phase
+	- ALU operation
+	- Cause memory data reference, I/O operation
 
 
 ### Fetch execution cycle
