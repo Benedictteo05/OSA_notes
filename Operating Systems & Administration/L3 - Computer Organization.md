@@ -103,4 +103,5 @@
 **Write Operation:**
 1. CPU puts data into MDR
 2. CPU puts location into MAR
-3. Load Comman
+3. Load Command with "write"
+
