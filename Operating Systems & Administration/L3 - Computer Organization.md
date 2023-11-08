@@ -122,4 +122,38 @@
 	- Status flags with includes done, busy and error code
 
 ### Determining When I/O is complete
-- When the CPU 
+- When the CPU initiates I/O, we need the device to 'notify' the CPU when the I/O is done.
+- Two ways to do this:
+	- Polling
+	- Interrupt
+
+### CPU/Device Operation
+- Performing a Write Operation (polling).
+```
+while(deviceNo.busy || deviceNo.done) <waiting>;
+deviceNo.data[0] = <value to write>
+deviceNo.command = WRITE;
+while(deviceNo.busy) <waiting>;
+deviceNo.done = TRUE
+```
+- Devices much slower than CPU.
+- CPU waits while device operates.
+- Would like to multiplex CPU to a different process while I/O is in process.
+- This is possible using the interrupt method.
+
+### Polling
+- Simplest way is for CPU to keep polling the device to see state of the I/O.
+- Device implements the status of the device as a flag.
+- If the I/O is not done, the CPU executes a **busy-wait** command to wait for the I/O to end, but the CPU is effectively waiting and doing nothing.
+- Waste precious processor cycles.
+- Software:
+```
+…
+// Start the device
+…
+While((busy == 1) || (done == 1))
+wait();
+// Device I/O complete
+…
+done = 0;
+```
