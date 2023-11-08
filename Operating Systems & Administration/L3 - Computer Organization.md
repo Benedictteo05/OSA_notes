@@ -124,7 +124,7 @@
 ### Determining When I/O is complete
 - When the CPU initiates I/O, we need the device to 'notify' the CPU when the I/O is done.
 - Two ways to do this:
-	- Polling
+	- [[L3 - Computer Organization#^a21394|Polling]]
 	- Interrupt
 
 ### CPU/Device Operation
@@ -142,6 +142,8 @@ deviceNo.done = TRUE
 - This is possible using the interrupt method.
 
 ### Polling
+
+^a21394
 - Simplest way is for CPU to keep polling the device to see state of the I/O.
 - Device implements the status of the device as a flag.
 - If the I/O is not done, the CPU executes a **busy-wait** command to wait for the I/O to end, but the CPU is effectively waiting and doing nothing.
@@ -157,3 +159,21 @@ wait();
 …
 done = 0;
 ```
+- Hardware:
+```
+…
+while((busy == 0) && (done == 1))
+wait();
+// Do the I/O operation
+busy = 1;
+…
+```
+
+### Interrupt
+- A more advanced but more complicated way is to have the CPU implement an interrupt request flag.
+- When device IO is done, the device sets the interrupt request flag to signal the end of IO.
+- The CPU, on its fetch cycle, would detect the flag and proceed to execute a set of routines to service the IO.
+- CPU incorporates an "interrupt pending" flag.
+- When `device.busy` -> FALSE, interrupt pending flag is set.
+- Hardware "tells" OS that the **interrupt** occurred.
+- **Interrupt ha**
