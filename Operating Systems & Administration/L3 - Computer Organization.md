@@ -76,7 +76,31 @@
 	- ALU operation
 	- Cause memory data reference, I/O operation
 
+### Control Unit Operation
+**Fetch phase**
+- Instruction retrieved from memory.
 
-### Fetch execution cycle
-Program counter will take an address,
-Instruction register (IR)
+**Execute phase**
+- ALU op, memory data reference, I/O, etc.
+
+### Primary Memory Unit
+- Stores both programs and data while they are being operated on by the CPU.
+- Interface between CPU and memory consists of 3 registers:
+	- Memory address register (MAR)
+		- Stores address of data to be read from or written to.
+	- Memory data register (MDR)
+		- Stores data that is read of to be written.
+	- Command register (CMD)
+		- Stores the command to be executed.
+- Stores programs and data in binary format.
+- Often referred to as random access memory (RAM).
+
+**Read Operation:**
+1. Load MAR with address
+2. Load Command with "read"
+3. Data will then appear in the MDR
+
+**Write Operation:**
+1. CPU puts data into MDR
+2. CPU puts location into MAR
+3. Load Comman
