@@ -105,3 +105,12 @@
 2. CPU puts location into MAR
 3. Load Command with "write"
 
+### Input/Output (I/O) Devices
+- Each device operation is controlled by a device controller.
+- Device controller connects device to the computer's address and data bus.
+- Provides an interface which the OS (Device manager) can use to manipulate device.
+- Interfaces varies among controllers.
+- OS provides abstraction to hide differences from programmer.
+
+
+ 
