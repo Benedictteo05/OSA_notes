@@ -67,7 +67,7 @@
 - Works based on fetch-execute cycle.
 - When the computer is powered up, the control unit begins to execute the **fetch-execute** cycle until the computer is shut down.
 
-### Fetch-execute cycle
+### Fetch-Execute cycle
 - Fetch phase
 	- Instruction retrieved from memory at location specified by Program Counter (PC)
 	- Loaded into Instruction Register (IR)
@@ -176,4 +176,30 @@ busy = 1;
 - CPU incorporates an "interrupt pending" flag.
 - When `device.busy` -> FALSE, interrupt pending flag is set.
 - Hardware "tells" OS that the **interrupt** occurred.
-- **Interrupt ha**
+- **Interrupt handler** part of the OS makes process ready to run.
+```
+//Fetch-Execute Cycle with an Interrupt
+while (haltFlag not set during execution) {
+IR = memory[PC];
+PC = PC + 1;
+execute(IR);
+if (InterruptRequest) {
+	/* Interrupt the current process */
+	/* Save the current PC in address 0 */
+		memory[0] = PC;
+	/* Branch indirect through address 1 */
+		PC = memory[1];
+	}
+}
+```
+
+### Direct Memory Access (DMA)
+- In conventional design, the CPU transfers data between the controller data registers and the primary memory.
+- This means that the CPU is involved in all operations on the memory.
+- Problem is that most operations require memory access.
+- In I/O operations, when the data is to be copied to memory is large, the CPU can get very busy just copying data.
+- It is more efficient to implement direct memory access (DMA)
+- DMA memory controllers are able to read/write data from/to memory without CPU intervention.
+- The DMA controller is like a mini CPU, which is able to perform the tasks that the CPU would otherwise have to perform.
+- CPU can start a DMA block transfer and then perform other work in parallel with the DMA operation. This can significantly increase the machine's I/O performance.
+	- How does it knows when to start a DMA block transfer?
