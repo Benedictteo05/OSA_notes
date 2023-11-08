@@ -120,3 +120,6 @@
 	- Data registers
 	- Command registers
 	- Status flags with includes done, busy and error code
+
+### Determining When I/O is complete
+- When the CPU 
