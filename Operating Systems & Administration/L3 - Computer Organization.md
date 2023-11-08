@@ -203,3 +203,5 @@ if (InterruptRequest) {
 - The DMA controller is like a mini CPU, which is able to perform the tasks that the CPU would otherwise have to perform.
 - CPU can start a DMA block transfer and then perform other work in parallel with the DMA operation. This can significantly increase the machine's I/O performance.
 	- How does it knows when to start a DMA block transfer?
+
+
