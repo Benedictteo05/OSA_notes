@@ -112,6 +112,11 @@
 - Interfaces varies among controllers.
 - OS provides abstraction to hide differences from programmer.
 
-
 ### Device Controller Interface
-- Dev
+- Device may need constant attention/monitoring during operation.
+- Device controller does this with mainly hardware algorithms.
+- Software interface (device driver) provided by controller allow OS to operate and synchronize controller allows OS to operate and synchronize its behavior with the device operation.
+- Device controller include the following as part of the interface:
+	- Data registers
+	- Command registers
+	- Status flags with includes done, busy and error code
