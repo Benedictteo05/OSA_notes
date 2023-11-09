@@ -226,7 +226,7 @@ namespace LearningAPI
 	}
 	
 	[HttpPost]
-	public IActionResult AddTutorial(Tutorial tutorial)
+	public IActionResult AddLecture(Lectures lecture)
 	{
 		var myLectures = new Lectures()
 		{
@@ -240,7 +240,11 @@ namespace LearningAPI
 	}
 	```
 
-
+- Define filters for Get method:
+```
+[HttpGet("{search}")]
+public IActionResult GetLectures()
+```
 
 
 **Add MS MSQL Server**
