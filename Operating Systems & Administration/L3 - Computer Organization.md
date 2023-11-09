@@ -125,7 +125,7 @@
 - When the CPU initiates I/O, we need the device to 'notify' the CPU when the I/O is done.
 - Two ways to do this:
 	- [[L3 - Computer Organization#^a21394|Polling]]
-	- Interrupt
+	- [[L3 - Computer Organization#^dc8d29|Interrupt]]
 
 ### CPU/Device Operation
 - Performing a Write Operation (polling).
@@ -170,6 +170,9 @@ busy = 1;
 ```
 
 ### Interrupt
+
+^dc8d29
+
 - A more advanced but more complicated way is to have the CPU implement an interrupt request flag.
 - When device IO is done, the device sets the interrupt request flag to signal the end of IO.
 - The CPU, on its fetch cycle, would detect the flag and proceed to execute a set of routines to service the IO.

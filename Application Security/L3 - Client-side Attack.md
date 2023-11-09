@@ -167,4 +167,3 @@ public class HomeController : Controller
 
 Penetration testing works only on server side, therefore we need to have server side validation.
 
-Assignment 2 - Core web application 
