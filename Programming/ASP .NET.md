@@ -242,8 +242,18 @@ namespace LearningAPI
 
 - Define filters for Get method:
 ```
-[HttpGet("{search}")]
-public IActionResult GetLectures()
+	...
+	[HttpGet("{search}")]
+	public IActionResult GetLectures(string search)
+	{
+		IQueryable<Lectures> result = _context.Lectures;
+		var list = result.Where(l => l.title.Contains(search)).ToList();
+		if (list.isEmptyOrNull())
+		{
+			return NotFound();
+		}
+		return Ok(list);
+	}
 ```
 
 
