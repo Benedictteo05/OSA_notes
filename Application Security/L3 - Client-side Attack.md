@@ -126,7 +126,6 @@ document.querySelector('em').innerHTML = keyword;
 4. The victim's browser executes the legitimate script inside the response, causing the malicious script to be inserted into the page.
 5. The victim's browser executes the malicious script inserted into the page, sending the victim's cookies to the attacker's server.
 
-
 ### Cross-Site Request Forgery (CSRF)
 - A client-side attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.
 - XSRF, Sea Surf of Session Riding
