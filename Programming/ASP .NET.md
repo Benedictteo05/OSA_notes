@@ -205,35 +205,6 @@ dotnet ef migrations remove
 	```
 
 
-**Add class `MyDbContext`**
-```
-using LearningTestAPI.Models;
-using Microsoft.EntityFrameworkCore;
-namespace LearningAPI
-{
-    public class MyDbContext : DbContext
-    {
-        private readonly IConfiguration _configuration;
-        public MyDbContext(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder
-        optionsBuilder)
-        {
-            string? connectionString = _configuration.GetConnectionString(
-            "MyConnection");
-            if (connectionString != null)
-            {
-                optionsBuilder.UseSqlServer(connectionString);
-            }
-        }
-        public DbSet<Lectures> Lectures { get; set; }
-    }
-}
-```
-- Update Code in `Program.cs` to add the DB context into services:
-	- `builder.Services.AddDbContext<MyDbContext>();`
 
 
 **Add MS MSQL Server**
