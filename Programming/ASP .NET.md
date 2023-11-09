@@ -174,7 +174,11 @@ dotnet ef migrations remove
 		[Route("Controller")]
 		public class TutorialController : ControllerBase
 		{
-			private static readonly List<Tutorial> list = new(); //define list to store 
+			private readonly MyDbContext _context;
+			public LectureController(MyDbContext context)
+			{
+			    _context = context;      //define list to store 
+			} 
 		}
 	}
 	```
