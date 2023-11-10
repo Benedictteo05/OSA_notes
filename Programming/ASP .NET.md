@@ -151,7 +151,6 @@ Using .NET CLI:
 dotnet ef migrations remove
 ```
 
-
 ### Create API
 **Add a new model**
 - On the project, add a new folder Models.
