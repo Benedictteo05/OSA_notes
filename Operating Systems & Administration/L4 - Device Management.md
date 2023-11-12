@@ -92,6 +92,34 @@
 ```
 brw-rw----  1 root disk    8,  0 Nov   7 07:06 sda
 brw-rw----  1 root disk    8,  1 Nov   7 07:06 sda1
-brw-rw----  1 root disk    8,  16 Nov  7 07:06 tty01
-brw-rw----  1 root disk    8,  0 Nov  7 07:06 
+brw-rw----  1 root disk    8,  16 Nov  7 07:06 tty0
+brw-rw----  1 root disk    8,  0 Nov   7 07:06 tty1
 ```
+- The ones that have a "b" are block type devices and the ones that begins with a "c" are character devices.
+- sda, sda1 are naming conventions for disk devices.
+- tty0, tty1 are naming conventions for terminal devices or virtual consoles.
+
+### Storage Devices
+- Randomly accessed storage
+	- Flash memory
+	- Optical disks
+	- Rotating magnetic disk
+	- Floppy disk
+- Sequentially accessed storage
+	- Magnetic tapes
+
+### Randomly Accessed Storage Devices
+- Allow a driver to access blocks of data in the device in any order. Need not be sequential.
+- Non-volatile memory (such as USB memory devices) also fall in this category.
+- Rotating disks are still commonly used today.
+- Both can be easily managed using a common API
+
+### Rotating Disk storage
+- Multi-surface disk
+- Disk surface
+- Cylinders
+
+### Rotating Disk Optimizations
+- Disk-based devices form the most common randomly accessed storage devices.
+- E.g. Hard disks, CD/DVD, Zip disks, MO disks. 
+- Although they are 
