@@ -56,4 +56,4 @@
 - Programs which perform IO expects IO operations to complete before the next statement is executed.
 - However, performance gains can be gained if we can make the program execute instructions while the IO is taking place.
 - This should be done without violating the serial execution order of the program.
-- To maximize IO,
+- To maximize IO, we can have the CPU operate on another process when the IO is busy with the original process.
