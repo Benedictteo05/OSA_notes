@@ -13,3 +13,13 @@
 - It is important to create device drivers, which takes on the task of working these devices, but requiring only a standard set of functions to make them (the devices) work.
 - The device manager, in turn, manages the collection of device drivers.
 - The manager makes it possible for the OS to then provide a standard set of system calls to application programs, which use the devices.
+
+### System Call Interface
+- Functions available to application programs.
+- Abstract all devices (and files) to a few interfaces.
+- Make interfaces as similar as possible 
+	- Block vs Character
+	- Sequential vs direct access
+- Device driver implements functions (one entry point per API function)
+
+### Example
