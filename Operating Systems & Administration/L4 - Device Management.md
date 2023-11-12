@@ -57,4 +57,17 @@
 - However, performance gains can be gained if we can make the program execute instructions while the IO is taking place.
 - This should be done without violating the serial execution order of the program.
 - To maximize IO, we can have the CPU operate on another process when the IO is busy with the original process.
-	- Does this mean that to the CPU its as if noth
+	- Does this mean that to the CPU its as if nothing much as changed, just another process/ instruction that is taking resources.
+- This increases the efficiency of the computer and reduces the overall time required to execute all the processes.
+
+### Buffering
+- The speed of I/O is much slower than that of CPU.
+- In order to speed up I/O, it is possible to keep I/O devices busy when the processes do not require I/O operations.
+- This increase the overlap between I/O and processing.
+- A buffer is a temporary memory-based storage area, that stores the data from an I/O operation.
+
+### Types of Buffering
+- Input buffering
+	- Copy the data into memory before the process requests it.
+- Output buffering
+	- Temporarily stores the data in memory and have it written out to the device when the process resumes executeion.
