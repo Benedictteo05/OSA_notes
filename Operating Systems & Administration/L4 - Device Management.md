@@ -22,4 +22,17 @@
 	- Sequential vs direct access
 - Device driver implements functions (one entry point per API function)
 
-### Example: BSD UNIX Dri
+### Examples
+### BSD UNIX Driver
+|Commands| Description|
+|---|----|
+|open| Prepare dev for operation|
+|close| No longer using the device|
+|ioctl| Character dev specific info|
+|read| Character dev input op|
+|write| Character dev output op|
+|strategy| Block dev input/output ops|
+|select| Character dev check for data|
+|stop| Discontinue a stream output op|
+
+### Windows 
