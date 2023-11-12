@@ -70,4 +70,4 @@
 - Input buffering
 	- Copy the data into memory before the process requests it.
 - Output buffering
-	- Temporarily stores the data in memory and have it written out to the device when the process resumes executeion.
+	- Temporarily stores the data in memory and have it written out to the device when the process resumes execution.
