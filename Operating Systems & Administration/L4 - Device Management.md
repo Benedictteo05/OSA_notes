@@ -35,4 +35,9 @@
 |select| Character dev check for data|
 |stop| Discontinue a stream output op|
 
-### Windows system calls and lov-level-I/O
+### Windows system calls and low-level-I/O
+|Commands| Description|
+|---|---|
+|`_close| Close file|
+|_commit| Create file|
+
