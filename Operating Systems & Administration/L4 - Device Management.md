@@ -83,3 +83,8 @@
 ### Device Class Characteristics
 - A typical computer system will handle many types of devices, such as:
 	- Character devices (keyboard, monitor)
+	- Block devices (printer, USB)
+	- Network devices (network, modems)
+- Character based devices such as tty (teletype, or terminal) and serial devices are where data stream is transferred and handle one character or byte at a time.
+- Block type devices such as hard drives transfer data in blocks, typically a multiple of 256 bytes.
+
