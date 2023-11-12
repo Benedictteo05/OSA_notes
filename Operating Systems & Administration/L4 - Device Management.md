@@ -88,3 +88,10 @@
 - Character based devices such as tty (teletype, or terminal) and serial devices are where data stream is transferred and handle one character or byte at a time.
 - Block type devices such as hard drives transfer data in blocks, typically a multiple of 256 bytes.
 
+### Linux devices 
+```
+brw-rw----  1 root disk    8,  0 Nov   7 07:06 sda
+brw-rw----  1 root disk    8,  1 Nov   7 07:06 sda1
+brw-rw----  1 root disk    8,  16 Nov  7 07:06 tty01
+brw-rw----  1 root disk    8,  0 Nov  7 07:06 
+```
