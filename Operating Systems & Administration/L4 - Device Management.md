@@ -80,3 +80,6 @@
 	- Having a buffer which contains n number of locations. The increased number of locations allow for more to be stored in the buffer.
 	- Circular buffering is the technique of managing these locations so that they can be re-used.
 
+### Device Class Characteristics
+- A typical computer system will handle many types of devices, such as:
+	- Character devices (keyboard, monitor)
