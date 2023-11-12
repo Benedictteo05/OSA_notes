@@ -74,4 +74,9 @@
 - Hardware buffering
 	- Implement buffering in the hardware by having specialized registers to act as buffers. Also known as cache.
 - Double buffering
-	- Implement hardware buffering and havi
+	- Implement hardware buffering and having a separate buffer implemented at the software level. 
+	- i.e. Using primary memory as a buffer.
+- Circular buffering
+	- Having a buffer which contains n number of locations. The increased number of locations allow for more to be stored in the buffer.
+	- Circular buffering is the technique of managing these locations so that they can be re-used.
+
