@@ -35,9 +35,24 @@
 |select| Character dev check for data|
 |stop| Discontinue a stream output op|
 
-### Windows system calls and low-level-I/O
+### Windows system calls and low-level-I/O 
 |Commands| Description|
 |---|---|
-|`_close| Close file|
-|_commit| Create file|
+|`_close`| Close file|
+|`_commit`| Flush file to disk|
+|`_creat, _wrcreat`| Create file|
+|`_dup`| Return next available file descriptor for given file|
+|`_dup2`| Create second descriptor for given file|
+|`_eof`| Test for end of file|
+|...|...|
 
+### Device Status Table
+- Device Manager keeps track of the status of the various devices using a **Device Status Table**, which consists of these info:
+	- Device ID
+	- Device Status (busy, done, idle)
+	- Queue of processes waiting for Device
+
+### Overlapping the Operation of a Device and the CPU
+- Programs which perform IO expects IO operations to complete before the next statement is executed.
+- However, performance gains can be gained if we can make the program execute instructions while the IO is taking place.
+- This should be done without violating the serial execution order of the program
