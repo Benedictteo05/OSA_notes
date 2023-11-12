@@ -71,3 +71,7 @@
 	- Copy the data into memory before the process requests it.
 - Output buffering
 	- Temporarily stores the data in memory and have it written out to the device when the process resumes execution.
+- Hardware buffering
+	- Implement buffering in the hardware by having specialized registers to act as buffers. Also known as cache.
+- Double buffering
+	- Implement hardware buffering and havi
