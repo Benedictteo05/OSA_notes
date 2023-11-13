@@ -83,4 +83,13 @@ A system call is a call to the OS through the Supervisor mode to do service for 
 - OS provides a sub function which the user program calls.
 - Stub function will switch the processor to supervisor mode.
 - It will execute the `trap` instruction by branching to a trap table to the entry point of the system function to be invoked.
-- On completion, proce
+- On completion, processor is switched back to user mode and control returns to user process.
+- Appears as ordinary function call to the application programmer.
+
+### Message Passing
+- In the message passing method, the user program constructs a message that requests the desired service.
+- Uses OS `send()` system call.
+- OS kernel implements target function.
+- Kernel process must be started or active i.e. must be in supervisor mode. to receive message.
+- User process waits for result with `receive()` operation.
+- Kernel sends message back to user process on completion.
