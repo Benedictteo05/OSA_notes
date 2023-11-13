@@ -171,3 +171,8 @@ if (ViewState["UserName"] != null)
 	- It is visible to all the users in url.
 
 ### .Net Core Session Mgt
+- Hidden Field, Query String, Cookies, Session Variables.
+- Session is not enabled by default in ASP.NET Core.
+- 3 Steps:
+	1. Create Session Object/value in OnPost
+	2. Check if ModelState is valid
