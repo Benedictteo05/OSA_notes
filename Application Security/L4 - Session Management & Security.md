@@ -178,31 +178,51 @@ if (ViewState["UserName"] != null)
 - Step 1
 		- Create Session Object/value in OnPost
 		-  Check if ModelState is valid
-```
-public IActionResult OnPost()
-{
-	if (ModelState.Isvalid)
+	```
+	public IActionResult OnPost()
 	{
-		HttpContext.Session.SetString("SSName", MyEmployee.Name);
-		HttpContext.Session.SetString("SSDept", MyEmployee.Department);
-		return RedirectToPage("Confirm");
+		if (ModelState.Isvalid)
+		{
+			HttpContext.Session.SetString("SSName", MyEmployee.Name);
+			HttpContext.Session.SetString("SSDept", MyEmployee.Department);
+			return RedirectToPage("Confirm");
+		}
+	
+		return Page()
 	}
-
-	return Page()
-}
-```
+	```
 
 - Step 2
 	- At runtime info in Startup.cs
 	- Add `services.AddSession() in ConfigureServices (IServiceCollection)`
+	```
+	public void ConfigureServices(IServiceCollection services)
+	{
+		...
+		services.AddSession(options => {});
+		...
+	}
+	```
 	
+	-  Add `app.UserSession() in Configure(...)`
+	```
+	public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+	{
+		...
+		app.UseSession();
+		...
+	}
+	```
+
+- Step 3
+	- In the subsequent Page
+	- Extract session data using `HttpContext.Session.GetString(...)`
 ```
-public void ConfigureServices(IServiceCollection services)
+public IActionResult OnGet()
 {
-	...
-	services.AddSession(options => {});
-	...
+	if (!String.IsNullOrEmpty(HttpContext.Session.GetString("SSName")))
+	{
+		HttpContext.Session.GetString("SSName");
+	}
 }
 ```
-
-	- 
