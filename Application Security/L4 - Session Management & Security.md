@@ -218,11 +218,25 @@ if (ViewState["UserName"] != null)
 	- In the subsequent Page
 	- Extract session data using `HttpContext.Session.GetString(...)`
 ```
-public IActionResult OnGet()
-{
-	if (!String.IsNullOrEmpty(HttpContext.Session.GetString("SSName")))
+	public IActionResult OnGet()
 	{
-		HttpContext.Session.GetString("SSName");
+		if (!String.IsNullOrEmpty(HttpContext.Session.GetString("SSName")))
+		{
+			HttpContext.Session.GetString("SSName");
+		}
 	}
+```
+
+### Configuring Session Timeout (.Net Core)
+**In `startup.cs`**
+```
+public void ConfigureServices(IServiceCollection services)
+{
+	services.AddRazorPages();
+	services.AddSession(options => {
+		options.IdleTimeout = TimeSpan.FromMinutes(20);
+	})
+	services.AddTransient<EmployeeService>();
 }
 ```
+- By default, session timeout = 20 minutes
