@@ -151,3 +151,23 @@ if (HiddenField1.Value != null)
 	Label1.Text = val.ToString();
 }
 ```
+- Viewstate
+	- For page level state management
+	- Enabled by default
+		- Change the EnableViewState value to either TRUE (enabling) or FALSE
+	- Stores any type of data (small data)
+	- Enables and disables on page level control.
+	- Supports Encryption and Decryption and data/value is stored in hashed format.
+```
+if (ViewState["UserName"] != null)
+{
+	lblName.Text = ViewState["UserName"].ToString();
+}
+```
+- Query String
+	- Query string stores the value in URL.
+	- `Response.Redirect("ShowStringValue.aspx?Username" + txtUsername.Text);`
+	- Values are exchanged in clear text.
+	- It is visible to all the users in url.
+
+### .Net Core Session Mgt
