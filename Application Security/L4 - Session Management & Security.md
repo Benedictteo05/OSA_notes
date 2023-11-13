@@ -240,3 +240,4 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 - By default, session timeout = 20 minutes
+
