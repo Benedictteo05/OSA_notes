@@ -173,6 +173,36 @@ if (ViewState["UserName"] != null)
 ### .Net Core Session Mgt
 - Hidden Field, Query String, Cookies, Session Variables.
 - Session is not enabled by default in ASP.NET Core.
-- 3 Steps:
-	1. Create Session Object/value in OnPost
-	2. Check if ModelState is valid
+
+**3 Steps:**
+- Step 1
+		- Create Session Object/value in OnPost
+		-  Check if ModelState is valid
+```
+public IActionResult OnPost()
+{
+	if (ModelState.Isvalid)
+	{
+		HttpContext.Session.SetString("SSName", MyEmployee.Name);
+		HttpContext.Session.SetString("SSDept", MyEmployee.Department);
+		return RedirectToPage("Confirm");
+	}
+
+	return Page()
+}
+```
+
+- Step 2
+	- At runtime info in Startup.cs
+	- Add `services.AddSession() in ConfigureServices (IServiceCollection)`
+	
+```
+public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddSession(options => {});
+	...
+}
+```
+
+	- 
