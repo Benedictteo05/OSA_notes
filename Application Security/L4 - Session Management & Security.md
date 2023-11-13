@@ -106,5 +106,30 @@ myCookie.Values.Add("babka", "cinnamon");
 Response.Cookie.Add(myCookie);
 
 // Getting Values stored in a cookie
-Response.Write()
+Response.Write(myCookie["babka"].ToString());
+
+// Setting cookie path
+myCookie.Path = "/forums"
+
+// Setting domain for a cookie
+myCookie.Domain = "forums.geekpedia.com";
+
+// Deleting a cookie
+myCookie.Expires = DateTime.Now.AddDays(-1);
 ```
+
+- Cookie info in Browser 
+- Google Chrome -> Settings -> Privacy and Security
+- Persistent Cookie
+- Cookies having an expiration date is called persistent cookie. This type of cookie reaches their end as their expiration dates comes to an end. In this cookie we set an expiration data.
+```
+Response.Cookies["UserName"].Value = "Abhishek";
+Response.Cookies["UserName"].Expires = DateTime.Now.AddDays(1);
+
+HttpCookie aCookie = new HttpCookie("Session");
+aCookie.Value = DateTime.Now.ToString();
+aCookie.Expires = DateTime.Now.AddDays(1);
+Response.Cookies.Add(aCookie);
+```
+- Non Persistent Cookie
+- Not stored in the client's hard
