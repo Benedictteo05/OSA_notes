@@ -121,7 +121,7 @@ myCookie.Expires = DateTime.Now.AddDays(-1);
 - Cookie info in Browser 
 - Google Chrome -> Settings -> Privacy and Security
 - Persistent Cookie
-- Cookies having an expiration date is called persistent cookie. This type of cookie reaches their end as their expiration dates comes to an end. In this cookie we set an expiration data.
+	- Cookies having an expiration date is called persistent cookie. This type of cookie reaches their end as their expiration dates comes to an end. In this cookie we set an expiration data.
 ```
 Response.Cookies["UserName"].Value = "Abhishek";
 Response.Cookies["UserName"].Expires = DateTime.Now.AddDays(1);
@@ -132,4 +132,22 @@ aCookie.Expires = DateTime.Now.AddDays(1);
 Response.Cookies.Add(aCookie);
 ```
 - Non Persistent Cookie
-- Not stored in the client's hard
+	- Not stored in the client's hard drive permanently
+	- Maintains user information as long as the user access or uses the services.
+- Controlstate
+	- A private ViewState for specific controls only.
+	- To cache data necessary for a control to function properly.
+	- Not affected when ViewState is turned off.
+- Hidden Field
+	- Hidden field is not displayed on the browser.
+	- `Response.Redirect("ShowStringValue.aspx?Username=" + txtUsername.Text);`
+	- Values are exchanged in clear text.
+	- It is visible to all the users in url as in the following link,
+```
+if (HiddenField1.Value != null)
+{
+	int val = Convert.ToInt32(HiddenField1.Value) + 1;
+	HiddenField1.Value = val.ToString();
+	Label1.Text = val.ToString();
+}
+```
