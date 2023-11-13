@@ -94,3 +94,17 @@ Session.Abandon();
 - Same data in the some scope, but session id will refresh in different scope
 
 ### Session Management (Client)
+- Cookies
+	- A small amount of data which is either stored at client side in text file or in memory of the client browser session.
+	- Every time a user visits a website, cookies are retrieved from the user machine and help identify the user.
+```
+// Creating a cookie
+myCookie.Values.Add("muffin", "chocolate");
+myCookie.Values.Add("babka", "cinnamon");
+
+// Adding Cookie to collection
+Response.Cookie.Add(myCookie);
+
+// Getting Values stored in a cookie
+Response.Write()
+```
