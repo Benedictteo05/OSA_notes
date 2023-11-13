@@ -78,4 +78,9 @@
 - 3 basic mechanisms to address isolation and sharing:
 	- Processor modes (User vs Supervisor)
 ### System Call
-A system call is a call to the OS through the Supervisor mode to do service for the application program. 
+A system call is a call to the OS through the Supervisor mode to do service for the application program.
+- In system call, the relevant function is activated via a **trap** instruction.
+- OS provides a sub function which the user program calls.
+- Stub function will switch the processor to supervisor mode.
+- It will execute the `trap` instruction by branching to a trap table to the entry point of the system function to be invoked.
+- On completion, proce
