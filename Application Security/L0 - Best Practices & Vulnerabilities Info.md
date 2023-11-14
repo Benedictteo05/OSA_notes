@@ -54,3 +54,19 @@
 	- External Control Effectiveness
 	- Prevalence
 
+### Identification and Authentication Failures
+**Attacks:**
+- Automated attacks such as credential stuffing and brute force.
+- Uses weal or ineffective credential recovery and forgot-password processes, such as "knowledge-based answers", which cannot be made safe.
+- Uses plain text, encrypted, or weakly hashed passwords data stores.
+- Missing or ineffective multi-factor authentication.
+- Exposes session identifier in the URL.
+- Reuse session identifier after successful login.
+- Does not correctly invalidate Session IDs upon logout.
+
+**Authentication and sesion management includes:**
+1. Handling user authentication
+2. Managing active sessions
+
+**Custom authentication and session management schemes are often developed**
+- 
