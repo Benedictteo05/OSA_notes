@@ -106,4 +106,5 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - Session Fixation is a specific attack against the session that allows an attacker to gain access to a victim's session.
 - An attacker visits the website to obtain a valid Session.
 - This valid session cookie is placed in the victim's browser by getting the victim to click on some malicious link.
-- When the victim logs i
+- When the victim logs into the website, both the attacker and the victim will use the same session cookie that the attacker already knows, and thus the attacker-owned cookie is now authenticated and can be exploited.
+
