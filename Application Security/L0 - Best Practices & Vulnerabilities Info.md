@@ -84,4 +84,26 @@
 - Session Management
 	- Use built-in session management implementation.
 		- E.g. ASP .NET/Core provide their own session management features.
-	- Use SSL to protect session I
+	- Use SSL to protect session ID exchange.
+	- Cookies
+		- Secure Attribute
+			- Cookies must always be passed using an encrypted tunnel when set.
+		- HttpOnly Attribute
+			- Cookies cannot be accessed by a client side script (XSS attack) when set.
+			- Highly recommended to use non-persistent cookies for session management purposes.
+	- Session Expiration
+		- Minimize time period an attack can launch attacks over active sessions.
+
+### HTTPOnly
+- Syntax used within the HTTP response header
+```
+Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
+`[; exprires=<date>][; domain=<domain_name>]
+[; path=<some_path>][; secure][; HttpOnly]
+```
+
+### Session Fixation
+- Session Fixation is a specific attack against the session that allows an attacker to gain access to a victim's session.
+- An attacker visits the website to obtain a valid Session.
+- This valid session cookie is placed in the victim's browser by getting the victim to click on some malicious link.
+- When the victim logs i
