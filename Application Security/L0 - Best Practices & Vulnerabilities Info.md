@@ -63,10 +63,25 @@
 - Exposes session identifier in the URL.
 - Reuse session identifier after successful login.
 - Does not correctly invalidate Session IDs upon logout.
+- Authentication and session management includes:
+	1. Handling user authentication
+	2. Managing active sessions
+- Custom authentication and session management schemes are often developed
+	- Custom schemes are frequently flawed in various areas.
+		- e.g. Logout, password management, timeouts, account update.
+- Impacts:
+	- User accounts compromised or user sessions hijacked.
 
-**Authentication and sesion management includes:**
-1. Handling user authentication
-2. Managing active sessions
-
-**Custom authentication and session management schemes are often developed**
-- 
+### Broken authentication and Session Management Prevention
+- Account credentials must be properly protected by means of strong encryption.
+	- SSL should be used in the transmission of credential information.
+- Secure Session ID
+	- Name should not give away details about the purpose and meaning of ID.
+	- Length at least 128 bits to prevent brute force attacks.
+	- Must be random enough to prevent guessing.
+	- No meaning to the ID to prevent information disclosure attacks.
+- Avoid XSS flaws which could be used to steal session ID.
+- Session Management
+	- Use built-in session management implementation.
+		- E.g. ASP .NET/Core provide their own session management features.
+	- Use SSL to protect session I
