@@ -63,4 +63,6 @@
 
 **Authenticator App**
 - Free security app that can protect your account (e.g. Google, Microsoft, Website) against password theft.
-- The Authenticator app (IOS/Android) generates a random code used to verify your identity
+- The Authenticator app (IOS/Android) generates a random code used to verify your identity when you're logging into various services.
+
+### Attacks on Login Form
