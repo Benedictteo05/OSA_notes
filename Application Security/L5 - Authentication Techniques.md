@@ -46,4 +46,5 @@
 - Implement multi-factor authentication to prevent automated (bot), credential stuffing, brute force, and stolen credential re-user attacks.
 
 ### 2-Factor Authentication (2FA)
-- e.g. An online banking system where a login control (what you know) required a second factor authentication such as SMS/Token/Email/etc (posse)
+- e.g. An online banking system where a login control (what you know) required a second factor authentication such as SMS/Token/Email/etc (possession).
+- 
