@@ -4,7 +4,7 @@
 	- Pin
 - What a user has (possession)
 	- NRIC, Passport
-	- OTP (One time password)
+	- [[L5 - Authentication Techniques#^183ff1|OTP (One time password)]]
 - What a user is (inherence)
 	- Standard biometrics
 		- e.g. Fingerprints, Retina, Face
@@ -46,5 +46,20 @@
 - Implement multi-factor authentication to prevent automated (bot), credential stuffing, brute force, and stolen credential re-user attacks.
 
 ### 2-Factor Authentication (2FA)
+^183ff1
 - e.g. An online banking system where a login control (what you know) required a second factor authentication such as SMS/Token/Email/etc (possession).
-- 
+- Is 2FA required for all websites
+
+**Steps for 2FA (SMS OTP)**
+1. System verifies userid and password
+2. System generates 6 digits SMS OTP to user
+	- Save a copy of OTP values and date/time created in db
+3. System prompts user for OTP
+4. System check if OTP entered is valid
+	- Valid if OTP matches the one save in db
+	- if OTP matches, check if OTP is received before the expired date/time
+5. If user request OTP again due to timeout, repeat (step 2 - 4)
+6. System create session and redirect to homepage
+
+**Authenticator App**
+- Free security app that can protect your account (e.g. Google, Microsoft, Website) against password theft.
