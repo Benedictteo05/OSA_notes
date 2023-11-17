@@ -27,4 +27,23 @@
 ### Attacks on Authentication System
 **Attacks**
 - XSS attacks
-- Brute-force at
+- Brute-force attempts using bots
+- SQL injection attack
+- Multiple login attempts from a single IP
+
+### Preventive measures to protect Authentication System
+**Prevention**
+- Limiting the frequency of online login attempts to an account through various actions:
+	- Enforcing multi-factor authentication, Anti-bots (e.g. CAPTCHA), or other forms of verification.
+	- Locking an account after a specified number of login attempts is reached.
+	- Prohibiting multiple sessions for single user and location-based verification.
+
+### Multi-factor Authentication
+- Granting access to a website or application by presenting two or more pieces of evidence (or factors) to an authentication mechanism:
+	- Knowledge 
+	- Possession
+	- Inherence
+- Implement multi-factor authentication to prevent automated (bot), credential stuffing, brute force, and stolen credential re-user attacks.
+
+### 2-Factor Authentication (2FA)
+- e.g. An online banking system where a login control (what you know) required a second factor authentication such as SMS/Token/Email/etc (posse)
