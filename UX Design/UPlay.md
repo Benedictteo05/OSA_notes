@@ -35,7 +35,7 @@ Interview
 - Key features: Google docs (free, easy to interact with, satisfying - smooth), IG and Tiktok - Easy to use - one handed, easy to reach functionality on phone. 
 
 **Do you use apps to book recreational activities**
-- No - Don't want to waste to must effort
+- No - Don't want to waste to much effort
 
 **Contextual inquiry**
 Colors and buttons are out of place
