@@ -49,4 +49,9 @@
 	- Utilization of multiprocessor architectures
 
 ### Process Manager
-- To manage multiple processes, modern OS implement the process manager to manage the 
+- To manage multiple processes, modern OS implement the process manager to manage the processes.
+- The process manger implements:
+	- Calls like fork() in UNIX and `CreateProcess()` in windows to create processes.
+	- Calls like `pthread_create()` in Linux and `CreateProcess()` in Windows to support threading.
+	- Calls like `close()` in Unix and `CloseHandle()` in Windows to close processes/threads to release resources.
+
