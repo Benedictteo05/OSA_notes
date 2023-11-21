@@ -27,4 +27,26 @@
 - Sometimes threads are also called lightweight processes.
 
 ### UNIX Processes
-- 
+- Each processes has its own address space
+	- Subdivided into text, data, & stack segment
+	- Program file describes the address space
+- OS kernel creates a process descriptor to manage process
+- Process identifier (PID): User handle for the process (descriptor)
+- Try `ps` and `ps - aux` 
+- Unix classic processes have not explicit notion of a thread.
+
+### Threads - The NT Model
+- Windows Win32 API allows processes with multiple threads to be created through its CreateProcess() function.
+- Options provided includes:
+	- Creating a new child process with a single thread.
+	- Creating new additional threads in the current process.
+
+### Benefits
+- Some benefits of multithreaded programming
+	- Responsiveness
+	- Resource sharing
+	- Ease of memory and resource allocation
+	- Utilization of multiprocessor architectures
+
+### Process Manager
+- To manage multiple processes, modern OS implement the process manager to manage the 
