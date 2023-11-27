@@ -33,18 +33,9 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 - Input/ Output: `CON`
 - Input/ Output (NUL device, suppress unwanted output): `NUL`
 
-`/v `
-- Displays all lines NOT containing the specified string.
-
-`/c` 
-- Displays only the count of lines containing the string. 
-
-`/n` 
-- Displays line numbers with the displayed lines.
-
-`/i` 
-- Ignores the case of characters when searching for the string.
-
-
-
-
+**Multiple Commands**
+- Run commands in sequence, cmd1 then cmd2: `cmd1 & cmd2`
+- Run cmd1 and if cmd1 is successful, then run cmd2: `cmd1 && cmd2`
+- Run cmd1 and if cmd1 unsuccessful, then run cmd2: `cmd1 || cmd2`
+- Group multiple commands: `()`
+- Use to separate command parameters: `;` or `,`
