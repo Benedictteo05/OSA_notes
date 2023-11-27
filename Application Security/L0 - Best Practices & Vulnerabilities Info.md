@@ -113,4 +113,17 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - e.g.
 	- No appropriate encryption or hashing for credit cards and authentication credentials.
 	- No SSL to protect sensitive data in transit.
-	- Password database uses unsalted hashes to store passwords.
+	- Password database uses [[L6 - Cryptography#^cefd82|unsalted hashes]] to store passwords.
+- Impacts:
+	- Compromises of all data that should be protected.
+- Common problems are:
+	- Not encrypting sensitive data.
+	- Using home grown algorithms.
+	- Insecure use of strong algorithms.
+	- Continued use of proven weak algorithms.
+	- Hard coding keys, and storing keys in unprotected stores.
+
+### Sensitive Data Exposure Prevention
+- Stores as little sensitive information as possible
+- Ensures appropriate strong cryptographic algorithms and strong keys are used.
+- Ensures proper key management is in p
