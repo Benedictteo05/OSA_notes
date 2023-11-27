@@ -24,3 +24,6 @@ An organization in the technology space was struggling to create value from its 
 	- Encrypting
 	- Splitting 
 	- Preprocessing sensitive data to allow it to be handled without compromising confidentiality.
+
+**How It's Used Today**
+DeliverFund is a U.S.-based nonprofit with a mission to tackle human trafficking. Its platforms use homomorphic encryption so partners can conduct data searches against its extremely sensitive data, with both the search and the results being encrypted. In this way, partners can submit sensitive queries without having to expose personal or regulated data at any point.
