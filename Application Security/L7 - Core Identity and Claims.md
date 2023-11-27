@@ -29,5 +29,21 @@
 		- Creating or removing a user account.
 		- Modifying passwords.
 		- Assigning or removing the user from a role.
-	- Entity Framework DbContext
-		- The database schema in ASP.NET Identity is created with the Entity Framework's Code-first approach
+- Entity Framework DbContext
+	- The database schema in ASP.NET Identity is created with the Entity Framework's Code-first approach
+	- By default, all of the tables are created in a specific database. However, they are customizable.  
+	- Create a `DbContext` class that derives from the `IdentityDbContext` class and store the database information as per your needs.
+- Role 
+	- Developers may create **Roles** that contain a set of permissions for performing a set of activities in the app.
+	- Use the `RoleManager` class to add additional details to a role if required.
+- `RoleManager`
+	- Adding, removing, and confirming the existence of a specified role.
+- Authentication Manager
+	- The authentication in ASP.NET identity is handled by the `AuthenticationManager` class.
+		- This class takes care of signing the user in and out.
+	- The `IAuthenticationManager` interface holds all the necessary information regarding the authentication process.
+
+### Adding ASP.NET Core Identity
+1. Add the required packages and references
+2. Set Auth type or DBContext
+3. 
