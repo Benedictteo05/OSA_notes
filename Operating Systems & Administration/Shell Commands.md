@@ -47,4 +47,10 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 | Shortcut| Description|
 |----------|-----|
 |`[datetime]`| Date or time|
+|`[string]`| String of characters|
+|`[char]`| Single character|
+|`[double]`| Double-precision floating number|
+|`[single]`| Single-precision floating number|
+|`[int]`| 32-bit integer|
+|`[boolean]`| True or False value|
 
