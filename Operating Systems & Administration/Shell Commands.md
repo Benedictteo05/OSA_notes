@@ -17,9 +17,15 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 
 **Create**
 - Directory: `md`
+- File: `echo hello > hello.txt`
 
 **Rename**
 `rem`
+
+**Redirecting outputs**
+- Redirect to standard output: `1>`
+- Redirect to standard error: `2>`
+
 
 `/v `
 - Displays all lines NOT containing the specified string.
