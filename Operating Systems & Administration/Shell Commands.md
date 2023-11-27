@@ -43,3 +43,8 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 - Run cmd1 and if cmd1 unsuccessful, then run cmd2: `cmd1 || cmd2`
 - Group multiple commands: `()`
 - Use to separate command parameters: `;` or `,`
+
+| Shortcut| Description|
+|----------|-----|
+|`[datetime]`| Date or time|
+
