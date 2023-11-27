@@ -2,7 +2,7 @@
 - A framework for managing and storing user accounts in ASP.NET Core apps - Microsoft's membership system for managing application users.
 - Manages users, passwords, profile data, roles, claims, tokens, email confirmation, and more.
 
-**Features**
+### Features of ASP.NET Identity
 - User management
 	- Built-in APIs for creating, deleting, or modifying user details.
 	- Programmers can easily utilize these APIs for those purpose.
@@ -20,3 +20,14 @@
 	- Disables the user's account if they enter an incorrect password for a specific number of times. The feature locks the account for a short period.
 
 ### Components of ASP.NET Identity
+- User
+	- A user is an entity in the system.
+	- `IdentityUser` class holds the important information to the user, such as User Id and password.
+	- Developers can create custom class and deriver it from `IdentityUser` to add more descriptive details to a user.
+- User Manager
+	- The `UserManager` class manages the user accounts and helps to perform a variety of operation including:
+		- Creating or removing a user account.
+		- Modifying passwords.
+		- Assigning or removing the user from a role.
+	- Entity Framework DbContext
+		- The database schema in ASP.NET Identity is created with the Entity Framework's Code-first approach
