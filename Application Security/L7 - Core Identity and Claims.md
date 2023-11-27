@@ -44,6 +44,21 @@
 	- The `IAuthenticationManager` interface holds all the necessary information regarding the authentication process.
 
 ### Adding ASP.NET Core Identity
-1. Add the required packages and references
-2. Set Auth type or DBContext
-3. 
+1. [[L7 - Core Identity and Claims#^b72128|Add the required packages and references]]
+2. [[L7 - Core Identity and Claims#^27d2c2|Set Auth type or DBContext]]
+3. Add authentication middleware
+
+**Add the required packages and references** ^b72128
+- Developers are required to install a couple of packages to be able to use ASP.NET Core identity
+- Add Package
+	- `Microsoft.AspNetCore.Identity.EntityFrameworkCore`   
+	- `Microsoft.AspNetCore.Identity.UI`
+- Add Reference
+	- `using Microsoft.AspNetCore.Identity;`
+
+**Set Auth type or DBContext** ^27d2c2
+- Option 1:
+	- Use "Individual Account" as the authentication type in project template
+
+- Option 2:
+	- Alternative developers may set authentication type to "None" and later set DbContext to inherit from `IdentityDbContext<IdentityUser>`.
