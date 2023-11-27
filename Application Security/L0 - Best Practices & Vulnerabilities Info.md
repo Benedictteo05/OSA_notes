@@ -113,4 +113,4 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - e.g.
 	- No appropriate encryption or hashing for credit cards and authentication credentials.
 	- No SSL to protect sensitive data in transit.
-	- Password data
+	- Password database uses unsalted hashes to store passwords.
