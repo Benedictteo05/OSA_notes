@@ -20,4 +20,7 @@ An organization in the technology space was struggling to create value from its 
 ### Privacy-Enhancing Computation (PEC)
 - Privacy-enhancing computation (PEC) approaches allow data to be shared across ecosystems, creating value but preserving privacy.
 - The real value of data exists not in simply having it, but in how it’s used for AI models, analytics, and insight.
-- 
+- Approaches includes:
+	- Encrypting
+	- Splitting 
+	- Preprocessing sensitive data to allow it to be handled without compromising confidentiality.
