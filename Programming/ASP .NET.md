@@ -111,7 +111,7 @@ COnsole.WriteLine("Your age is : " + age);
 - `Properties/launchSettings.json`
 	- It is used for configuring how your application is launched for debugging or running locally. It specifies settings such as the hosting environment, application URL, and other runtime options. This file can be used to define multiple profiles with different settings for different development scenarios.
 
-### EF Core Commands
+### EF Core Migration
 
 ^960f9f
 
