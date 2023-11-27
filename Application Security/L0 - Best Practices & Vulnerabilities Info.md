@@ -126,4 +126,6 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 ### Sensitive Data Exposure Prevention
 - Stores as little sensitive information as possible
 - Ensures appropriate strong cryptographic algorithms and strong keys are used.
-- Ensures proper key management is in p
+- Ensures proper key management is in place.
+- Ensures passwords are hashed with a strong hash algorithm and an appropriate salt is used.
+- Disable autocomplete on forms and caches for pages that contain sensitive data.
