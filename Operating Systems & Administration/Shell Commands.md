@@ -22,6 +22,10 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 **Copy**
 - Files: `copy hello.txt hello.bak`
 
+**Sort**
+- Sort input in descending order: `sort /r sort_data.txt`
+- Sort input starting from 5th position: `sort /+5 sort_data.txt`
+
 **Rename**
 `rem`
 
