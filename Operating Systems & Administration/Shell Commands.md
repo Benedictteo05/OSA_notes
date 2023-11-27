@@ -19,6 +19,9 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 - Directory: `md`
 - File: `echo hello > hello.txt`
 
+**Copy**
+- Files: `copy hello.txt hello.bak`
+
 **Rename**
 `rem`
 
@@ -26,6 +29,9 @@ To copy and paste from CMD, use Mark (Ctrl + M), Copy (Enter), Paste (Ctrl + V)
 - Redirect to standard output: `1>`
 - Redirect to standard error: `2>`
 
+**Redirecting to devices**
+- Input/ Output: `CON`
+- Input/ Output (NUL device, suppress unwanted output): `NUL`
 
 `/v `
 - Displays all lines NOT containing the specified string.
