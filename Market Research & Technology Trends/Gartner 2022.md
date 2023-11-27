@@ -27,3 +27,12 @@ An organization in the technology space was struggling to create value from its 
 
 **How It's Used Today**
 DeliverFund is a U.S.-based nonprofit with a mission to tackle human trafficking. Its platforms use homomorphic encryption so partners can conduct data searches against its extremely sensitive data, with both the search and the results being encrypted. In this way, partners can submit sensitive queries without having to expose personal or regulated data at any point.
+
+### Cloud Native Platform
+- Cloud-native platforms use the core elasticity and scalability of cloud computing to deliver faster time to value. They reduce dependencies on infrastructure, freeing up time to focus on application functionality instead.
+- Lift-and-shift cloud migrations focus on taking legacy workloads and placing them in the cloud.
+- Because these workloads weren't designed for cloud, they require a lot of maintenance and don't take advantage of any of the benefits.
+
+**How It's Used Today**
+A major Indian bank built a cloud-native platform to create a portfolio of new digital financial services. The bank was able to reduce the time to open an account to just 6 minutes and add instant digital payments.
+
