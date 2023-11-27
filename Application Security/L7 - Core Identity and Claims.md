@@ -71,5 +71,17 @@
 - For example in Program.cs of core web app, inject the following method(s) and Service(s):
 	- `builder.Services.AddDbContext<AuthDbContext>();` 
 	- `builder.Services.AddIdentity<IdentityUserIdentityRole().AddEntityFrameworkStores<AuthDbContext>();`
-	- builder.Services.ConfigureApplicationCookie (..)  
+	- `builder.Services.ConfigureApplicationCookie (..)  `
 	- `app.UseAuthentication();`
+
+### Identity Services
+- Call the methods in the following order:
+1. Add {Service}
+	- E.g. `builder.Services.AddAuthorization(options => ..)`
+2. `builder.Services.{?}{Service}`
+	- E.g.:
+		- `builder.Services.AddAuthorization(options => ...)`
+		- `builder.Services.AddDbContext<AuthDbContext>(...)`
+		- `builder.Services.ConfigureApplicationCookie(Config => ..)`
+
+### Authentication & Authorization
