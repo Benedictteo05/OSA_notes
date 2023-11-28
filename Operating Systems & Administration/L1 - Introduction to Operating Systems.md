@@ -47,7 +47,7 @@ System software vs application software
 	- API
 3. System Software
 	- OS Interface
-4. Trusted OS (Abstract Resources)
+4. Trusted OS (Abstract Resources)/ Kernel
 	- Software-Hardware Interface
 5. Hardware Resources
 
