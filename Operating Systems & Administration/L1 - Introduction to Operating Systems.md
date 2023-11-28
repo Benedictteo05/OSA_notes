@@ -34,7 +34,7 @@ System software vs application software
 - Independent of individual applications, but common to all of them.
 - E.g.
 	- C library functions
-	- A window system
+	- A windowing sub-system
 	- A Database Management System
 	- Resource management functions 
 	- The OS
