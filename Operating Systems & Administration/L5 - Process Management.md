@@ -55,3 +55,4 @@
 	- Calls like `pthread_create()` in Linux and `CreateProcess()` in Windows to support threading.
 	- Calls like `close()` in Unix and `CloseHandle()` in Windows to close processes/threads to release resources.
 
+### Process State Diagram
