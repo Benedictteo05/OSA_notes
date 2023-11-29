@@ -126,16 +126,23 @@ brw-rw----  1 root disk    8,  0 Nov   7 07:06 tty1
 - Disk surface
 - Cylinders
 
-### Disk Optimizations
-- Transfer time: 
-	- Time to copy bits from disk surface to memory
-- Disk latency time:
-	- Rotational delay waiting for proper sector to rotate under R/W head.
-- Disk seek time:
-	- Delay while R/
-
 ### Rotating Disk Optimizations
 - Disk-based devices form the most common randomly accessed storage devices.
 - E.g. Hard disks, CD/DVD, Zip disks, MO disks. 
 - Although they are random, we can improve on their efficiency using disk optimization techniques.
 - Their effectiveness is increased in a multi-programming environment, where data blocks can be read from a large range of locations in the disk.
+
+### Disk Optimizations
+- Transfer time: 
+	- Time to copy bits from disk surface to memory.
+- Disk latency time:
+	- Rotational delay waiting for proper sector to rotate under R/W head.
+- Disk seek time:
+	- Delay while R/W head moves to the destination track/cylinder.
+- Access time:
+	- Access time = seek + latency + transfer
+- Disk optimization techniques for disk based devices:
+	- FCFS
+	- SSTF
+	- SCAN/C-SCAN
+	- LOOK/C-LOOK
