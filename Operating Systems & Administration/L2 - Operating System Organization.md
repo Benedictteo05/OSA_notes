@@ -111,11 +111,17 @@
 - The part of the OS critical to correct operation (trusted software).
 - Implements the basic mechanisms that assure secure operation of entire OS.
 - Executes in supervisor mode.
-- The 
+- The `trap` instruction is used to switch from user to supervisor mode, entering the OS.
+
+### Requesting Service from OS
+- In order to execute privileged instructions, user programs have to activate routines in the kernel, which can then execute on the user programs' behalf.
+- Two techniques:
+	- System call
+	- Message passing
 
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program.
-- In system call, the relevant function is activated via a **trap** instruction.
+- In system call, the relevant function is activated via a `trap` instruction.
 - OS provides a sub function which the user program calls.
 - Stub function will switch the processor to supervisor mode.
 - It will execute the `trap` instruction by branching to a trap table to the entry point of the system function to be invoked.
@@ -129,3 +135,9 @@ A system call is a call to the OS through the Supervisor mode to do service for 
 - Kernel process must be started or active i.e. must be in supervisor mode. to receive message.
 - User process waits for result with `receive()` operation.
 - Kernel sends message back to user process on completion.
+
+### System Call vs Message Passing
+- In the system call, the user process/threads gains ability to execute privileged instructions.
+- In the message passing, the system function is executed by the kernel process/thread.
+- System calls are more efficient than message passing.
+	- Message a
