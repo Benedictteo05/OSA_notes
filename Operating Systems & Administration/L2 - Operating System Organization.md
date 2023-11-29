@@ -81,8 +81,23 @@
 	- Method of invoking system service
 
 ### Processor Modes
-- Distinguish
+- Distinguish between trusted and un-trusted software
+- Determine exception capability and accessible memory areas
+- Modern processors provides 2 modes.
+- Mode bit: Supervisor mode or User mode
 
+**Supervisor mode (for OS)**
+- Can execute all machine instructions, including privileged instructions.
+- e.g. of privileged instructions:
+	- I/O instructions
+	- Memory-related instructions
+	- Processors mode-change instructions
+- Can reference all memory locations:
+	- System (or supervisor, kernel or protected)
+
+**User mode (for user programs)**
+- Can only execute a subset of instructions.
+- Can only reference a subset of memory locations.
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program.
 - In system call, the relevant function is activated via a **trap** instruction.
