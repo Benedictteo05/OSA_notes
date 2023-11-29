@@ -33,7 +33,7 @@
 	- Device
 	- Address Bus
 	- Data Bus
-- The control unit decodes stored instructions and the ALU executes them. The primary (ex)
+- The control unit decodes stored instructions and the ALU executes them. The primary (executable) memory is used to store the program and data that are operated on by the CPU. The devices are used for input, output, communications and storage. The bus interconnections and the CPU, primary memory and devices.
 
 ### Central Processing Unit
 - The CPU is the brain of the computer
@@ -49,10 +49,12 @@
 - Comprises of:
 	- Functional unit
 		- Performs the operations
+		- Includes:
+			- Left and Right Operand
 	- Registers (Very fast memory)
 		- Data, status registers
 		- Loaded and saved to/from primary memory
-		- 32 to 64 registers to hold 32-bit data
+		- 32 to 64 registers to hold 32-bit/ 64-bit data
 - Computations are accomplished by:
 	- Loading binary values into registers.
 	- Performing operations on the registers using the function unit.
@@ -73,9 +75,10 @@
 	- Program Counter register (PC)
 		- Contains the memory address of the next instruction the unit is to load.
 - Works based on fetch-execute cycle.
-- When the computer is powered up, the control unit begins to execute the **fetch-execute** cycle until the computer is shut down.
+- When the computer is powered up, the control unit begins to execute the [[L3 - Computer Organization#^fe0ba7|Fetch-Execute Cycle]] until the computer is shut down.
 
-### Fetch-Execute cycle
+### Fetch-Execute Cycle
+^fe0ba7
 - Fetch phase
 	- Instruction retrieved from memory at location specified by Program Counter (PC)
 	- Loaded into Instruction Register (IR)
