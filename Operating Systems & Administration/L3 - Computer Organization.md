@@ -1,4 +1,6 @@
-**Introduction**
+### Introduction
+- Design and implementation of OS is closely dependent on the function of the computer.
+- Understanding of computer organization is critical to the appreciation of OS design.
 - File of instructions (Source file)
 - High level programming (e.g. C, Python, Java)
 - Low level programming (e.g. Assembly - processor specific )
