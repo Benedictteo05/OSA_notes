@@ -17,7 +17,7 @@
 	- Device-Dependent (To be downloaded) - Device specific
 
 ### System Call Interface
-- Functions available to application programs.
+- Functions available to application programs to call the system call function to operate the devices.
 - Abstract all devices (and files) to a few interfaces.
 - Make interfaces as similar as possible 
 	- Block vs Character
