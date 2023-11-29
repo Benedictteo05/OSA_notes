@@ -126,6 +126,14 @@ brw-rw----  1 root disk    8,  0 Nov   7 07:06 tty1
 - Disk surface
 - Cylinders
 
+### Disk Optimizations
+- Transfer time: 
+	- Time to copy bits from disk surface to memory
+- Disk latency time:
+	- Rotational delay waiting for proper sector to rotate under R/W head.
+- Disk seek time:
+	- Delay while R/
+
 ### Rotating Disk Optimizations
 - Disk-based devices form the most common randomly accessed storage devices.
 - E.g. Hard disks, CD/DVD, Zip disks, MO disks. 
