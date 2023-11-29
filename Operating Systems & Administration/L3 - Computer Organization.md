@@ -124,7 +124,10 @@
 - OS provides abstraction to hide differences from programmer.
 
 ### The Device-Controller-Software Relationship
-
+- Abstract I/O Machine
+	- Device manager
+	- Program to manage device controller 
+	- Supervisor mode software
 
 ### Device Controller Interface
 - Device may need constant attention/monitoring during operation.
@@ -134,6 +137,12 @@
 	- Data registers
 	- Command registers
 	- Status flags with includes done, busy and error code
+
+### CPU-I/O Overlap
+- A CPU can only run one application at a time as it is time-multiplex shared 
+- Multiprogramming
+- A program is running on the CPU while another is running on the device.
+
 
 ### Determining When I/O is complete
 - When the CPU initiates I/O, we need the device to 'notify' the CPU when the I/O is done.
