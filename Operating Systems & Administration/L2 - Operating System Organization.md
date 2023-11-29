@@ -77,6 +77,12 @@
 **Implementation mechanisms**
 - 3 basic mechanisms to address isolation and sharing:
 	- Processor modes (User vs Supervisor)
+	- Kernel
+	- Method of invoking system service
+
+### Processor Modes
+- Distinguish
+
 ### System Call
 A system call is a call to the OS through the Supervisor mode to do service for the application program.
 - In system call, the relevant function is activated via a **trap** instruction.
