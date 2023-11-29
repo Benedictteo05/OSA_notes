@@ -33,6 +33,7 @@
 	- Device
 	- Address Bus
 	- Data Bus
+- The control unit decodes stored instructions and the ALU executes them. The primary (ex)
 
 ### Central Processing Unit
 - The CPU is the brain of the computer
