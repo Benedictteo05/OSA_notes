@@ -1,12 +1,17 @@
 ### Introduction
 - Design and implementation of OS is closely dependent on the function of the computer.
 - Understanding of computer organization is critical to the appreciation of OS design.
-- File of instructions (Source file)
-- High level programming (e.g. C, Python, Java)
-- Low level programming (e.g. Assembly - processor specific )
-- Machine language (processor specific)
-- Computers execute machine language 
-- Programs must be complied into machine language (exe file)
+- Modern computers based on concept of a stored program which determines how a computer function.
+- Inspired by the Jacquard Loom, which was used to weave patterns into cloth.
+- Different programs perform different sequences of operation.
+- Ability to solve many types of problems.
+- What is a program?
+	- File of instructions (Source file)
+	- High level programming (e.g. C, Python, Java)
+	- Low level programming (e.g. Assembly - processor specific )
+	- Machine language (processor specific)
+- Computers execute machine language.
+- Programs must be complied into machine language (exe file).
 
 ### Program Specification
 - High-level language translates to low-level language.
