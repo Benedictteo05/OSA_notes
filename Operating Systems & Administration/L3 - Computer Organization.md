@@ -123,6 +123,9 @@
 - Interfaces varies among controllers.
 - OS provides abstraction to hide differences from programmer.
 
+### The Device-Controller-Software Relationship
+
+
 ### Device Controller Interface
 - Device may need constant attention/monitoring during operation.
 - Device controller does this with mainly hardware algorithms.
