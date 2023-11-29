@@ -140,4 +140,17 @@ A system call is a call to the OS through the Supervisor mode to do service for 
 - In the system call, the user process/threads gains ability to execute privileged instructions.
 - In the message passing, the system function is executed by the kernel process/thread.
 - System calls are more efficient than message passing.
-	- Message a
+	- Message passing has the cost of message formatting/copying and process multiplexing.
+	- System calls just requires a `trap` command.
+- Most modern systems use system calls.
+
+### Modern OS architecture
+-  A modern OS architecture implements each manager in its own software module.
+- Interaction among various managers via abstract data type.
+- Frequent calls incurs performances penalty.
+- Sacrifice modularity for performance
+	- Monolithic kernel implementation
+		- Four basic modules are combined into a single software module.
+	- Microkernel approach
+		- Employs a small kernel that implements only the essential and critical functions.
+		- Reminder function are implemented outside the kernel, possibly in separated modules.
