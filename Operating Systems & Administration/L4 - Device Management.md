@@ -19,6 +19,11 @@
 ### System Call Interface
 - Functions available to application programs to call the system call function to operate the devices.
 - Abstract all devices (and files) to a few interfaces.
+- Devices category:
+	- Block devices
+	- Character devices
+	- Network devices
+	- Storage devices (random or sequential)
 - Make interfaces as similar as possible 
 	- Block vs Character
 	- Sequential vs direct access
