@@ -6,4 +6,4 @@
 - The scheduling mechanism determines how the process manager can determine it is time to interrupt the CPU, and how a thread can be allocated to and removed from the CPU.
 
 ### Turnaround time
-- Time from when it arrives til the 
+- Time from when it arrives till the 
