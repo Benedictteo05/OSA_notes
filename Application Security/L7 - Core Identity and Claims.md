@@ -105,4 +105,31 @@
 - `builder.Services.AddAuthentication(..).AddGoogle(..)`
 
 ### App Cookie configuration
-- To make any changes to the behavior of the cookie, you may make code changes to `ConfigureApplicationCookie()` method
+- To make any changes to the behavior of the cookie, you may make code changes to `ConfigureApplicationCookie()` method of the `Startup.cs` or `Program.cs`.
+```
+services.ConfigureApplicationCookie(options =>  
+{  
+options.Cookie.Expiration = TimeSpan.FromDays(150);  
+options.Cookie.HttpOnly = true;  
+options.LoginPath = "/Account/Login";  
+options.LogoutPath = "/Account/Logout";  
+options.SlidingExpiration = true;  
+});
+```
+
+### App Cookie Settings
+- `Cookie.Name`: name of the application cookie.
+- `Cookie.HttpOnly`: it specify that cookie is accessible from client side scripts or not.
+- `ExpireTimeSpan:` it specify that the time that authentication ticket stored in the cookie and remain valid.
+- `LoginPath`: Login page path.
+- `LogoutPath`: Logout page path.
+- `AccessDeniedPath`: it defines the path on which user will be directed if authorization fails.
+- `SlidingExpiration`: This is a Boolean property. When it set to true. New cookie will be created when current cookie is more than halfway through the expiration window.
+
+### `SignInManager` classes
+- The `SignInManager` is responsible for Authentication a user:
+	- Signing in
+	- Signing out
+	- Issue authentication cookie
+
+- SignInManager defines methods related 
