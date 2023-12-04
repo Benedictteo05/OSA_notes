@@ -146,4 +146,6 @@ options.SlidingExpiration = true;
 - Role-based
 	- Roles are commonly used to create fine-grained authorization policies that differentiate between different signed-in users.
 - Claims-based
-	- 
+	- Claims are a general-purpose approach to describing any data that is known about a user and allow custom data to be added to the Identity user store.
+
+### Setting the page requirements
