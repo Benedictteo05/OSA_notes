@@ -132,4 +132,18 @@ options.SlidingExpiration = true;
 	- Signing out
 	- Issue authentication cookie
 
-- SignInManager defines methods related 
+- `SignInManager` defines methods related to the authentication of users.
+	- `PasswordSignInAsync` method accepts a username and a password and returns a sign-in result with a property indicating whether the authentication attempt was successful.
+
+### `SignInAsync`
+- If the user credential is successfully verified, the `SignInAsync` method creates an encrypted cookie (together with the security context) and adds it to the current response.  
+- The Current response is returned to User. The User browser reads the cookie from the response and stores it securely. When user sends another request to the server, the browser sends the cookie along with the request.
+
+### Authorizing an Identity
+- After successful login to the application, authorization mechanism checks whether login user has privileges to access the application resource.
+
+### Types of Authorization in Identity
+- Role-based
+	- Roles are commonly used to create fine-grained authorization policies that differentiate between different signed-in users.
+- Claims-based
+	- 
