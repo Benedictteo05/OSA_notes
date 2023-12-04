@@ -44,6 +44,7 @@
 	- The `IAuthenticationManager` interface holds all the necessary information regarding the authentication process.
 
 ### Adding ASP.NET Core Identity
+^7239f4
 1. [[L7 - Core Identity and Claims#^b72128|Add the required packages and references]]
 2. [[L7 - Core Identity and Claims#^27d2c2|Set Auth type or DBContext]]
 3. [[L7 - Core Identity and Claims#^3420e9|Add authentication middleware]]
@@ -89,4 +90,19 @@
 ### Creating an Identity
 - Namespace: Microsoft.Asp.NetCore.Identity
 - The UserManager class of Microsoft.AspNetCore.Identity namespace helps to manage Identity users stored in the database.
-- The generic version of this class is UserManager<T
+- The generic version of this class is `UserManager<T>` where T is the class chosen to represent users.
+	- `UserManager<IdentityUser> userManager`
+- Use this class to perform CRUD operations for the users.
+
+### Authenticating an Identity
+- In order to use the Authentication feature in .NET Core, developers will need to [[L7 - Core Identity and Claims#^7239f4|add support for ASP.NET Core Identity]].
+- There are 2 methods of authentication in ASP.NET Core Identity.
+	- Cookie vs Token
+
+### Authentication methods:
+- `builder.Services.AddAuthentication(..).AddCookie (..)`
+- `builder.Services.AddAuthentication(..).AddFacebook(..)`
+- `builder.Services.AddAuthentication(..).AddGoogle(..)`
+
+### App Cookie configuration
+- To make any changes to the behavior of the cookie, you may make code changes to `ConfigureApplicationCookie()` method
