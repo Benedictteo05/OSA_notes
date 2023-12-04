@@ -1,4 +1,4 @@
-### ASP.NET Core Identity
+## ASP.NET Core Identity
 - A framework for managing and storing user accounts in ASP.NET Core apps - Microsoft's membership system for managing application users.
 - Manages users, passwords, profile data, roles, claims, tokens, email confirmation, and more.
 
@@ -84,6 +84,9 @@
 		- `builder.Services.AddDbContext<AuthDbContext>(...)`
 		- `builder.Services.ConfigureApplicationCookie(Config => ..)`
 
-### Authentication & Authorization
+## Authentication & Authorization
 
-
+### Creating an Identity
+- Namespace: Microsoft.Asp.NetCore.Identity
+- The UserManager class of Microsoft.AspNetCore.Identity namespace helps to manage Identity users stored in the database.
+- The generic version of this class is UserManager<T
