@@ -20,3 +20,5 @@
 	- A situation can rise in which process p1 holds resource R1 while one of its threads requests resource R2, and process p2 holds R2 while one of its threads requests resource R1. There may be more than 2 processes involved in the circular wait.
 - No preemption
 	- Resources can be released only by the explicit action in a process, rather than by the action of an external authority. This assumption includes the case in which a process places a request for a resource and the resource is not available. Then the process cannot withdraw its request.
+
+### Banker's algorithm
