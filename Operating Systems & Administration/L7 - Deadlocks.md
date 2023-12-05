@@ -16,3 +16,7 @@
 	- Once a process has been allocated a particular resource, the threads in the process have exclusive use of the resource. No other processes can use a resource while it is allocated to a process.
 - Hold and wait 
 	- A process may hold a resource at the same time it requests another one.
+- Circular wait 
+	- A situation can rise in which process p1 holds resource R1 while one of its threads requests resource R2, and process p2 holds R2 while one of its threads requests resource R1. There may be more than 2 processes involved in the circular wait.
+- No preemption
+- 
