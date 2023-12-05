@@ -25,4 +25,5 @@
 Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
 
 ### Detection and Recovery
-OS detects that CPU has capacity to run but processes are not running.
+- OS detects that CPU has capacity to run but processes are not running.
+- Take one of the resource from one process for another process, allowing the OS to break the deadlock.
