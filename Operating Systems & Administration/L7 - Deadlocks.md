@@ -13,3 +13,6 @@
 
 ### Four Conditions
 - Mutual exclusion (exclusive use)
+	- Once a process has been allocated a particular resource, the threads in the process have exclusive use of the resource. No other processes can use a resource while it is allocated to a process.
+- Hold and wait 
+	- A process may hold a resource at the same time it requests another one.
