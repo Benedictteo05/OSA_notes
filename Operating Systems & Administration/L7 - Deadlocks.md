@@ -1,0 +1,2 @@
+### Deadlocks
+- A deadlock is a situation where in a group of two or more processes/threads, each process holds at least one resource while making a request on another, and all requests cannot be satisfied because the requested resources is held by another process that is being blocked, waiting for another res
