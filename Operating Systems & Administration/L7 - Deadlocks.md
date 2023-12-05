@@ -22,3 +22,7 @@
 	- Resources can be released only by the explicit action in a process, rather than by the action of an external authority. This assumption includes the case in which a process places a request for a resource and the resource is not available. Then the process cannot withdraw its request.
 
 ### Banker's algorithm
+Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
+
+### Detection and Recovery
+OS detects that CPU has capacity to run but processes are not running.
