@@ -131,5 +131,19 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 		- Q: How to ensure starvation will not occur? That is, how can we guarantee that resources will not always be preempted from the same process?
 		- A: A common solution is to include the number of rollbacks in the cost factor.
 
-### Combined Approach to Deadloc
+### Combined Approach to Deadlock Handling
+- None of the basic approaches alone is appropriate to handle deadlock.
+- For different classes of system resources, use different approaches:
+	- Internal resources:
+		- Used by the system. e.g. PCB.
+		- Prevention through resource ordering.
+	- Central memory:
+		- Memory used by a user job.
+		- Prevention through preemption.
+	- Job resources:
+		- Devices that can be assigned. e.g. tape drive, files.
+		- Avoidance.
+	- Swappable space
+		- Space on backing store for each user job.
+		- Preallocation
 
