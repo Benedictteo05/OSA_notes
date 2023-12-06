@@ -86,6 +86,29 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 1. Invoke each time a request for allocation cannot be granted immediately.
 	- Advantage: 
 		- Able to identity the specific process that cause the deadlock.
-		- 
+	- Disadvantage:
+		- Overhead in computational time.
+2. Invoke at regular time intervals.
+	- e.g. once per hour.
+3. Invoke when CPU utilization drops below 40%
 
+- Note: Resources allocated to deadlocked processed will be idle until the deadlock is broken
+
+### Deadlock Recovery
+- Inform operator to deal with deadlock manually.
+- Two options for breaking deadlock to recover system from deadlock automatically:
+	1. Process termination
+	2. Resource Preemption
+
+### Process Termination
+- Abort all deadlocked processes 
+	- This method is expensive since processes may have computed for a long time, and all results must be discarded, and recomputed again.
+- Abort one process at a time until deadlock cycle is broken.
+	- This method incurs overhead since after each process is aborted, deadlock detection algorithm must be invoked to check whether any process is still deadlocked.
+- Note: 
+	- Aborting a process may not be simple. e.g. Process may be in the midst of updating a file.
+	- For partial termination method, a policy must be defined as to which process to terminate.
+
+**Factors to determine which process is chosen:**
+Factors
 
