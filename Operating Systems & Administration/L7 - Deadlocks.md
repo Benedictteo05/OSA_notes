@@ -110,5 +110,26 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 	- For partial termination method, a policy must be defined as to which process to terminate.
 
 **Factors to determine which process is chosen:**
-Factors
+- The priority of process.
+- How long the process has computed and how much longer to go.
+- How many and what type of resources the process has used.
+- How many more resources the process needs in order to complete.
+- How many processes will need to be terminated.
+- Whether the process is interactive or batch.
+
+### Resource Preemption
+- Preempt some resources from processes and give these resources to other processes until the deadlock cycle is broken:
+	- Note: For both process termination or resource preemption methods, the system reclaims all resource allocated to the terminating processes.
+- Three issues to be addressed:
+	- Selecting a victim
+		- Q: Which resources and processes to preempt?
+		- A: Depends on cost. e.g. amount of time process executed thus far, number of resources holding, etc.
+	- Rollback
+		- Q: If we preempt a resource from a process, what should be done to the process?
+		- A: Either total rollback or rollback enough to break deadlock.
+	- Starvation
+		- Q: How to ensure starvation will not occur? That is, how can we guarantee that resources will not always be preempted from the same process?
+		- A: A common solution is to include the number of rollbacks in the cost factor.
+
+### Combined Approach to Deadloc
 
