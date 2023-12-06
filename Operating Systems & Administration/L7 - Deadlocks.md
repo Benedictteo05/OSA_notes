@@ -26,7 +26,7 @@
 - 4 Approaches to managing deadlock
 	- [[L7 - Deadlocks#^e9ba08|Prevention]]
 		- Design the system so that deadlock is impossible.
-	- Avoidance
+	- [[L7 - Deadlocks#^5837c5|Avoidance]]
 		- Construct a model of system states, then choose a strategy that will not allow the system to go a deadlock state.
 	- Detection & Recovery
 		- Check for deadlock (periodically or sporadically), then recover.
@@ -61,10 +61,31 @@
 	- A process wishing to obtain resources must obtain them in ascending or decreasing order.
 	- If new resource is not in the correct order, release all currently held resources and re-obtain them in the correct order.
 
+**Allow Preemption**
+- If a process requests for a resource and the resource is not available, its currently held resources can be preempted by the OS and given to other resources.
+
+### Avoidance
+^5837c5
+- Manage deadlocks by allowing resource allocation only if it satisfied that deadlock will not occur.
+- The mechanism is [[L7 - Deadlocks#^dbccf5|Banker's Algorithm]].
 
 ### Banker's algorithm
+^dbccf5
 Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
 
 ### Detection and Recovery
 - OS detects that CPU has capacity to run but processes are not running.
 - Take one of the resource from one process for another process, allowing the OS to break the deadlock.
+- An aggressive strategy.
+- Disregards deadlocks, but aims to detect when it does occur and takes additional steps to remove it. (recovery)
+- Therefore, we need both a detection mechanism and a recovery mechanism.
+- For detection, an algorithm similar to Banker's algorithm can be used.
+
+### Deadlock Detection
+- When should the detection algorithm be invoked?
+1. Invoke each time a request for allocation cannot be granted immediately.
+	- Advantage: 
+		- Able to identity the specific process that cause the deadlock.
+		- 
+
+
