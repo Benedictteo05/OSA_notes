@@ -24,6 +24,27 @@
 
 ### Addressing Deadlock
 - 4 Approaches to managing deadlock
+	- [[L7 - Deadlocks#^e9ba08|Prevention]]
+		- Design the system so that deadlock is impossible.
+	- Avoidance
+		- Construct a model of system states, then choose a strategy that will not allow the system to go a deadlock state.
+	- Detection & Recovery
+		- Check for deadlock (periodically or sporadically), then recover.
+	- Manual intervention
+		- Have the operator reboot the machine if it seems too slow.
+
+### Prevention
+^e9ba08
+**Hold and Wait**
+- Two ways:
+	- Require a process to request all of its resources when it is created.
+		- Easy implementable in batch systems.
+		- Not easy in interactive systems as processes do not 'announce' their resource requirements at runtime.
+	- Require the process to release all currently held resources prior to requesting any new ones.
+		- More suitable for interactive systems.
+		- Have processes request for resources based on a particular operation and then release it when proceeding onto another operation with a new set of resources.
+		- Or, when a process requires a new resource, it releases all of it current resources and then acquires the old resources along with the new one.
+
 
 ### Banker's algorithm
 Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
