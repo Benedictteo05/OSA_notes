@@ -35,6 +35,11 @@
 
 ### Prevention
 ^e9ba08
+- Address the 4 conditions so that at least one of them does not hold.
+	- Namely, mutual exclusion, hold and wait, circular waiting, no preemption.
+- Most common strategy is to design the resource managers so that they are guaranteed to violate at least one of the conditions.
+- Windows NT/2000 assures there can be no circular wait.
+
 **Hold and Wait**
 - Two ways:
 	- Require a process to request all of its resources when it is created.
@@ -44,6 +49,17 @@
 		- More suitable for interactive systems.
 		- Have processes request for resources based on a particular operation and then release it when proceeding onto another operation with a new set of resources.
 		- Or, when a process requires a new resource, it releases all of it current resources and then acquires the old resources along with the new one.
+
+**Circular Wait**
+- Technique 1
+	- Use a process-resource model to detect cycles in the graph.
+	- Choose a resource request strategy by which no cycle will be introduced.
+	- Cycle condition will reflect circular wait if each resource type has only one instance (non-sharable).
+- Technique 2
+	- Total order on all resources, then can only ask for $Rj$ if $Ri$ < $Rj$ for all $Ri$ the process is currently holding.
+	- Number each resource uniquely.
+	- A process wishing to obtain resources must obtain them in ascending or decreasing order.
+	- If new resource is not in the correct order, release all currently held resources and re-obtain them in the correct order.
 
 
 ### Banker's algorithm
