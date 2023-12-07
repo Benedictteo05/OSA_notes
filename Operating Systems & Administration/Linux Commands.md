@@ -7,6 +7,9 @@
 **Switch user**
 - `su`
 
+**Change password**
+- `passwd`
+
 **Command in root**
 - `sudo`
 
@@ -25,4 +28,5 @@
 - `bc`
 - Change decimal point:
 	- `scope=n`
+
 
