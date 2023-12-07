@@ -16,7 +16,11 @@
 
 | Commands| Description|
 |-------------|---------|
-|`%a`|Weekday (e.g Sun)|
+|`%a`|Weekday (e.g. Sun)|
 |`%A`|Weekday (e.g. Sunday)|
 |`%b`|Month (e.g. Jan)|
+|`%B`|Month (e.g. January)|
+|`%d`|Day (e.g. 21)|
+
+
 
