@@ -13,7 +13,6 @@
 **Date**
 - `date`
 
-
 | Commands| Description|
 |-------------|---------|
 |`%a`|Weekday (e.g. Sun)|
@@ -22,5 +21,8 @@
 |`%B`|Month (e.g. January)|
 |`%d`|Day (e.g. 21)|
 
-
+**Arithmetics**
+- `bc`
+- Change decimal point:
+	- `scope=n`
 
