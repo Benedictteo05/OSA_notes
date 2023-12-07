@@ -4,6 +4,12 @@
 **Display text**
 - `echo`
 
+**Switch user**
+- `su`
+
+**Command in root**
+- `sudo`
+
 **Date**
 - `date`
 
@@ -12,4 +18,5 @@
 |-------------|---------|
 |`%a`|Weekday (e.g Sun)|
 |`%A`|Weekday (e.g. Sunday)|
+|`%b`|Month (e.g. Jan)|
 
