@@ -48,7 +48,30 @@
 - Block Algorithms (Block Ciphers) encrypt information by breaking it down in fixed-length groups-blocks of bits (usually 64 bits) and encrypting one block at a time. Block algorithms are most commonly used in the IT world today.
 
 **Symmetric Algorithms in .NET**
-- The 
+- The following classes inherit the `SymmetricAlgorithm` class.
+	- DES, TripleDES, Rijndael, RC2, AES
+	- Namespace: `System.Security.Cryptography`
+- They are abstract classes, so they cannot be instantiated directly.
+	- Use public properties and methods of the `SymmetricAlgorithms` class.
+
+**`SymmetricAlgorithms` class**
+- Common public properties include:
+	- `BlockSize`
+	- `FeedbackSize`
+	- `IV`
+	- `Key`
+	- `KeySize`
+	- `LegalBlockSizes`
+	- `LegalkeySizes`
+	- `Mode`
+	- `Padding`
+- Common public methods:
+	- `GenerateIV`
+	- `GenerateKey`
+	- `GetType`
+	- `ValidKeySize`
+
+### Encrypt/Decrypt using Symmetric Algorithm
 
 ### Salted/Unsalted hashes
 ^cefd82
