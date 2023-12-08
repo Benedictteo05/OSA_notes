@@ -47,7 +47,7 @@
 	- Operates directly on a stream of bytes and encrypt the bits of information one bit or 1 byte at a time. These algorithms are faster than block ciphers.
 - Block Algorithms (Block Ciphers) encrypt information by breaking it down in fixed-length groups-blocks of bits (usually 64 bits) and encrypting one block at a time. Block algorithms are most commonly used in the IT world today.
 
-**Symmetric Algorithms in .NET**
+### Symmetric Algorithms in .NET
 - The following classes inherit the `SymmetricAlgorithm` class.
 	- DES, TripleDES, Rijndael, RC2, AES
 	- Namespace: `System.Security.Cryptography`
@@ -72,6 +72,24 @@
 	- `ValidKeySize`
 
 ### Encrypt/Decrypt using Symmetric Algorithm
+**Encrypt**
+- Generate Random Key.
+- Generate Initialization Vector (IV).
+- Use `CreateEncryptor()` to provide ciphertext.
+- Store both the key and IV into DB.
+
+**Decrypt**
+- Retrieve Key and IV from DB.
+- Use `CreateDecryptor()` to produce plaintext.
+
+### Asymmetric Algorithms
+- Also called "Public Key Cryptography"
+- Utilizes 2 keys (public key and private key)
+- Generally 100-1000 times slower than symmetric algorithms.
+- Public key systems typically work using difficult math problems known as **trapdoor functions**.
+- Popular asymmetric protocols:
+	- RSA, Diffie-Hellman, ECC, and ELGamal
+
 
 ### Salted/Unsalted hashes
 ^cefd82
