@@ -66,3 +66,7 @@
 - The Authenticator app (IOS/Android) generates a random code used to verify your identity when you're logging into various services.
 
 ### Attacks on Login Form
+- Recommended to have a more generalized warning message like "Invalid login".
+- Instead of "username does not exist" or "Wrong password".
+- Brute force using bots.
+	- An attempt
