@@ -69,4 +69,18 @@
 - Recommended to have a more generalized warning message like "Invalid login".
 - Instead of "username does not exist" or "Wrong password".
 - Brute force using bots.
-	- An attempt
+	- An attempt to crack a password using a trial and error approach and hoping, eventually, to guess correctly.
+	- Using a tool such as **Burp Intruder** in Burp Suite, hacker would load a list of possible usernames and cycle through HTTP POST requests to the login form examining the response.
+	- A HTTP response that matches "invalid password" indicates the username is valid. Hacker could then move onto attacking the password using the same process with a common password list.
+
+### CAPTCHA
+- Completely Automated Public Turing test to tell Computer and Humans Apart.
+- Created at Carnegie Mellon University in 2000.
+- Websites need CAPTCHAs to guard against the "bots" of spammers and other computer underworld types.
+
+**Types of CAPTCHA:**
+- Text-Based Captcha
+- Invisible ReCaptcha
+- Mathematical Captcha
+- Image-Based Captcha
+- Interactive Captcha
