@@ -16,6 +16,25 @@
 ### Cryptography Library
 - Under the `System.Security.Cryptography` namespace, we have:
 	- `SymmetricAlgorithm`
+		- Encapsulate symmetric algorithms such as DES and Rijndeal(AES).
+	- `AsymmetricAlgorithm`
+		- Encapsulate the asymmetric algorithms such as RSA and DSA.
+	- `HasAlgorithm`
+		- Base call of all cryptographic hash algorithms.
+	- `ToBase64Transform` and `FromBase64Transform`
+		- Allows for conversion between byte stream and base64 representation.
+	- `CryptographicException`
+		- Error information for cryptographic operations.
+
+### Symmetric Algorithms
+- Encryption and decryption use the same secret key.
+- Primary attack is "brute force" key search - (try every possible key)
+- Key distribution and storage is difficult.
+- Relatively fast.
+- Advanced Encryption Standard (AES)
+	- US government standard since 2001 (replaced DES)
+	- Rijndeal algorithm (with 128 bit block size)
+- From plaintext (unencrypted data), data can be encrypted using a shared secret key. A cyphertext is then sent to the receiving party, the receiving party uses the shared secret key to 
 
 ### Salted/Unsalted hashes
 ^cefd82
