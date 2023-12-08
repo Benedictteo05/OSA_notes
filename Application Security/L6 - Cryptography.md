@@ -130,7 +130,27 @@
 **Hashing Functions**
 - Converts a variable length input to a fixed length.
 	- Creates a "digest" or "data fingerprint"
-- One-way
+- "One-way"
+	- Easy to compute, but cannot reverse.
+
+### Common Hash Algorithms
+- `HashAlgorithm` (abstract base class)
+	- SHA (Secure Hash Algorithms)
+		- SHA1
+		- SHA265, SHA384, SHA512
+	- MD5 (128 bit hash)
+		- Has been compromised
+
+### Hashing Algorithm in .NET
+- Convert string to `byte[]`
+- Create hash algorithm object 
+- Call `ComputeHash`
+
+### Hashed Passwords
+- Best practice for passwords (cannot be retrieved)
+- Used for authentication.
+	- Common attack against hashed password is "dictionary attacks" 
+
 
 ### Salted/Unsalted hashes
 ^cefd82
