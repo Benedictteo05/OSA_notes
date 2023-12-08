@@ -31,5 +31,6 @@
 
 **History**
 - `history`
-- 
+- Repeat last command:
+	- `!!`
 
