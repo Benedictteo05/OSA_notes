@@ -84,3 +84,15 @@
 - Mathematical Captcha
 - Image-Based Captcha
 - Interactive Captcha
+
+### Account Lockout
+- To disable user account if consistently receive high login failures.
+- Allow locked account to be recovered.
+	- Automatically after certain duration.
+	- Manually using Web forms with user challenge.
+- Fail-safe rule
+
+### Prevention multiple session on single account
+- To deter the ability for users to overlap sessions for a single user account.
+- Send warning notifications to affected users and close either sessions.
+- Monitor against database stored session to detect overlapping.
