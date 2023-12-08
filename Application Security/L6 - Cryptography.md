@@ -110,7 +110,8 @@
 	- Assume `privateParams` and `encryptedText` is obtained from program.
 
 ### Asymmetric vs Symmetric
-- Symmetric algorithm has problem of key dist
+- Symmetric algorithm has problem of key distribution.
+- Asymmetric is co
 
 ### Salted/Unsalted hashes
 ^cefd82
