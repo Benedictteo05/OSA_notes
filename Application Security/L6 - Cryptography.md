@@ -111,7 +111,21 @@
 
 ### Asymmetric vs Symmetric
 - Symmetric algorithm has problem of key distribution.
-- Asymmetric is co
+- Asymmetric is computationally expensive.
+	- As asymmetric algorithms are inherently blocking ciphers (RSA), implementations can only encrypt block by block.
+- More practical to combine both approach. (Electronic Key Exchange)
+	- Encrypt using symmetric algorithm.
+	- Distribute symmetric key securely using asymmetric algorithm.
+
+### Hashing
+- A hash is a special mathematical function that performs one-way encryption.
+- Once the algorithm is processed, there is no way to:
+	- Take the ciphertext and retrieve the plaintext that was used to generate it.
+	- Generate two different plaintexts that compute to the same hash value.
+- Common uses of hashing functions:
+	- Storing user's passwords
+	- Ensuring message integrity
+		- T
 
 ### Salted/Unsalted hashes
 ^cefd82
