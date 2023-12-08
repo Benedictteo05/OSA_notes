@@ -149,3 +149,11 @@ options.SlidingExpiration = true;
 	- Claims are a general-purpose approach to describing any data that is known about a user and allow custom data to be added to the Identity user store.
 
 ### Setting the page requirements
+```
+// Must be 'GroupUser' AND 'User'
+[Authorize(Roles=”GroupUser”)]
+[Authorize(Roles=”User”)]
+
+// Must be 'GroupUser' OR 'User'
+[Authorize(Roles=”GroupUser, User”)]
+```
