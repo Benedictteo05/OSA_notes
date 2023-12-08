@@ -34,7 +34,11 @@
 - Advanced Encryption Standard (AES)
 	- US government standard since 2001 (replaced DES)
 	- Rijndeal algorithm (with 128 bit block size)
-- From plaintext (unencrypted data), data can be encrypted using a shared secret key. A cyphertext is then sent to the receiving party, the receiving party uses the shared secret key to 
+- Scenario example:
+	- From plaintext (unencrypted data), data can be encrypted using a shared secret key. A cyphertext (Encrypted Data) is then sent to the receiving party, the receiving party uses the same shared secret key to decrypt the cyphertext into plaintext.
+- Symmetric encryption requires the sender and the receiver to have the same key.
+	- All symmetric algorithms are based upon this shared secret principle.
+- Symmetric encryption involves a cryptographic key, requiring key management.
 
 ### Salted/Unsalted hashes
 ^cefd82
