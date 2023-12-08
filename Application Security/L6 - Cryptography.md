@@ -39,6 +39,16 @@
 - Symmetric encryption requires the sender and the receiver to have the same key.
 	- All symmetric algorithms are based upon this shared secret principle.
 - Symmetric encryption involves a cryptographic key, requiring key management.
+- For symmetric algorithms, the most important lesson is to store and send the key only by known secure means.
+
+**Two Types**
+- Symmetric algorithms can be divided into stream algorithms and block algorithms.
+- Stream Algorithms (Stream Ciphers)
+	- Operates directly on a stream of bytes and encrypt the bits of information one bit or 1 byte at a time. These algorithms are faster than block ciphers.
+- Block Algorithms (Block Ciphers) encrypt information by breaking it down in fixed-length groups-blocks of bits (usually 64 bits) and encrypting one block at a time. Block algorithms are most commonly used in the IT world today.
+
+**Symmetric Algorithms in .NET**
+- The 
 
 ### Salted/Unsalted hashes
 ^cefd82
