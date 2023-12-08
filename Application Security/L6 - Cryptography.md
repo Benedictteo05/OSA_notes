@@ -88,8 +88,14 @@
 - Generally 100-1000 times slower than symmetric algorithms.
 - Public key systems typically work using difficult math problems known as **trapdoor functions**.
 - Popular asymmetric protocols:
-	- RSA, Diffie-Hellman, ECC, and ELGamal
+	- RSA, Diffie-Hellman, ECC, and ElGamal
 
+### Asymmetric Algorithm in .NET
+- .NET provides RSA and DSA algorithms for asymmetric encryption/decryption.
+- 2 classes are descendant of the `AsymmetricAlgorithm`, all of which are abstract classes:
+	- RSA
+	- DSA
+- Both RSA and DSA classes have concrete
 
 ### Salted/Unsalted hashes
 ^cefd82
