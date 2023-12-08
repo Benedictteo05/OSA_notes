@@ -125,7 +125,12 @@
 - Common uses of hashing functions:
 	- Storing user's passwords
 	- Ensuring message integrity
-		- T
+		- To verify if message or file remains original and not edited.
+
+**Hashing Functions**
+- Converts a variable length input to a fixed length.
+	- Creates a "digest" or "data fingerprint"
+- One-way
 
 ### Salted/Unsalted hashes
 ^cefd82
