@@ -156,12 +156,12 @@
 - `RNGCryptoServiceProvider` generates high-quality random numbers. With it, we use an random number generator (RNG) that is as random as possible. This helps in applications where random numbers must be completely random.
 - Caution:
 	- `RNGCryptoServiceProvider` has a cost:
-		- It reduces performance over the Random type.
+		- It reduces performance over the `Random` type.
 
 ### How Random?
 - When to use `Random` and when to use the slightly more complicated `RNGCryptoServiceProvider`?
 - For most programs, `Random` is sufficient and preferable due to its simplicity.
-- For important programs, `RNGCryptoServiceProvider`
+- For important programs, `RNGCryptoServiceProvider` is better because it is less prone to problems with its randomness.
 
 ### Salted/Unsalted hashes
 ^cefd82
@@ -172,3 +172,11 @@
 
 **Unsalted Hash**
 - Hashing using special mathematical function that performs one-way encryption without adding additional random bits to the password before its hashing.
+
+### Signing Hash
+- RSA algorithm can be used in conjunction with hash algorithm to sign a piece of information.
+	- Using `SignHash` method in the `RSACryptoServiceProvider`.
+
+### Verifying Hash
+- `VerifyHash` method in `RSACryptoServiceProvider`.
+	- Verifies the specified signature data by comparing it to signature computed for the specified hash value.
