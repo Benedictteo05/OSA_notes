@@ -150,11 +150,22 @@
 - Best practice for passwords (cannot be retrieved)
 - Used for authentication.
 	- Common attack against hashed password is "dictionary attacks" 
+		- Use [[L6 - Cryptography#^53779e|Salted Hash]]
 
+**`RNGCryptoServiceProvider`**
+- `RNGCryptoServiceProvider` generates high-quality random numbers. With it, we use an random number generator (RNG) that is as random as possible. This helps in applications where random numbers must be completely random.
+- Caution:
+	- `RNGCryptoServiceProvider` has a cost:
+		- It reduces performance over the Random type.
+
+### How Random?
+- When to use `Random` and when to use the slightly more complicated `RNGCryptoServiceProvider`?
+- For most programs, `Random` is sufficient and preferable due to its simplicity.
+- For important programs, `RNGCryptoServiceProvider`
 
 ### Salted/Unsalted hashes
 ^cefd82
-**Salted Hash**
+**Salted Hash** ^53779e
 - Made up of random bits added to each password instance before its hashing.
 - Creating a unique passwords even in the instance of two users choosing the same password.
 - Helps mitigate hash table attacks.
