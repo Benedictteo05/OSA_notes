@@ -24,9 +24,12 @@
 |`%B`|Month (e.g. January)|
 |`%d`|Day (e.g. 21)|
 
-**Arithmetics**
+**Arithmetic**
 - `bc`
 - Change decimal point:
 	- `scope=n`
 
+**History**
+- `history`
+- 
 
