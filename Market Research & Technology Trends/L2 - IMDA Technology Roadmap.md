@@ -30,8 +30,10 @@
 	- Cognitive sales agents initiate contact with promising leads, then qualify, follow up and sustain the prospects.
 3. Greater Human-machine Collaborations
 	- Robots can respond to ambient cues and intentional movements, analyze moods and sentiments and even identify lies.
-	- Humanoid robots 
+	- Humanoid robots detects abnormal activities in the environment, and can work alongside humans without physical separation.
 4. More Natural Technology Interfaces
+	- Mixed Reality (MR) elevates the potential of Augmented Reality (AR), Virtual Reality (VR), and Internet-of-Things (IoT) by combining the best of our digital and physical realities.
+	- MR adds intelligence to digital content. Taking into account physics, gravity, dimensions and personality, blurring what is real and what is imagined.
 5. Greater Use of Codeless Development Tools
 6. More Seamless Services enabled by XaaS
 7. Cloud Deployment Matures with Hybrid and Multi-Cloud
