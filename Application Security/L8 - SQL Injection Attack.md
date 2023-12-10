@@ -54,4 +54,15 @@ SELECT * FROM Account WHERE Admin = ''; DROP TABLE Account --';
 ### SQLi Prevention
 - Primary Defenses
 	1. Use Parameterized Queries (Prepared Statements)
-	2. 
+		- Allows to differentiate between code and data.
+		- Ensure the attacker is not able to manipulate the query.
+			- Even if 'or 1=1--' is passed as parameter.
+	2. Use Parameterized Stored Procedure
+		- To prevent users from directly interacting with SQL code.
+		- SQL code is defined and stored in the database.
+	3. Encoding all User Supplied Input
+		- Improper encoding or escaping can allow attackers to change the commands that are sent to another component, inserting malicious commands instead.
+		- Use the `httpUtility.HtmlEncode(dangerous_string)` to avoid characters that could lead to an unintended SQL command.
+- Additional Defenses:
+	- Use white list input validation
+	- Use a low privileged account to run the database
