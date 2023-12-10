@@ -12,6 +12,8 @@
 2. SG:D for Talent
 	1. TechSkills Accelerator (TeSA)
 	2. Media Manpower Programme
-	3. 
+	3. Skills Framework
+	4. SG:D Scholarship
 3. SG:D for Community
+	- Digital for Life
 
