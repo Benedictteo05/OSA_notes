@@ -24,14 +24,18 @@
 	- In the next 3 to 5 years, exponential increase in commercial AI-based application across three major categories:
 		1. Product applications that embed AI in products or services to provide end-customer benefits.
 		2. Process applications that incorporate AI into an organization's workflow to automate processes or improve them by augmenting worker effectiveness.
-		3. Insight applications that harness advanced capabilities such as Machine Learning (ML) to uncover insights that inform operational and strategic 
-1. More Empathic, Cognitive and Affective AI
-2. Greater Human-machine Collaborations
-3. More Natural Technology Interfaces
-4. Greater Use of Codeless Development Tools
-5. More Seamless Services enabled by XaaS
-6. Cloud Deployment Matures with Hybrid and Multi-Cloud
-7. Blockchain Decentralizes Trust 
-8. API Economy takes off
+		3. Insight applications that harness advanced capabilities such as Machine Learning (ML) to uncover insights that inform operational and strategic decisions across an organization.
+2. More Empathic, Cognitive and Affective AI
+	-  ML algorithmic capabilities augment employee performance, automate increasingly complex workloads, and develop "cognitive agents" that can simulate human thinking and engagement.
+	- Cognitive sales agents initiate contact with promising leads, then qualify, follow up and sustain the prospects.
+3. Greater Human-machine Collaborations
+	- Robots can respond to ambient cues and intentional movements, analyze moods and sentiments and even identify lies.
+	- Humanoid robots 
+4. More Natural Technology Interfaces
+5. Greater Use of Codeless Development Tools
+6. More Seamless Services enabled by XaaS
+7. Cloud Deployment Matures with Hybrid and Multi-Cloud
+8. Blockchain Decentralizes Trust 
+9. API Economy takes off
 
 
