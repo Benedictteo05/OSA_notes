@@ -19,4 +19,9 @@
 - Includes reports and studies by government agencies, trade associations or other businesses in your industry.
 - e.g. researchers will use internet tools to search for targeted data.
 
-
+### Key Topics
+1. IMDA Technology Roadmap
+2. Service 4.0
+3. Emerging Trends - By Garner
+4. Technology Leaders' Products
+5. Robotics Process Automation (RPA)
