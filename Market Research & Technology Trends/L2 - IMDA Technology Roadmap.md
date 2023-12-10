@@ -8,6 +8,8 @@
 
 ### 3 target audience for SG:D
 1. SG:D for Companies
+	- Grow Digital and Productivity Solutions Grant.
 2. SG:D for Talent
+	- 
 3. SG:D for Community
 
