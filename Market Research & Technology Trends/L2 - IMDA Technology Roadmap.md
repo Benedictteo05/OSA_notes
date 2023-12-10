@@ -16,4 +16,22 @@
 	4. SG:D Scholarship
 3. SG:D for Community
 	- Digital for Life
+	- Singtel Digital Silvers
+	- Digital Arts For All
+
+### 9 Technology Trends
+1. Pervasive Adoption of AI
+	- In the next 3 to 5 years, exponential increase in commercial AI-based application across three major categories:
+		1. Product applications that embed AI in products or services to provide end-customer benefits.
+		2. Process applications that incorporate AI into an organization's workflow to automate processes or improve them by augmenting worker effectiveness.
+		3. Insight applications that harness advanced capabilities such as Machine Learning (ML) to uncover insights that inform operational and strategic 
+1. More Empathic, Cognitive and Affective AI
+2. Greater Human-machine Collaborations
+3. More Natural Technology Interfaces
+4. Greater Use of Codeless Development Tools
+5. More Seamless Services enabled by XaaS
+6. Cloud Deployment Matures with Hybrid and Multi-Cloud
+7. Blockchain Decentralizes Trust 
+8. API Economy takes off
+
 
