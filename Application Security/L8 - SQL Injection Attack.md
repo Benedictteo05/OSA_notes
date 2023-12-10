@@ -46,5 +46,7 @@ Which always returns TRUE
 ======================================================
 Effecively becomes:
 SELECT * from Account WHERE admin = '' UNION SELECT Username, password FROM Account -- ';
+
+OR 
+SELECT * FROM Account WHERE Admin = ''; DROP TABLE Account --';
 ```
-- 
