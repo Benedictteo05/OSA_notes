@@ -35,6 +35,7 @@
 	- Mixed Reality (MR) elevates the potential of Augmented Reality (AR), Virtual Reality (VR), and Internet-of-Things (IoT) by combining the best of our digital and physical realities.
 	- MR adds intelligence to digital content. Taking into account physics, gravity, dimensions and personality, blurring what is real and what is imagined.
 5. Greater Use of Codeless Development Tools
+	- SquareS
 6. More Seamless Services enabled by XaaS
 7. Cloud Deployment Matures with Hybrid and Multi-Cloud
 8. Blockchain Decentralizes Trust 
