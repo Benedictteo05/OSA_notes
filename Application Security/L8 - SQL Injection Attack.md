@@ -26,3 +26,25 @@
 
 ### Time-based blind SQLi
 - Forces the database to wait for a specified amount of time (in seconds) before responding. The response time will indicate to the attacker whether the result of the query is TRUE or FALSE.
+
+### Example 1
+```
+-- Designed to always return TRUE
+SELECT * from Account WHERE
+admin = '' or 1=1 -- ' AND password = '';
+======================================================
+Effecively becomes:
+admin = '' or 1 = 1;
+Which always returns TRUE
+```
+- Comment symbol (--) to turn everything placed after the last placeholder into a comment.
+
+### Example 2
+```
+-- Inside username field in Login
+' UNION SELECT Username, password FROM Account --
+======================================================
+Effecively becomes:
+SELECT * from Account WHERE admin = '' UNION SELECT Username, password FROM Account -- ';
+```
+- 
