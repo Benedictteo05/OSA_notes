@@ -35,7 +35,9 @@
 	- Mixed Reality (MR) elevates the potential of Augmented Reality (AR), Virtual Reality (VR), and Internet-of-Things (IoT) by combining the best of our digital and physical realities.
 	- MR adds intelligence to digital content. Taking into account physics, gravity, dimensions and personality, blurring what is real and what is imagined.
 5. Greater Use of Codeless Development Tools
-	- SquareS
+	- Squarespace and Wix gives everyday people the power to accomplish tasks as if they are technology experts.
+	- Google, Amazon Web Services (AWS) and Microsoft are leading the charge in this cloud-based emerging technology solutions and tools, they simplify complexity, making applications and services creation a breeze.
+	- 
 6. More Seamless Services enabled by XaaS
 7. Cloud Deployment Matures with Hybrid and Multi-Cloud
 8. Blockchain Decentralizes Trust 
