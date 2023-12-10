@@ -37,10 +37,15 @@
 5. Greater Use of Codeless Development Tools
 	- Squarespace and Wix gives everyday people the power to accomplish tasks as if they are technology experts.
 	- Google, Amazon Web Services (AWS) and Microsoft are leading the charge in this cloud-based emerging technology solutions and tools, they simplify complexity, making applications and services creation a breeze.
-	- 
-6. More Seamless Services enabled by XaaS
+	- These solutions are increasingly based on the microservices architecture, such as AWS's Lambda, Microsoft's Functions and Google's Functions platforms.
+6. Digital Platforms and As-a-service Architectures
+	- Every service delivery model aims to satisfy different customer needs and to delivery a seamless experience across the customer journey.
 7. Cloud Deployment Matures with Hybrid and Multi-Cloud
+	- Future of cloud, combining multiple public and private cloud capabilities to create a flexible ecosystem.
+	- Vision is of seamless simplicity, where users and migrate between working applications fluidly, even between environments.
+	- Businesses can plan for seasonal upswings, support sustained growth, collaborate with partners, launch new business models, support business continuity plan, and make acquisitions and divestiture activities seamless.
 8. Blockchain Decentralizes Trust 
+	- The traceab
 9. API Economy takes off
 
 
