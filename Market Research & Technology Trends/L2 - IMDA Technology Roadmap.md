@@ -45,7 +45,10 @@
 	- Vision is of seamless simplicity, where users and migrate between working applications fluidly, even between environments.
 	- Businesses can plan for seasonal upswings, support sustained growth, collaborate with partners, launch new business models, support business continuity plan, and make acquisitions and divestiture activities seamless.
 8. Blockchain Decentralizes Trust 
-	- The traceab
+	- The traceability and immutability of blockchain allows trust in company's assets or an individual's online identity and reputation.
 9. API Economy takes off
+	 - APIs allow solutions and systems to communicate with one another.
+	 - Exposing technology assets for reuse across and beyond the enterprise.
+	 - Can ignite creative new ways for businesses to use existing data, transactions and products.
 
 
