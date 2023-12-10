@@ -50,3 +50,8 @@ SELECT * from Account WHERE admin = '' UNION SELECT Username, password FROM Acco
 OR 
 SELECT * FROM Account WHERE Admin = ''; DROP TABLE Account --';
 ```
+
+### SQLi Prevention
+- Primary Defenses
+	1. Use Parameterized Queries (Prepared Statements)
+	2. 
