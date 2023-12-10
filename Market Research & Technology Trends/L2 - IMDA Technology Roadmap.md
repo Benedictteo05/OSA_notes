@@ -10,6 +10,8 @@
 1. SG:D for Companies
 	- Grow Digital and Productivity Solutions Grant.
 2. SG:D for Talent
-	- 
+	1. TechSkills Accelerator (TeSA)
+	2. Media Manpower Programme
+	3. 
 3. SG:D for Community
 
