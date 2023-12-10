@@ -9,7 +9,6 @@
 - [Common Vulnerabilities and Exposures (CVE)](http://cve.mitre.org/)
 
 ### [Common Weakness Enumeration (CWE)](http://cwe.mitre.org/)
-
 ^34f1fd
 - They help developers and security practitioners to:
 	- Describe and discuss software and hardware weaknesses in a common language.
