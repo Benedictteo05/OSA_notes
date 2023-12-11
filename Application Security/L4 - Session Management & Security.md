@@ -275,8 +275,15 @@ protected void btnLogout_Click(object sender, EventArgs e)
 	if (Request.Cookies["ASP.NET_SessionID"] != null)
 	{
 		// Empty the Cookie
-		Response.Cookies["ASP.NET_SessionID"].value = string.Empty;
-		Response.Cookies["ASP.NET_"]
+		Response.Cookies["ASP.NET_SessionID"].Value = string.Empty;
+		Response.Cookies["ASP.NET_SessionID"].Expires = DateTime.Now.AddMonths(-20);
 	}
+	if (Request.Cookies["AuthToken"] != null)
+	{
+		// Empty the Cookie
+		Response.Cookies["AuthToken"].Value = string.Empty;
+		Response.Cookies["AuthToken"].Expires = DateTime.Now.AddMonths(-20);
+	}
+	Response.Redirect("~/SecureLoginFunc/SecureLogin.aspx");
 }
 ```

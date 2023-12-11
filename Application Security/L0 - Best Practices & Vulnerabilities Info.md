@@ -107,6 +107,9 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - This valid session cookie is placed in the victim's browser by getting the victim to click on some malicious link.
 - When the victim logs into the website, both the attacker and the victim will use the same session cookie that the attacker already knows, and thus the attacker-owned cookie is now authenticated and can be exploited.
 - Note: If the server gives a new session id on every login, the attacker is unable to use their session id to login.
+- Use HTTPOnly, secure flags cookies.
+- Never use Cookieless sessions, since it can be easily manipulated in query strings.
+- Implement Session Timeout for short spans of time.
 
 ### Checking for Session Fixation Vulnerabilities
 1. Browse to the application login page and check the HTTP Response in the proxy for a cookie containing the Session ID.
@@ -118,6 +121,8 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - To generate new set of `session_id` or tokens each time a user logs in and invalidate the old ones if any.
 - Add additional `session_id` to circumvent the default behaviors.
 - Perform session timeout. 
+
+### 
 
 ### Cryptographic Failures
 - Not properly protecting sensitive data
