@@ -49,7 +49,7 @@ Session.Abandon();
 ```
 
 ### Configuring Session Timeout
-- Session timeout value can be specified in the web.config file (.net Framework)
+- Session timeout value can be specified in the web.config file (.NET Framework)
 - It indicates the time (in minutes) that the session can be idle before it is abandoned
 - Configure session timeout using `<sessionState>` attribute
 - By default, session timeout is 20 minutes
