@@ -24,13 +24,19 @@
 	- How do we know from the next page that the authentication was successful?
 
 **Example**
-	- Store value to session variable
-	- Sample code to create a session variable
-	```
-	Session.add("ssuser", txtboxloginid.Text);
-	or
-	Session["ssuser"] = txtboxloginid.Txt;
-	```
+- Store value to session variable
+- Sample code to create a session variable
+```
+protected void btnSubmit_Click(object sender, EventArgs e)
+{
+	Session.add("UserName", txtboxloginid.Text);
+	
+	OR
+	
+	Session["UserName"] = txtboxloginid.Txt;
+	Response.Redirect("Home.aspx")
+}
+```
 
 - Retrieve value from session
 - Need to cast the return value the correct data type
