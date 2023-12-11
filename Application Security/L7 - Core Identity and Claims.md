@@ -49,7 +49,7 @@
 2. [[L7 - Core Identity and Claims#^27d2c2|Set Auth type or DBContext]]
 3. [[L7 - Core Identity and Claims#^3420e9|Add authentication middleware]]
 
-1. **Add the required packages and references** ^b72128
+**Add the required packages and references** ^b72128
 - Developers are required to install a couple of packages to be able to use ASP.NET Core identity
 - Add Package
 	- `Microsoft.AspNetCore.Identity.EntityFrameworkCore`   
@@ -57,7 +57,7 @@
 - Add Reference
 	- `using Microsoft.AspNetCore.Identity;`
 
-2. **Set Auth type or DBContext** ^27d2c2
+**Set Auth type or DBContext** ^27d2c2
 - Option 1:
 	- Use "Individual Account" as the authentication type in project template
 
@@ -65,7 +65,7 @@
 	- Alternative developers may set authentication type to "None" and later set DbContext to inherit from `IdentityDbContext<IdentityUser>`.
 	- After performing [[ASP .NET#^960f9f|migration]] , the Identity will adds a number of tables related to user and role information.
 
-3. **Add authentication middleware** ^3420e9
+**Add authentication middleware** ^3420e9
 - Add authentication and authorization middleware.  
 - Identity is enabled by calling `UseAuthentication`.  
 - UseAuthentication adds authentication middleware to the HTTP request.  
