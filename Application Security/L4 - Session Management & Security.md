@@ -140,7 +140,7 @@ aCookie.Value = DateTime.Now.ToString();
 aCookie.Expires = DateTime.Now.AddDays(1);
 Response.Cookies.Add(aCookie);
 ```
-
+	
 - Non Persistent Cookie
 	- Not stored in the client's hard drive permanently
 	- Maintains user information as long as the user access or uses the services.
@@ -161,10 +161,10 @@ if (HiddenField1.Value != null)
 	Label1.Text = val.ToString();
 }
 ```
-- ViewState
+- `ViewState`
 	- For page level state management
 	- Enabled by default
-		- Change the EnableViewState value to either TRUE (enabling) or FALSE
+		- Change the `EnableViewState` value to either TRUE (enabling) or FALSE
 	- Stores any type of data (small data)
 	- Enables and disables on page level control.
 	- Supports Encryption and Decryption and data/value is stored in hashed format.
@@ -186,8 +186,8 @@ if (ViewState["UserName"] != null)
 
 **3 Steps:**
 - Step 1
-		- Create Session Object/value in OnPost
-		-  Check if ModelState is valid
+		- Create Session Object/value in `OnPost`
+		-  Check if `ModelState` is valid
 	```
 	public IActionResult OnPost()
 	{
@@ -201,7 +201,7 @@ if (ViewState["UserName"] != null)
 		return Page()
 	}
 	```
-
+	
 - Step 2
 	- At runtime info in Startup.cs
 	- Add `services.AddSession() in ConfigureServices (IServiceCollection)`
@@ -223,7 +223,7 @@ if (ViewState["UserName"] != null)
 		...
 	}
 	```
-
+	
 - Step 3
 	- In the subsequent Page
 	- Extract session data using `HttpContext.Session.GetString(...)`
@@ -237,7 +237,7 @@ if (ViewState["UserName"] != null)
 	}
 ```
 
-### Configuring Session Timeout (.Net Core)
+### Configuring Session Timeout (.NET Core)
 **In `startup.cs`**
 ```
 public void ConfigureServices(IServiceCollection services)
