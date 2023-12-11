@@ -115,8 +115,9 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 4. If the response does not issue a new session cookie, then the application may be vulnerable to Session Fixation.
 
 ### How to prevent Session Fixation Attack
-- To generate new set of `session_id` or tokens each time a user logs in and invalidate the old a 
-
+- To generate new set of `session_id` or tokens each time a user logs in and invalidate the old ones if any.
+- Add additional `session_id` to circumvent the default behaviors.
+- Perform session timeout. 
 
 ### Cryptographic Failures
 - Not properly protecting sensitive data
