@@ -106,6 +106,17 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - An attacker visits the website to obtain a valid Session.
 - This valid session cookie is placed in the victim's browser by getting the victim to click on some malicious link.
 - When the victim logs into the website, both the attacker and the victim will use the same session cookie that the attacker already knows, and thus the attacker-owned cookie is now authenticated and can be exploited.
+- Note: If the server gives a new session id on every login, the attacker is unable to use their session id to login.
+
+### Checking for Session Fixation Vulnerabilities
+1. Browse to the application login page and check the HTTP Response in the proxy for a cookie containing the Session ID.
+2. Note the value of the Session ID.
+3. Sign into the application, and check the HTTP Response from the application.
+4. If the response does not issue a new session cookie, then the application may be vulnerable to Session Fixation.
+
+### How to prevent Session Fixation Attack
+- To generate new set of `session_id` or tokens each time a user logs in and invalidate the old a 
+
 
 ### Cryptographic Failures
 - Not properly protecting sensitive data
