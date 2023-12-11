@@ -53,9 +53,9 @@
 	- External Control Effectiveness
 	- Prevalence
 
-### Identification and Authentication Failures
+### A7: Identification and Authentication Failures
 **Attacks:**
-- Automated attacks such as credential stuffing and brute force.
+- Automated attacks such as credential stuffing (stolen credential) and brute force.
 - Uses weal or ineffective credential recovery and forgot-password processes, such as "knowledge-based answers", which cannot be made safe.
 - Uses plain text, encrypted, or weakly hashed passwords data stores.
 - Missing or ineffective multi-factor authentication.
