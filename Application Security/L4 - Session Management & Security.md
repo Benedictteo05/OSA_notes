@@ -263,3 +263,20 @@ public void ConfigureServices(IServiceCollection services)
 	- Session will never change.
 	- For convenience.
 	- Least secure.
+
+### Logout
+```
+protected void btnLogout_Click(object sender, EventArgs e)
+{
+	// Clear Session
+	Session.Clear;
+	Session.Abandon();
+	Session.RemoveAll();
+	if (Request.Cookies["ASP.NET_SessionID"] != null)
+	{
+		// Empty the Cookie
+		Response.Cookies["ASP.NET_SessionID"].value = string.Empty;
+		Response.Cookies["ASP.NET_"]
+	}
+}
+```
