@@ -102,8 +102,31 @@ using Microsoft.AspNetCore.Identity;
 public class RModel{
 
 	[Required]
-	public string Name {get}
+	public string Name {get;set;}
+	[Required]
+	public string Email {get;set;}
+	[Required]
+	public string Password {get;set;}
 }
+```
+
+```
+(Prepare the Identity User data)
+var user = new IdentityUser()
+{
+	userName = RModel.Name,
+	Email = RModel.Email
+}
+```
+
+```
+(Add User into database)
+IdentityResult result = await userManager.CreateAsync(user, RModelPassword);
+if (result.Succeeded)
+{
+return RedirectToPage("Index");
+}
+else{}
 ```
 
 ### Authenticating an Identity
