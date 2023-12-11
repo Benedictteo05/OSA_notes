@@ -122,11 +122,11 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - Add additional `session_id` to circumvent the default behaviors.
 - Perform session timeout. 
 
-### A2: Broken Authentication
+### A7: Broken Authentication
 - Credential Stuffing 
 
 
-### Cryptographic Failures
+### A2: Cryptographic Failures
 - Not properly protecting sensitive data
 - e.g.
 	- No appropriate encryption or hashing for credit cards and authentication credentials.
