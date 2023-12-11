@@ -30,7 +30,7 @@
 		- Modifying passwords.
 		- Assigning or removing the user from a role.
 - Entity Framework DbContext
-	- The database schema in ASP.NET Identity is created with the Entity Framework's Code-first approach
+	- The database schema in ASP.NET Identity is created with the Entity Framework's Code-first approach.
 	- By default, all of the tables are created in a specific database. However, they are customizable.  
 	- Create a `DbContext` class that derives from the `IdentityDbContext` class and store the database information as per your needs.
 - Role 
