@@ -94,6 +94,18 @@
 	- `UserManager<IdentityUser> userManager`
 - Use this class to perform CRUD operations for the users.
 
+```
+(add reference)
+using Microsoft.AspNetCore.Identity;
+
+(Create a user Class)
+public class RModel{
+
+	[Required]
+	public string 
+}
+```
+
 ### Authenticating an Identity
 - In order to use the Authentication feature in .NET Core, developers will need to [[L7 - Core Identity and Claims#^7239f4|add support for ASP.NET Core Identity]].
 - There are 2 methods of authentication in ASP.NET Core Identity.
