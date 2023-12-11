@@ -251,3 +251,15 @@ public void ConfigureServices(IServiceCollection services)
 ```
 - By default, session timeout = 20 minutes
 
+### Session services
+- Transient 
+	- Every request, the service will create a new session id.
+	- Very secure.
+	- However, it is taxing on the server as it keeps generating the id.
+- Scope
+	- Same session id within the same browser and different request.
+	- Unless the user reopens the browser and get a new request.
+- Singleton
+	- Session will never change.
+	- For convenience.
+	- Least secure.
