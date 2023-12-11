@@ -3,6 +3,8 @@
 - It follows a request/response pattern. 
 	- i.e. User requests a resource and the web server responds with the requested resource.
 - Information is not retained (pass on) from one request to another
+- Benefits:
+	- Lightweight, avoid straining the server as it does not have to keep track of connected clients.
 
 ### Session Management
 2 Types of state management techniques
