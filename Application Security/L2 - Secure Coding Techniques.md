@@ -1,4 +1,4 @@
-****### Basic Application Security Guidelines
+### Basic Application Security Guidelines
 - Secure the input
 	- Validate all input
 	- e.g. Form registration
