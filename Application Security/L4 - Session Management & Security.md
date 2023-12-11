@@ -68,13 +68,13 @@ Session.Abandon();
 </system.web>
 ```
 
-**How is data stored in "Session"**
+### How is data stored in "Session"
 - InProc Mode
 	- It is a default session mode and a value store in web server memory (IIS)
 	- Session value stored when server starts and it ends when the server is restarted.
 	- Limited to ONLY one server
 - State Server Mode
-	- In this mode,, session data is stored in separated server.
+	- In this mode, session data is stored in separated server.
 - SQL Server Mode
 	- in this mode, session data is stored in the database. It is a secure mode.
 
