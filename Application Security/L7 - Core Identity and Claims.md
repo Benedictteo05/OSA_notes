@@ -102,7 +102,7 @@ using Microsoft.AspNetCore.Identity;
 public class RModel{
 
 	[Required]
-	public string 
+	public string Name {get}
 }
 ```
 
