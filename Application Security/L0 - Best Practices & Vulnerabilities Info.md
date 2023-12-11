@@ -147,3 +147,9 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 - Ensures proper key management is in place.
 - Ensures passwords are hashed with a strong hash algorithm and an appropriate salt is used.
 - Disable autocomplete on forms and caches for pages that contain sensitive data.
+
+### A1: Injection
+- Attackers can send hostile data to an interpreter.
+- E.g. Web forms
+- Easy to discover when examining code.
+- May result in data loss, corruption, or disclosure to unauthorized parties, loss of accountability, or denial of access.
