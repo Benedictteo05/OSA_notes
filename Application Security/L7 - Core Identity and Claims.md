@@ -180,6 +180,27 @@ options.SlidingExpiration = true;
 ### Types of Authorization in Identity
 - Role-based
 	- Roles are commonly used to create fine-grained authorization policies that differentiate between different signed-in users.
+```
+string [] roleNames = {"Administrator", "GroupUser", "User", "Guest"};
+foreach(var roleName in roleNames)
+{
+	var roleExist = await Rolemanager.RoleExistsAsync(roleName);
+	if (!roleExist)
+	{
+		roleResult = await RoleManager.CreateAsync(new IdentityRole(roleName));
+	}
+}
+```
+
+```
+user = new IdentityUser()
+{
+	UserName = "Timothy.W.gmail.com",
+	Email = "Timothy.W.gmail.com",
+};
+await Usermanager.CreateAsync(user, "Time@123");
+await UserManager.AddToRoleAsync(user, "")
+```
 - Claims-based
 	- Claims are a general-purpose approach to describing any data that is known about a user and allow custom data to be added to the Identity user store.
 
