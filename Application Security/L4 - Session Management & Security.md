@@ -125,9 +125,10 @@ myCookie.Domain = "forums.geekpedia.com";
 // Deleting a cookie
 myCookie.Expires = DateTime.Now.AddDays(-1);
 ```
-
+	
 - Cookie info in Browser 
 - Google Chrome -> Settings -> Privacy and Security
+
 - Persistent Cookie
 	- Cookies having an expiration date is called persistent cookie. This type of cookie reaches their end as their expiration dates comes to an end. In this cookie we set an expiration data.
 ```
@@ -139,13 +140,14 @@ aCookie.Value = DateTime.Now.ToString();
 aCookie.Expires = DateTime.Now.AddDays(1);
 Response.Cookies.Add(aCookie);
 ```
+
 - Non Persistent Cookie
 	- Not stored in the client's hard drive permanently
 	- Maintains user information as long as the user access or uses the services.
-- Controlstate
-	- A private ViewState for specific controls only.
+- `Controlstate`
+	- A private `ViewState` for specific controls only.
 	- To cache data necessary for a control to function properly.
-	- Not affected when ViewState is turned off.
+	- Not affected when `ViewState` is turned off.
 - Hidden Field
 	- Hidden field is not displayed on the browser.
 	- `Response.Redirect("ShowStringValue.aspx?Username=" + txtUsername.Text);`
@@ -159,7 +161,7 @@ if (HiddenField1.Value != null)
 	Label1.Text = val.ToString();
 }
 ```
-- Viewstate
+- ViewState
 	- For page level state management
 	- Enabled by default
 		- Change the EnableViewState value to either TRUE (enabling) or FALSE
