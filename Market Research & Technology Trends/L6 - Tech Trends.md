@@ -14,3 +14,5 @@
 - What are the advantages and disadvantages of mobile diary studies for capturing real-time insights?
 - How does usability testing differ from other qualitative methods, and what are some decisions you need to make when setting up usability testing?
 - What are four key best practices for conducting surveys, and how do they enhance the effectiveness of the survey research?
+- What are the benefits of mobile diary studies and what are some third-party tools for managing them?
+- What are the decisions and advantages involved in choosing between moderated and unmoderated usability testing?
