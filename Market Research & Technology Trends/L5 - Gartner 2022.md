@@ -63,3 +63,5 @@ Ally Bank has created PBCs representing repeatable capabilities such as fraud al
 - Applying reengineered thought process to the most important and impactful decisions.
 - Consider kinds of data needed, what data could be exploited, what pieces of decision-making handled by humans and machines, and determine collaborations that are critical, rather than what you can manage.
 
+**How It's Used Today**
+Product-centric organizations can create a competitive edge in strategic product decisions by using decision intelligence to analyze competitor strategies and evaluate historic decisions. 
