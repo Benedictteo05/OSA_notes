@@ -56,7 +56,14 @@
 	- Faster, cheaper, easier to schedule, can test in a wider geography.
 
 ###  Quantitative Research
-
+**Surveys**
+- Quick and easy inexpensive way to get data from large population.
+- Often used to explain trends or features of large groups.
+- Best practices:
+	- Determine goal
+	- Keep it short and sweet (Break into multiple pages)
+	- Write simple questions
+	- 
 
 
 
