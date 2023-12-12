@@ -55,7 +55,7 @@
 	- Seeing environment, facial expressions and body language.
 	- Faster, cheaper, easier to schedule, can test in a wider geography.
 
-###  Quantitative Research
+### Quantitative Research
 **Surveys**
 - Quick and easy inexpensive way to get data from large population.
 - Often used to explain trends or features of large groups.
@@ -63,7 +63,15 @@
 	- Determine goal
 	- Keep it short and sweet (Break into multiple pages)
 	- Write simple questions
-	- 
+	- Pilot questions
+- Identify what questions needs to be answered.
 
-
-
+**Data analytics**
+- Tailor product and messaging to meet customer needs for personalized, value-driven experience each time.
+- Web analytics 
+	- Help us to understand how website visitors flow in the site and interact with specific pages.
+	- Provide insights on technical issues, content topics, and where visitors dropped from conversion path.
+- Search analytics
+	- Segment visitors by words used, are they new or returning, geography, how they got there.
+- Social listening
+	- Using social media to get real-time feedback on what customer care about.
