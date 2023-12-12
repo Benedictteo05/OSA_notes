@@ -50,7 +50,12 @@
 - One-on-one sessions, iterative testing on continuous basis.
 - Testing in increments, test with 5 people, fix and test again.
 - Use scenarios as tasks.
-- Moderated testing session allows for conversation, asking follow-up q
+- Moderated testing session allows for conversation, asking follow-up questions and probe into anything that seems interesting or unexpected.
+- Decide to conduct session in-person or remotely.
+	- Seeing environment, facial expressions and body language.
+	- Faster, cheaper, easier to schedule, can test in a wider geography.
+
+###  Quantitative Research
 
 
 
