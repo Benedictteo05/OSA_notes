@@ -67,4 +67,19 @@ Ally Bank has created PBCs representing repeatable capabilities such as fraud al
 Product-centric organizations can create a competitive edge in strategic product decisions by using decision intelligence to analyze competitor strategies and evaluate historic decisions. 
 
 ### Hyperautomation
-- Business-driv
+- Business-driven approach to identify, vet and automate as many business and IT processes as possible.
+
+### AI Engineering
+- Discipline of operationalizing updates to AI models, using integrated data and model and development pipelines to delivery consistent business value from AI. Combining automated update pipelines with strong AI governance.
+
+### Distributed Enterprises
+- Remote working led with different tools and increased flexibility.
+- Virtual-first, remote-first architectural approach to digitalize consumer touchpoints and build out experiences to support products.
+
+### Total Experience
+- Four disciplines:
+	- Customer experience
+	- User experience
+	- Employee experience
+	- Multiexperience
+- Interconnect and enhance each of these for a more holistic overall experience for all stakeholders.
