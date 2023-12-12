@@ -10,6 +10,7 @@
 
 ### Primary Data Research
 ^8bd1ba
+- Collect insights directly from people involved through the use of different research methods.
 - Usually costs more 
 - More valuable
 - Often takes longer to conduct than secondary research
@@ -18,6 +19,7 @@
 
 ### Secondary Data Research
 ^da9100
+- Utilizes existing research and analysis available in the public domain.
 - Good for starting point.
 - Research has already been compiled, gathered, organized and published by others. No need to reinvent the wheel.
 - Includes reports and studies by government agencies, trade associations or other businesses in your industry.
