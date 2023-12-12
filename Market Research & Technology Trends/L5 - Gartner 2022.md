@@ -65,3 +65,6 @@ Ally Bank has created PBCs representing repeatable capabilities such as fraud al
 
 **How It's Used Today**
 Product-centric organizations can create a competitive edge in strategic product decisions by using decision intelligence to analyze competitor strategies and evaluate historic decisions. 
+
+### Hyperautomation
+- Business-driv
