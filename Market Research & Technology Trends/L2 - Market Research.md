@@ -74,6 +74,7 @@
 	- Help us to understand how website visitors flow in the site and interact with specific pages.
 	- Provide insights on technical issues, content topics, and where visitors dropped from conversion path.
 - Search analytics
+	- Search data reveals the keywords visitors use to find a website and additional terms they search for.
 	- Segment visitors by words used, are they new or returning, geography, how they got there.
 - Social listening
 	- Using social media to get real-time feedback on what customer care about.
