@@ -8,10 +8,11 @@
 - Measures reaction not behavior.
 - Help gather idea and measure shared sentiments.
 - Tends to be unreliable when it is misused.
-- Good for brainstorming ideas directly from target audience.
-- Good for starting from scratch and getting to know customers.
-	- Enhanced by behavioral research to hone persona.
-- Good for getting public reaction to a new product or situation.
+- Use case:
+	- Good for brainstorming ideas directly from target audience.
+	- Good for starting from scratch and getting to know customers.
+		- Enhanced by behavioral research to hone persona.
+	- Good for getting public reaction to a new product or situation.
 
 **User Interviews**
 - Make sure of goals and steer conversation there

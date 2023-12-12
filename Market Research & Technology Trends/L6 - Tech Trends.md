@@ -6,3 +6,11 @@
 - **Microsoft’s Power Platform**: Describes the components of the Power Platform, such as Power BI, Power Automate, Power Virtual Agents, and Power Apps, which enable easy creation and sharing of custom business apps
 - **Case Example and Statistics**: Shares a personal experience of creating a data entry prototype using Power Apps and SharePoint data, and cites statistics and forecasts of the low-code market growth
 - **Final Thoughts**: Highlights the availability and promise of no-code platforms, the low concerns about shadow IT, and the empowerment of individuals to bring their ideas to life
+
+- What is the definition of focus groups, and what are three use cases for them?
+- What are three things you should do and three things you should avoid when conducting user interviews?
+- What are the key steps and techniques involved in conducting image-based interviews?
+- What are the benefits and limitations of ethnographic research as a method for understanding user behavior?
+- What are the advantages and disadvantages of mobile diary studies for capturing real-time insights?
+- How does usability testing differ from other qualitative methods, and what are some decisions you need to make when setting up usability testing?
+- What are four key best practices for conducting surveys, and how do they enhance the effectiveness of the survey research?

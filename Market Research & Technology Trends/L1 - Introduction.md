@@ -9,9 +9,7 @@
 4. Satisfy customers
 
 ### Primary Data Research
-
 ^8bd1ba
-
 - Usually costs more 
 - More valuable
 - Often takes longer to conduct than secondary research
@@ -19,9 +17,7 @@
 - e.g. Questionnaires.
 
 ### Secondary Data Research
-
 ^da9100
-
 - Good for starting point.
 - Research has already been compiled, gathered, organized and published by others. No need to reinvent the wheel.
 - Includes reports and studies by government agencies, trade associations or other businesses in your industry.
