@@ -37,12 +37,20 @@
 - 2 types of ethnography:
 	- Passive observation
 	- Contextual interviews
-	- 
-
+- Understand deep drivers of customers.
+- Pair deep insights with quantitative measures.
 
 **Diary studies**
+- Recording behavior when it happens.
+- Learning customer's experience in context helps make confident decisions.
+- It is scalable.
 
 **Usability testing**
+- Want to see how our audiences might use it.
+- One-on-one sessions, iterative testing on continuous basis.
+- Testing in increments, test with 5 people, fix and test again.
+- Use scenarios as tasks.
+- Moderated testing session allows for conversation, asking follow-up q
 
 
 
