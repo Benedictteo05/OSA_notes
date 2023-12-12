@@ -75,3 +75,8 @@
 	- Segment visitors by words used, are they new or returning, geography, how they got there.
 - Social listening
 	- Using social media to get real-time feedback on what customer care about.
+
+**Eye tracking and biometrics**
+- Detect eye motion, sweat beads, heart rate and micro expressions on face.
+- Learn where the customers look, what they look at, how much time they spend gazing at different stimuli and how their pupils react.
+- 
