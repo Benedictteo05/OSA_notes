@@ -79,4 +79,5 @@
 **Eye tracking and biometrics**
 - Detect eye motion, sweat beads, heart rate and micro expressions on face.
 - Learn where the customers look, what they look at, how much time they spend gazing at different stimuli and how their pupils react.
-- 
+- Galvanic skin response measures changes in sweat gland activity.
+- Facial expression analysis detects micro expression on the face.

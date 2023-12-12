@@ -36,3 +36,6 @@ DeliverFund is a U.S.-based nonprofit with a mission to tackle human trafficking
 **How It's Used Today**
 A major Indian bank built a cloud-native platform to create a portfolio of new digital financial services. The bank was able to reduce the time to open an account to just 6 minutes and add instant digital payments.
 
+### Composable Applications
+- Fusion teams lack coding skills, be locked into the wrong technologies and are often tasked with fast-paced delivery.
+- Composable applicatio
