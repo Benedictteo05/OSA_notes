@@ -49,4 +49,15 @@ A major Indian bank built a cloud-native platform to create a portfolio of new d
 - Able to use smaller pieces of applications on any larger application, no matter where you are in the company.
 
 **How It's Used Today**
+Ally Bank has created PBCs representing repeatable capabilities such as fraud alerting, which its fusion teams can assemble in low-code environments, saving over 200,000 hours of manual effort.
 
+### Decision Intelligence
+- Organizations must make better decision, faster.
+- Improves organizational decision-making by modeling decisions through a framework.
+- Fusion teams can manage, evaluate and improve decisions based on learning and feedbacks.
+- Integrating data, analytics and AI allows the creation of decision intelligence platforms to support, augment and automate decisions.
+- Decision-making potential impacts extend across enterprises, and the lines between strategic, tactical, and operational decisions are blurring.
+- Effective decision-making requires business leaders to reframe what is essential, who or what is involved.
+	- To rethink how to leverage data and analytics to improve decision-making.
+	- Result in new core competency, driving better business outcomes.
+- Applying 
