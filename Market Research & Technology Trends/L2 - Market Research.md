@@ -22,12 +22,23 @@
 - Pilot interview questions
 
 **Image-based interviews**
+- Artful way to uncover emotional conversion triggers 
 - Invite the right participants
-- Ask participants to bring 10 to
-
-
+- Ask participants to bring 10 to 15 pictures to the interview
+	- Pictures that represents how they feel about whatever it is you're researching.
+- Run one-on-one interviews to talk about pictures
+- Use a forced-pairing technique
+	- "if this brand were a smell, what would it be?"
+- Look for trends to reposition the product
 
 **Ethnography**
+- Immerse yourself in the audiences' natural environment
+- Empathize with customers and solve real problems.
+- 2 types of ethnography:
+	- Passive observation
+	- Contextual interviews
+	- 
+
 
 **Diary studies**
 
