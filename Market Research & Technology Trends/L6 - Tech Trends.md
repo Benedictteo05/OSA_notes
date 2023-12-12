@@ -1,4 +1,8 @@
-- **soft skills** required for data engineering, such as data modeling, collaboration, and continuous learning.
+- 
+
+
+
+**soft skills** required for data engineering, such as data modeling, collaboration, and continuous learning.
 - Data modeling is linked to **problem-solving**, requiring the ability to identify, think through, debug, and build solutions around challenges
 - Collaboration is a key soft skill for effective teamwork in the data engineering space, since models are often built for others to use
 - Continuous learning is necessary to stay updated on new developments and industry trends, as data engineering is a **rapidly evolving field**.
