@@ -14,10 +14,18 @@
 - Good for getting public reaction to a new product or situation.
 
 **User Interviews**
-- 
-
+- Make sure of goals and steer conversation there
+- Build rapport
+- Reflect back on what you hear
+- Never talk more than you listen
+- Avoid asking why
+- Pilot interview questions
 
 **Image-based interviews**
+- Invite the right participants
+- Ask participants to bring 10 to
+
+
 
 **Ethnography**
 
