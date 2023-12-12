@@ -1,8 +1,19 @@
 ### IMDA Technology Roadmap
 - Plans IMDA prepared to chart technology development focus for Singapore to meet the social and economical development needs and the relevant emerging technologies that would play an important part for the next 3-5 years.
 
-### 5 IMDA vision
-- IMDA envision a Singapore 
+### 4 IMDA vision
+**Transforming Singapore**
+- IMDA envision a Singapore transformed for the better by infocomm media. It will be a nation where people live meaningful and fulfilled lives enabled by technology, and where there are exciting opportunities for all.
+
+**Better Quality of Life**
+- A place where infocomm media enables a better quality of life for people through world-class connectivity, compelling local content, and technologies to make everyday lives smoother and more convenient.
+
+**Living Lab**
+- Living lab to entrepreneurs, growth companies and multinationals in the infocomm media space where they continually experiment and innovate to contribute to sustainable and quality economic growth.
+
+**Competitive Infocomm Media Ecosystem**
+- To ensure that Singapore stays ahead of the competition with the digitalization, IMDA constantly monitors the infocomm media landscape and seeks to create a globally competitive infocomm media ecosystem through an emphasis on talent, research, innovation and enterprise.
+
 
 ### SG Digital
 - Singapore Digital (SG:D) is a nationwide movement to unify Singapore's digitalization efforts.
