@@ -37,5 +37,16 @@ DeliverFund is a U.S.-based nonprofit with a mission to tackle human trafficking
 A major Indian bank built a cloud-native platform to create a portfolio of new digital financial services. The bank was able to reduce the time to open an account to just 6 minutes and add instant digital payments.
 
 ### Composable Applications
+- Development methodology to reuse pieces of code from existing applications, bundled together, to improve other existing applications.
 - Fusion teams lack coding skills, be locked into the wrong technologies and are often tasked with fast-paced delivery.
-- Composable applicatio
+- Composable applications are made up of packaged business capabilities (PBCs) or software-defined business objects.
+- E.g. Representing a patient or digital twin 
+	- Create reusable modules that fusion teams can self-assemble to rapidly create applications, reducing time to market.
+- Centralized around APIs and microservices to increase business efficiency.
+- Repurposes individual functional pieces of an application or process that can be separated from the entire application or process. 
+- So that more applications with improved functionality and increased purpose can be developed across an entire organization.
+- A composable infrastructure that allows for easy reconfiguration allows for dynamic configuration and customization. 
+- Able to use smaller pieces of applications on any larger application, no matter where you are in the company.
+
+**How It's Used Today**
+
