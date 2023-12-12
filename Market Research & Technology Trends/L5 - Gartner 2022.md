@@ -9,7 +9,8 @@
 The Finnish city of Turku found its innovation held back by gaps in its data. By integrating fragmented data assets, it was able to reuse data, reduce time to market by two-thirds, and create a monetizable data fabric.
 
 ### Cybersecurity Mesh
-- A **cybersecurity mesh** architecture provides a composable approach to security based on identity to create a scalable and interoperable service. The common integrated structure secures all assets, regardless of location, to enable a security approach that extends across the foundation of IT services
+- A **cybersecurity mesh** architecture provides a composable approach to security based on identity to create a scalable and interoperable service. 
+- The common integrated structure secures all assets, regardless of location, to enable a security approach that extends across the foundation of IT services
 - Organizations now support a variety of technologies in different places, so they need a flexible security solution. 
 - Cybersecurity mesh extends to cover identities outside the traditional security perimeter and create a holistic view of the organization. 
 - It also helps improve security for remote work. 
