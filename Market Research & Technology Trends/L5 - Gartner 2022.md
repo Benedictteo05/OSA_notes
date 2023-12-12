@@ -68,7 +68,16 @@ Product-centric organizations can create a competitive edge in strategic product
 
 ### Hyperautomation
 - Business-driven approach to identify, vet and automate as many business and IT processes as possible.
-
+- E.g.
+	- AI
+	- ML
+	- Event-driven software architecture
+	- RPA
+	- BPM and iBPMS
+	- IPaas
+	- Low code/no code tools
+	- Packaged software
+	- etc
 ### AI Engineering
 - Discipline of operationalizing updates to AI models, using integrated data and model and development pipelines to delivery consistent business value from AI. Combining automated update pipelines with strong AI governance.
 
@@ -83,3 +92,13 @@ Product-centric organizations can create a competitive edge in strategic product
 	- Employee experience
 	- Multiexperience
 - Interconnect and enhance each of these for a more holistic overall experience for all stakeholders.
+
+### Autonomic Systems
+- Self-managing physical or software systems that learn from their environments.
+- Can dynamically modify their own algorithms with no software updates.
+- Allow rapid responses to change, enabling management at scale of complex environments.
+- Create agile set of technology capabilities that are able to support new requirements and situations, optimize performance and defend against attacks without human intervention.
+
+### Generative AI
+- AI that learns a digital representation of artifacts from sample data and uses it to generate new, original, realistic artifacts that retain a likeness to the training data but don't repeat it.
+- Allowing generative AI to be engine of rapid innovation for enterprises.
