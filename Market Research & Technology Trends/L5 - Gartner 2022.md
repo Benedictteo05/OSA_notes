@@ -60,4 +60,6 @@ Ally Bank has created PBCs representing repeatable capabilities such as fraud al
 - Effective decision-making requires business leaders to reframe what is essential, who or what is involved.
 	- To rethink how to leverage data and analytics to improve decision-making.
 	- Result in new core competency, driving better business outcomes.
-- Applying 
+- Applying reengineered thought process to the most important and impactful decisions.
+- Consider kinds of data needed, what data could be exploited, what pieces of decision-making handled by humans and machines, and determine collaborations that are critical, rather than what you can manage.
+
