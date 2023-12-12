@@ -77,7 +77,7 @@ Product-centric organizations can create a competitive edge in strategic product
 	- IPaas
 	- Low code/no code tools
 	- Packaged software
-	- etc
+	- etc.
 ### AI Engineering
 - Discipline of operationalizing updates to AI models, using integrated data and model and development pipelines to delivery consistent business value from AI. Combining automated update pipelines with strong AI governance.
 

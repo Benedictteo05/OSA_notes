@@ -15,11 +15,12 @@
 
 **User Interviews**
 - Make sure of goals and steer conversation there
-- Build rapport
-- Reflect back on what you hear
-- Never talk more than you listen
-- Avoid asking why
-- Pilot interview questions
+- Build rapport. 
+	- Encouraging participants to talk about themselves. Start with easy, open-ended questions about the person, not just your brand.
+- Reflect back on what you hear.
+- Never talk more than you listen.
+- Avoid asking why.
+- Pilot interview questions.
 
 **Image-based interviews**
 - Artful way to uncover emotional conversion triggers 
