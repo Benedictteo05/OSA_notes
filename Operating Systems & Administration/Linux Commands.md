@@ -4,6 +4,12 @@
 **Display text**
 - `echo`
 
+**Print working directory**
+- `pwd`
+
+**List directory contents**
+- `ls`
+
 **Switch user**
 - `su`
 
