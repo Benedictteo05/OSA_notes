@@ -45,11 +45,23 @@
 
 **File permissions**
 
+|Permissions|command|
+|---|--|
+|Read|r|
+|Write|w|
+|Execute|x|
+
 |Users|Description|
 |---|----|
 |User|u|
 |Group|g|
 |Others|u|
+
+|Character|FileType|
+|----|----|
+|`d`|Directory|
+|`-`|File|
+|`\|`|Link|
 
 
 **Example:**
