@@ -45,6 +45,12 @@
 
 **File permissions**
 
+|Users|Description|
+|---|----|
+|User|u|
+|Group|g|
+|Others|u|
+
 
 **Example:**
 ```
@@ -63,13 +69,15 @@ drwxr-xr-x. 2 student student 40 Aug
 **Change mode**
 - `chmod`
 ```
-drwxr-xr-x. 2 student student 40 Aug
->> chmod g-rw meNot
-drwx--xr-x. 2 student student 40 Aug 24 2019
+drwxr-xr-x. 2 student student 40 Aug 24 2019 Desktop
+>> chmod g-rx Desktop
+>> OR
+>> chmod 705 Desktop
+drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 
 'g' - Group user
 '-[r|w|x]' - remove permission 
 
-drwx
-
+//shortcut to adding permissions
+>> chmod g+x Desktop
 ```
