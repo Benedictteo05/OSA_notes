@@ -94,7 +94,9 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 ```
 
 **Hard Links**
+- Pointer to the data
 - `ln`
 
 **Soft Link (Symbolic Link)**
+- Pointer to the file 
 - `ln -s`
