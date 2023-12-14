@@ -43,6 +43,9 @@
 - Repeat last command:
 	- `!!`
 
+**File permissions**
+
+
 **Example:**
 ```
 >> ll
@@ -57,3 +60,11 @@ drwxr-xr-x. 2 student student 40 Aug
 
 ```
 
+**Change mode**
+- `chmod`
+```
+chmod g-rw meNot
+
+'g' - Group user
+'-[r|w|x]' - remove permission 
+```
