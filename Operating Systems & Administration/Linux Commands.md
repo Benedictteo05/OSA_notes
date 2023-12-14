@@ -43,3 +43,15 @@
 - Repeat last command:
 	- `!!`
 
+**Example:**
+```
+drwxr-xr-x. 
+
+'d' - Directory
+'rwx' - User permission
+'r-x' - Group permission
+'r-x' - Others permission
+'.' - no presence of ACL ('+' if there is) 
+
+```
+
