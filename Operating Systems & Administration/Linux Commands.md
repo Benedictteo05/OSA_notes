@@ -45,13 +45,15 @@
 
 **Example:**
 ```
-drwxr-xr-x. 
+>> ll
+drwxr-xr-x. 2 student student 40 Aug
 
 'd' - Directory
 'rwx' - User permission
 'r-x' - Group permission
 'r-x' - Others permission
 '.' - no presence of ACL ('+' if there is) 
+'2' - no. of hard links
 
 ```
 
