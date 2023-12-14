@@ -93,3 +93,8 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 >> chmod g+x Desktop
 ```
 
+**Hard Links**
+- `ln`
+
+**Soft Link (Symbolic Link)**
+- `ln -s`
