@@ -63,8 +63,13 @@ drwxr-xr-x. 2 student student 40 Aug
 **Change mode**
 - `chmod`
 ```
-chmod g-rw meNot
+drwxr-xr-x. 2 student student 40 Aug
+>> chmod g-rw meNot
+drwx--xr-x. 2 student student 40 Aug 24 2019
 
 'g' - Group user
 '-[r|w|x]' - remove permission 
+
+drwx
+
 ```
