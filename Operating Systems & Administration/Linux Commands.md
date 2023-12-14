@@ -10,6 +10,9 @@
 **List directory contents**
 - `ls`
 
+**Move/Rename**
+- `mv`
+
 **Switch user**
 - `su`
 
