@@ -59,10 +59,9 @@
 
 |Character|FileType|
 |----|----|
-|`d`|Directory|
-|`-`|File|
-|`\|`|Link|
-
+|d|Directory|
+|-|File|
+|\||Link|
 
 **Example:**
 ```
@@ -93,3 +92,4 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 //shortcut to adding permissions
 >> chmod g+x Desktop
 ```
+
