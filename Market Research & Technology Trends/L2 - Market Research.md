@@ -1,4 +1,4 @@
-### Market Research
+ls### Market Research
 - 2 types of market research
 	- [[L1 - Introduction#^8bd1ba|Primary research]]
 	- [[L1 - Introduction#^da9100|Secondary research]]
