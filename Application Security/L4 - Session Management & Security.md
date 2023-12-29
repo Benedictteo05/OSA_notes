@@ -180,7 +180,7 @@ if (ViewState["UserName"] != null)
 	- Values are exchanged in clear text.
 	- It is visible to all the users in url.
 
-### .Net Core Session Mgt
+### .Net Core Session Management
 - Hidden Field, Query String, Cookies, Session Variables.
 - Session is not enabled by default in ASP.NET Core.
 
