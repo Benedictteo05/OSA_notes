@@ -36,7 +36,7 @@
 - Unix classic processes have not explicit notion of a thread.
 
 ### Threads - The NT Model
-- Windows Win32 API allows processes with multiple threads to be created through its CreateProcess() function.
+- Windows Win32 API allows processes with multiple threads to be created through its `CreateProcess()` function.
 - Options provided includes:
 	- Creating a new child process with a single thread.
 	- Creating new additional threads in the current process.
