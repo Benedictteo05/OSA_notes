@@ -1,4 +1,5 @@
 ### Processes and Threads
+- A process is a binary program in **execution**
 - A process is made of:
 	- A binary program
 	- Data on which the program will execute
