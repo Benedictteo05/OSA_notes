@@ -147,7 +147,7 @@
 - When the CPU initiates I/O, we need the device to 'notify' the CPU when the I/O is done.
 - Two ways to do this:
 	- [[L3 - Computer Organization#^a21394|Polling]]
-	- [[L3 - Computer Organization#^dc8d29|Interrupt]]
+	- [[L3 - Computer Organization#^dc8d29|Interrupt]] ^e0e780
 
 ### CPU/Device Operation
 - Performing a Write Operation (polling).

@@ -81,6 +81,8 @@
 - Also known as Process Control Block (PCB)
 
 ### Context Switching
-- In a multiple process environment, each thread of execution is a co
+- In a multiple process environment, each thread of execution is a context.
+- When the CPU switches between two processes/threads, it is called a **context switch**.
+- A context switch can only occur when the OS gets control of the CPU through traps or [[L3 - Computer Organization#^e0e780|interrupt]]. 
 
 ### Process State Diagram
