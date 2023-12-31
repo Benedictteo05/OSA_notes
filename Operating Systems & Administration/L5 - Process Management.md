@@ -52,8 +52,19 @@
 ### Process Manager
 - To manage multiple processes, modern OS implement the process manager to manage the processes.
 - The process manger implements:
-	- Calls like fork() in UNIX and `CreateProcess()` in windows to create processes.
+	- Calls like `fork()` in UNIX and `CreateProcess()` in windows to create processes.
 	- Calls like `pthread_create()` in Linux and `CreateProcess()` in Windows to support threading.
 	- Calls like `close()` in Unix and `CloseHandle()` in Windows to close processes/threads to release resources.
 
+**Process Manager Responsibilities**
+- Define & implement the essential characteristics of a process and thread.
+	- Algorithms to define the behavior
+	- Data structures to preserve the state of the execution.
+- Define what "things" threads in the process can reference - the address space (most of the "things" are memory locations)
+- Manage the resources used by the processes/threads.
+- Tools to create/destroy/manipulate processes & threads.
+- Tools to schedule the processes on the CPU.
+- Tools to allow threads to synchronization the operation with one another.
+- Mechanisms to handle deadlock.
+- Mechanisms to handle protection.
 ### Process State Diagram
