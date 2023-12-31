@@ -66,5 +66,21 @@
 - Tools to schedule the processes on the CPU.
 - Tools to allow threads to synchronization the operation with one another.
 - Mechanisms to handle deadlock.
-- Mechanisms to handle protection.
+- Mechanisms to handle protection (security).
+
+### Process Descriptors
+- OS creates/manages process abstraction.
+- Descriptor is data structure for each process:
+	- Process ID
+	- Program counter
+	- Register values
+	- Process states
+	- Type & location of resources it holds
+	- List of resources it needs
+	- Security keys
+- Also known as Process Control Block (PCB)
+
+### Context Switching
+- In a multiple process environment, each thread of execution is a co
+
 ### Process State Diagram
