@@ -116,7 +116,7 @@
 ### Requesting Service from OS
 - In order to execute privileged instructions, user programs have to activate routines in the kernel, which can then execute on the user programs' behalf.
 - Two techniques:
-	- System call
+	- System call ^d743ab
 	- Message passing
 
 ### System Call

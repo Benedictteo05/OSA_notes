@@ -83,6 +83,14 @@
 ### Context Switching
 - In a multiple process environment, each thread of execution is a context.
 - When the CPU switches between two processes/threads, it is called a **context switch**.
-- A context switch can only occur when the OS gets control of the CPU through traps or [[L3 - Computer Organization#^e0e780|interrupt]]. 
+- A context switch can only occur when the OS gets control of the CPU through [[L2 - Operating System Organization#^d743ab|trap]] or [[L3 - Computer Organization#^e0e780|interrupt]]. 
+
+### Process States
+- As a process executes, it changes state:
+	- Running: Instructions are being executed.
+	- Blocked: The process is waiting for some event to occur (e.g. I/O completion).
+	- Ready: The process is waiting to be assigned to a processor.
+	- Done: The process has finished execution.
+- Modern OS implement additional states as required to support more complex features.
 
 ### Process State Diagram
