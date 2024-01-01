@@ -109,5 +109,10 @@
 - The goal is to shuffle the memory contents to place all free memory together in one big block.
 - It relocates the processes in memory in order to recombine fragmented free memory.
 - It solves the problem of external fragmentation.
-- Note: 1k = $2^(10)$
-- 
+- Note: $1k = 2^{10} = 1024$
+- Compaction costs CPU time to perform.
+- Is an overhead operation.
+- When and how often it should be done?
+	- When there are jobs waiting to get in.
+	- After a prescribed amount of time has elapsed.
+
