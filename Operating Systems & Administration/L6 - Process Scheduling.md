@@ -40,19 +40,34 @@
 
 
 ### First-Come-First-Served (FCFS)
-- Concept
+- Concept:
 	- The process to request first will be allocated the CPU first.
 	- It is [[L6 - Process Scheduling#^4c17fe|non-preemptive]]
 	- Using a FCFS queue, PCB of a new process will be linked to the tail of the queue.
 	- When CPU is free, process at the head of the FCFS queue will be allocated the CPU.
-- Advantages
+- Advantages:
 	- Simplest CPU scheduling algorithm.
-- Disadvantages
+- Disadvantages:
 	- Convoy effect: Short process behind long process and waiting for the long process to finish. This results in lower CPU and device utilization.
 
 ### Shortest-Job-First (SJF)
+- Concept:
+	- Each process is associated with the length of its service time (total CPU time that is required by the process). When the CPU is available, it is assigned to the process that has the smallest (remaining) service time.
+- Two methods:
+	- Nonpreemptive - Once CPU is allocated to a process it cannot be preempted until it completes its service time.
+	- Preemptive - A current process is preempted if a new process arrives with a service time length lesser than the current process's remaining service time.
+	- This scheme is also known as the Shortest-Remaining-Time-First (SRTF).
+- SJF is optimal 
+	- It gives minimum average waiting time for a given set of processes.
+
+### Priority Scheduling
 - Concept
-	- Each process is associated with the length 
+	- A priority number (integer) is associated with each process. The CPU is allocated to the process with the highest priority. Equal-priority processes are scheduled in FCFS order.
+		- Preemptive
+		- Nonpreemptive
+- Problem:
+	- Starvation
+	- Low Priority processes may never be 
 
 ### Turnaround time
 - Time from when it arrives till the 
