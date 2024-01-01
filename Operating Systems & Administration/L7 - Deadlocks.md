@@ -28,7 +28,7 @@
 		- Design the system so that deadlock is impossible.
 	- [[L7 - Deadlocks#^5837c5|Avoidance]]
 		- Construct a model of system states, then choose a strategy that will not allow the system to go a deadlock state.
-	- Detection & Recovery
+	- [[L7 - Deadlocks#^8bbd82|Detection & Recovery]]
 		- Check for deadlock (periodically or sporadically), then recover.
 	- Manual intervention
 		- Have the operator reboot the machine if it seems too slow.
@@ -67,13 +67,14 @@
 ### Avoidance
 ^5837c5
 - Manage deadlocks by allowing resource allocation only if it satisfied that deadlock will not occur.
-- The mechanism is [[L7 - Deadlocks#^dbccf5|Banker's Algorithm]].
+- The mechanism is [[L7 - Deadlocks#^523d3c^Banker's algorithm]].
 
 ### Banker's algorithm
 ^dbccf5
-Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
+Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes. ^523d3c
 
 ### Detection and Recovery
+^8bbd82
 - OS detects that CPU has capacity to run but processes are not running.
 - Take one of the resource from one process for another process, allowing the OS to break the deadlock.
 - An aggressive strategy.
