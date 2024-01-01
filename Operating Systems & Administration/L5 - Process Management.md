@@ -93,3 +93,5 @@
 	- Done: The process has finished execution.
 - Modern OS implement additional states as required to support more complex features.
 
+### Process State Diagram
+![[Pasted image 20240101142347.png]]
