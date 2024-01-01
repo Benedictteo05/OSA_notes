@@ -106,3 +106,4 @@
 -  Waiting time is defined as the total time which a process spends waiting for the CPU in the ready list.
 - Turnaround time is the time from the arrival of the process to its completion by the CPU.
 	- It includes the time it spends waiting for the CPU.
+ 
