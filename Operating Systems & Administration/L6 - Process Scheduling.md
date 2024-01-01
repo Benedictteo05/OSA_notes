@@ -61,13 +61,30 @@
 	- It gives minimum average waiting time for a given set of processes.
 
 ### Priority Scheduling
-- Concept
+- Concept:
 	- A priority number (integer) is associated with each process. The CPU is allocated to the process with the highest priority. Equal-priority processes are scheduled in FCFS order.
 		- Preemptive
 		- Nonpreemptive
 - Problem:
 	- Starvation
-	- Low Priority processes may never be 
+	- Low priority processes may never be executed.
+- Solution:
+	- Aging
+	- Increase the priority of the process as time progresses.
+
+### Round-Robin (RR)
+- Preemptive scheduling
+- Each process gets a small unit of CPU time (time quantum), usually 10-100 milliseconds. After this time has elapsed, the process is preempted and added to the end of the ready queue.
+- New processes are added to the tail of the ready queue, which is a FCFS circular queue.
+- Fast response time. It is good for time-sharing system.
+- If service time is <1 time quantum, process release CPU voluntarily. 
+- Performance. It depends on size of time quantum:
+	- Large quantum (q). This is equivalent to FIFO.
+	- Small quantum (q). It must be large with respect to the context switch, otherwise overhead is too high.
+
+### Multilevel Queue
+- Processes are classified into groups based on some property of the process.
+- Ready queue is partitioned into separate queues such as foreground (interactive), background ()
 
 ### Turnaround time
 - Time from when it arrives till the 
