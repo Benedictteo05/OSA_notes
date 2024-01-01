@@ -23,4 +23,18 @@
 - At the bottom is slower, but cheaper memory. e.g. Hard disk, tape drives.
 
 ### Managing Address Space
- - When a program is converted (compiled) into executable form, there is 
+ - When a program is converted (compiled) into executable form, there is no need to attach addresses to every single instruction in the program.
+
+**Why?**
+- Program instructions need to be stored in a particular order in order for the CPU to execute in the correct way.
+- Programs involve many 'jumps' to different parts of the program. In order to do this, there has to be a concept of addresses for every part of the program.
+- Imagine someone asking you to go to a person's house. Unless the address is given to you, there is no way you can get to that house.
+- This process is called Address Binding.
+
+### Creating an Executable Program
+- Compile time: Translate elements
+- Link time: Combine elements
+- Load time:
+	- Allocate primary memory
+	- Adjust addresses in address space
+	- Copy address space from secondary to primary memory
