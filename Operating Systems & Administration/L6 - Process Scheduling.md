@@ -31,17 +31,28 @@
 	- Average time a process waits for service (Reduce waiting time)
 	- Average amount of time to complete a job (Reduce time in ready queue to finish state)
 
-### Nonpreemptive vs Preemptive Schedulers
-**Nonpreemptive scheduler**
+### Nonpreemptive scheduler
+^4c17fe
 - When a process gets the CPU, it will not be preempted (it will not be interrupted), it will have the opportunity to run until it is fully completed before the CPU is given to the next process.
 
-**Preemptive scheduler**
-- Processes takes turnd to share the CPU, they can be interrupted midway - the CPU is allocated to another process even before a process fion
+### Preemptive scheduler
+- Processes takes turns to share the CPU, they can be interrupted midway - the CPU is allocated to another process even before a process finishes
 
-### Nonpreemptive Schedulers 
-- First-Come-First-Served (FCFS)
-	- Scheduler
 
+### First-Come-First-Served (FCFS)
+- Concept
+	- The process to request first will be allocated the CPU first.
+	- It is [[L6 - Process Scheduling#^4c17fe|non-preemptive]]
+	- Using a FCFS queue, PCB of a new process will be linked to the tail of the queue.
+	- When CPU is free, process at the head of the FCFS queue will be allocated the CPU.
+- Advantages
+	- Simplest CPU scheduling algorithm.
+- Disadvantages
+	- Convoy effect: Short process behind long process and waiting for the long process to finish. This results in lower CPU and device utilization.
+
+### Shortest-Job-First (SJF)
+- Concept
+	- Each process is associated with the length 
 
 ### Turnaround time
 - Time from when it arrives till the 
