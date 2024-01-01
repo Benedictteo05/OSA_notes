@@ -38,3 +38,7 @@
 	- Allocate primary memory
 	- Adjust addresses in address space
 	- Copy address space from secondary to primary memory
+
+### Address Binding
+- There are three ways to ensure that when a program is loaded up into memory, each instruction has an address:
+	- 
