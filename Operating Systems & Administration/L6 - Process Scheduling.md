@@ -27,7 +27,7 @@
 
 ### Policy Considerations
 - Policy can control/influence:
-	- CPU utilization (Keep the CPU busy)
+	- CPU utilization (To keep the CPU busy)
 	- Average time a process waits for service (Reduce waiting time)
 	- Average amount of time to complete a job (Reduce time in ready queue to finish state)
 
