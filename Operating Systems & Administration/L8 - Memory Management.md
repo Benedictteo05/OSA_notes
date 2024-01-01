@@ -41,4 +41,28 @@
 
 ### Address Binding
 - There are three ways to ensure that when a program is loaded up into memory, each instruction has an address:
-	- 
+	- During compile time
+	- During load time 
+	- During run time
+
+**Compile time binding**
+- Addresses are attached to each instruction when program is compiled.
+- Program is loaded into same location in memory whenever it is executed.
+- Simple, and good for single-programmed systems. E.g. MS-DOS.
+- Cannot be relocated into different locations in memory.
+
+**Load time binding**
+- During compilation, the program is attached with re-locatable addresses. E.g. start at 0x0000.
+- When program is loaded into memory, the location of the first instruction is loaded into a special register.
+- To access the program, take re-locatable address of instruction + value of special register.
+- Once loaded into memory, the program cannot be relocated into another portion of the memory.
+
+**Run time binding**
+- Address binding is delayed until run-time.
+- Similar in concept to load time binding. i.e. using a relocatable register.
+- Address of instruction is calculated only when the instruction is required.
+- Very flexible as program can be relocated into any portion of memory at any time.
+- Used by modern OS for multi-programming.
+
+### Logical vs Physical Address Space
+- The
