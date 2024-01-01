@@ -84,7 +84,28 @@
 
 ### Multilevel Queue
 - Processes are classified into groups based on some property of the process.
-- Ready queue is partitioned into separate queues such as foreground (interactive), background ()
+- Ready queue is partitioned into separate queues such as foreground (interactive), background (batch).
+- The processes are permanently assigned to one queue. 
+- Each queue has its own scheduling algorithm. 
+- E.g.
+	- RR for foreground queue.
+	- FCFS for background queue.
+
+### CPU Schedules
+- There is no practical way to determine which policy is the best.
+- To study policy performance, we need to consider simplified model, based on a fixed order of processes, which reflect the actual kind of processes a computer can expect.
+- To do so, we are provided with:
+	- A schedule of processes, their arrival time and CPU service time.
+- We need to analyze and produce the following:
+	- Gantt chart
+	- Average waiting and turnaround time.
+
+**Gantt Chart**
+- A 'chart' showing the actual execution of a series of processes by the CPU.
+	- It shows the start and end of execution of each processes.
+-  Waiting time is defined as the total time which a process spends waiting for the CPU in the ready list.
+- Turnaround time is the time from the arrival of the process to its completion by the CPU.
+	- It includes the time it spends waiting for the CPU.
 
 ### Turnaround time
 - Time from when it arrives till the 
