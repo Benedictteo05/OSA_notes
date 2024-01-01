@@ -67,12 +67,12 @@
 ### Avoidance
 ^5837c5
 - Manage deadlocks by allowing resource allocation only if it satisfied that deadlock will not occur.
-- The mechanism is [[L7 - Deadlocks#^523d3c^Banker's algorithm]].
+- The mechanism is [[L7 - Deadlocks#^2f8e26|Banker's algorithm]].
 
 ### Banker's algorithm
-^dbccf5
-Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes. ^523d3c
+^2f8e26
 
+Finds our how much resources is needed, then allocate enough resource for it. If the OS predicts that there might be a deadlock, the OS will reschedule the resources for the processes.
 ### Detection and Recovery
 ^8bbd82
 - OS detects that CPU has capacity to run but processes are not running.
@@ -98,10 +98,11 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 ### Deadlock Recovery
 - Inform operator to deal with deadlock manually.
 - Two options for breaking deadlock to recover system from deadlock automatically:
-	1. Process termination
+	1. [[L7 - Deadlocks#^process termin]]
 	2. Resource Preemption
 
 ### Process Termination
+^da6cc3
 - Abort all deadlocked processes 
 	- This method is expensive since processes may have computed for a long time, and all results must be discarded, and recomputed again.
 - Abort one process at a time until deadlock cycle is broken.
