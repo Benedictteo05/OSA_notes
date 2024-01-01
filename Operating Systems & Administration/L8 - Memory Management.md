@@ -23,4 +23,4 @@
 - At the bottom is slower, but cheaper memory. e.g. Hard disk, tape drives.
 
 ### Managing Address Space
- - When a program is converted (compiled) 
+ - When a program is converted (compiled) into executable form, there is 
