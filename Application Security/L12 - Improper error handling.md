@@ -44,8 +44,21 @@
 
 ### Exception handling
 - Exception handling is a programming concept that allows an application to respond to different error states (like network down)
-- Handling exceptions and errors correctly is critical to making 
+- Handling exceptions and errors correctly is critical to making your code reliable and secure.
 
 ### Unhandled Exception
 - An unhandled exception occurs when the application code does not properly handle exceptions. E.g. When you try to open a file on disk, it is a common problem for the file to not exist.
 - An unhandled exception occurs when a developers does not anticipate and handle a potential exception.
+
+### Handling Exception
+- Catching and Processing Errors.
+- In C# the exceptions can be handled by the try-catch-finally construction.
+- Provided by `System.Exception`.
+- Enable clear, robust and more fault-tolerant programs.
+- Catch blocks can be used multiple times to process different exception types.
+
+### Types of Exceptions
+- .NET exceptions inherit from `System.Exception`.
+- The system exceptions inherit from `System.SystemException`.
+- E.g.
+	- `System.Argum`
