@@ -98,11 +98,11 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 ### Deadlock Recovery
 - Inform operator to deal with deadlock manually.
 - Two options for breaking deadlock to recover system from deadlock automatically:
-	1. [[L7 - Deadlocks#^process termin]]
-	2. Resource Preemption
+	1. [[L7 - Deadlocks#^f3ae14|Process Termination]]
+	2. [[L7 - Deadlocks#^0c48b3|Resource Preemption]]
 
 ### Process Termination
-^da6cc3
+^f3ae14
 - Abort all deadlocked processes 
 	- This method is expensive since processes may have computed for a long time, and all results must be discarded, and recomputed again.
 - Abort one process at a time until deadlock cycle is broken.
@@ -120,6 +120,7 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 - Whether the process is interactive or batch.
 
 ### Resource Preemption
+^0c48b3
 - Preempt some resources from processes and give these resources to other processes until the deadlock cycle is broken:
 	- Note: For both process termination or resource preemption methods, the system reclaims all resource allocated to the terminating processes.
 - Three issues to be addressed:
