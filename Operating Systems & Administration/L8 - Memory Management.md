@@ -87,4 +87,16 @@
 		- Requires run-time address binding to resolve fragmentation problems.
 
 ### Fragmentation
-- The perp
+- The perpetuation of small memory fragment.
+- Ideally, the memory manager could allocate every single byte of memory to a process if any process needs memory. However, in practical terms, parts of the memory, called **memory fragment**, cannot be used at any given time because memory manager is unable to allocate these parts in an efficient manner.
+- Two types of fragmentation:
+	- [[L8 - Memory Management#Internal fragmentation|Internal fragmentation]]
+	- [[L8 - Memory Management#External fragmentation|External fragmentation]]
+
+### Internal fragmentation
+- Memory that is internal to a partition, but is not being used.
+- E.g. If a process is allocated X amount of memory but needed only Y, the amount of memory (X - Y) cannot be used by other processes, and thus is 'wasted'. This phenomenal is known as internal fragmentation.
+
+### External fragmentation
+- As processes are loaded and removed from memory, the free memory space are fragmented into pieces.
+- External fragmentation exists when enough total memory space exists to satisfy a request, but the request cannot be granted because the me
