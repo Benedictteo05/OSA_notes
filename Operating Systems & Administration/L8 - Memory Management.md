@@ -21,4 +21,6 @@
 - It also reflects how we work in the real world.
 - At the top of the hierarchy is faster, but more expensive memory. e.g. Registers.
 - At the bottom is slower, but cheaper memory. e.g. Hard disk, tape drives.
-- 
+
+### Managing Address Space
+ - When a program is converted (compiled) 
