@@ -31,5 +31,17 @@
 	- Average time a process waits for service (Reduce waiting time)
 	- Average amount of time to complete a job (Reduce time in ready queue to finish state)
 
+### Nonpreemptive vs Preemptive Schedulers
+**Nonpreemptive scheduler**
+- When a process gets the CPU, it will not be preempted (it will not be interrupted), it will have the opportunity to run until it is fully completed before the CPU is given to the next process.
+
+**Preemptive scheduler**
+- Processes takes turnd to share the CPU, they can be interrupted midway - the CPU is allocated to another process even before a process fion
+
+### Nonpreemptive Schedulers 
+- First-Come-First-Served (FCFS)
+	- Scheduler
+
+
 ### Turnaround time
 - Time from when it arrives till the 
