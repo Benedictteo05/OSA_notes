@@ -41,3 +41,11 @@
 - Exception handling enables programmers to remove error-handling code from the "main line" of the program's execution.
 - Simplify code construction and maintenance.
 - Allow the problematic situation to be processed at multiple levels.
+
+### Exception handling
+- Exception handling is a programming concept that allows an application to respond to different error states (like network down)
+- Handling exceptions and errors correctly is critical to making 
+
+### Unhandled Exception
+- An unhandled exception occurs when the application code does not properly handle exceptions. E.g. When you try to open a file on disk, it is a common problem for the file to not exist.
+- An unhandled exception occurs when a developers does not anticipate and handle a potential exception.
