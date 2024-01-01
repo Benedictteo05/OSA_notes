@@ -20,5 +20,16 @@
 **Context switcher**
 - When the scheduler switchers the CPU from executing one process to another, the context switcher saves the contents of all CPU registers (PC, IR, condition status, processor status, and ALU status) for the thread being removed into its descriptor.
 
+### Scheduling Performance
+- Scheduler and its scheduling policy can have a dramatic effect on the performance of a multi-programmed computer.
+- The time a process takes to finish execution is dependent on how often it gets to execute on the CPU as dispatched by the scheduler.
+- Aim is to decrease average time a process takes to execute in the computer and to increase the throughput of a computer in terms of the number of processes that gets executed per unit time.
+
+### Policy Considerations
+- Policy can control/influence:
+	- CPU utilization (Keep the CPU busy)
+	- Average time a process waits for service (Reduce waiting time)
+	- Average amount of time to complete a job (Reduce time in ready queue to finish state)
+
 ### Turnaround time
 - Time from when it arrives till the 
