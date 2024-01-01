@@ -99,4 +99,15 @@
 
 ### External fragmentation
 - As processes are loaded and removed from memory, the free memory space are fragmented into pieces.
-- External fragmentation exists when enough total memory space exists to satisfy a request, but the request cannot be granted because the me
+- External fragmentation exists when enough total memory space exists to satisfy a request, but the request cannot be granted because the memory is fragmented such that there is no single contiguous memory space large enough to allocate to the request.
+### Variable Partition Memory
+- Loader adjusts every address in every absolute module when placed in memory.
+- [[L8 - Memory Management#External fragmentation|External fragmentation]]
+- [[L8 - Memory Management#Compaction|Compaction]] moves program in memory
+
+### Compaction
+- The goal is to shuffle the memory contents to place all free memory together in one big block.
+- It relocates the processes in memory in order to recombine fragmented free memory.
+- It solves the problem of external fragmentation.
+- Note: 1k = $2^11$
+- 
