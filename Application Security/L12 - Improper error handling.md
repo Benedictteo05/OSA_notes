@@ -61,4 +61,25 @@
 - .NET exceptions inherit from `System.Exception`.
 - The system exceptions inherit from `System.SystemException`.
 - E.g.
-	- `System.Argum`
+	- `System.ArgumentException`
+	- `System.NullReferenceException`
+	- `System.OutOfMemoryException`
+	- `System.StackOverflowException`
+- User-defined exceptions should inherit from `System.ApplicationException`
+
+### Common .NET Exceptions
+- The CLR generates `SystemExceptions`, derived from class Exception, which can occur at any point during program execution.
+- If a program attempts to access an out-of-range array index, the CLR throws an exception of type `IndexOutofRangeException`.
+- Attempting to use a null reference causes a `NullReferenceException`.
+
+### Try block
+
+### Catch block
+
+### Benefits of Exceptions
+- The ability to keep code that deals with exceptional situations in a central place.
+- The ability to locate and fix bugs in the code.
+- Unified error handling:
+	- All .NET Framework classes throw exceptions to handle error cases.
+- Exceptions also includes a stack trace that tells you the path application took until the error occurred.
+- You can also put any information you want in a user-defined exception of your own.
