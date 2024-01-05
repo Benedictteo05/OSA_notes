@@ -157,6 +157,13 @@ open class Rectangle(var height: Double, var length: Double,){
 ```
 
 
+## Intent
+**`StartActivity()`**
+```
+
+```
+
+
 ### Resources & Layout
 **Resource Directories**
 
