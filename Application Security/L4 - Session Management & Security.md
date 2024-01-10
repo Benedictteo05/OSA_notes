@@ -99,7 +99,7 @@ Session.Abandon();
 - Only when you go to the next tab, it will refresh the session id
 
 **Singleton**
-- Same data in the some scope, but session id will refresh in different scope
+- Same data in the same scope, but session id will refresh in different scope
 
 ### Session Management (Client)
 - Cookies
