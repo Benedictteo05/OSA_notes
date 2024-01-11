@@ -10,7 +10,8 @@
 **List directory contents**
 - `ls`
 
-****
+**VIM**
+- **Quit** -
 
 **Processes snapshot**
 - `ps`
