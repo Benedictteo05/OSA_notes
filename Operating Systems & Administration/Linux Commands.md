@@ -10,6 +10,11 @@
 **List directory contents**
 - `ls`
 
+****
+
+**Processes snapshot**
+- `ps`
+
 **Move/Rename**
 - `mv`
 
