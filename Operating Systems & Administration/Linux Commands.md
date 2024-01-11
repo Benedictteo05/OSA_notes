@@ -11,7 +11,8 @@
 - `ls`
 
 **VIM**
-- **Quit** -
+- **Quit** 
+	- `:q!`
 
 **Processes snapshot**
 - `ps`
