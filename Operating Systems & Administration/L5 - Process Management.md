@@ -16,18 +16,21 @@
 	- A web browser might have one thread display images or text while another thread retrieve data from the network.
 	- A word processor may have a thread for displaying graphics, another thread of responding to keystrokes from user and a third for performing spelling and grammar checking in the background.
 - Thread specific data is private to the thread. This data is usually stored in a stack.
-- Thread specific data includes:
-	- Program counter
-	- Status of the thread
-	- Processor registers
-	- Stack space
-- Threads within the same process shares the same:
-	- Program code
-	- Data
-	- Resources
 - Sometimes threads are also called lightweight processes.
 
-### Single-Threaded vs Multi-Th
+**Thread specific data includes**:
+- Program counter
+- Status of the thread
+- Processor registers
+- Stack space
+
+**Threads within the same process shares the same:**
+- Program code
+- Data
+- Resources
+
+### Single-Threaded vs Multi-Threaded
+![[Pasted image 20240113160725.png]]
 
 ### UNIX Processes
 - Each processes has its own address space
