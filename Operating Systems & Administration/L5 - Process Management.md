@@ -32,6 +32,9 @@
 ### Single-Threaded vs Multi-Threaded
 ![[Pasted image 20240113160725.png]]
 
+### A process with multiple threads (3 threads)
+![[Pasted image 20240113161209.png]]
+
 ### UNIX Processes
 - Each processes has its own address space
 	- Subdivided into text, data, & stack segment
@@ -47,12 +50,11 @@
 	- Creating a new child process with a single thread.
 	- Creating new additional threads in the current process.
 
-### Benefits
-- Some benefits of multithreaded programming
-	- Responsiveness
-	- Resource sharing
-	- Ease of memory and resource allocation
-	- Utilization of multiprocessor architectures
+### Benefits of multithreaded programming
+- Responsiveness (Things happen at the same time)
+- Resource sharing (Resources are allocated by the OS to each process)
+- Ease of memory and resource allocation
+- Utilization of multiprocessor architectures
 
 ### Process Manager
 - To manage multiple processes, modern OS implement the process manager to manage the processes.
