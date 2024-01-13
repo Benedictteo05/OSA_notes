@@ -51,10 +51,10 @@
 	- Creating new additional threads in the current process.
 
 ### Benefits of multithreaded programming
-- Responsiveness (Things happen at the same time)
+- Responsiveness (Things are done at the same time)
 - Resource sharing (Resources are allocated by the OS to each process)
-- Ease of memory and resource allocation
-- Utilization of multiprocessor architectures
+- Ease of memory and resource allocation (Resources are allocated by the OS to each process)
+- Utilization of multiprocessor architectures (Multi-Core processors allow different threads running on different core in parallel)
 
 ### Process Manager
 - To manage multiple processes, modern OS implement the process manager to manage the processes.
