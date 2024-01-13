@@ -1,6 +1,6 @@
 ### Processes and Threads
 - A process is a binary program in **execution**.
-- A process ( != not a program) is made of:
+- A process ( process != not a program) is made of:
 	- A binary program
 	- Data on which the program will execute
 	- Resources required for execution, including files, devices which contains or provides the data required.
@@ -26,6 +26,8 @@
 	- Data
 	- Resources
 - Sometimes threads are also called lightweight processes.
+
+### Single-Threaded vs Multi-Th
 
 ### UNIX Processes
 - Each processes has its own address space
