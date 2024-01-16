@@ -4,6 +4,12 @@
 **Display text**
 - `echo`
 
+**Standard sub-directories**
+| Sub-directory|Description |
+| --- | --- |
+| `/bin` | Contains user executable programs. For example, the `ls` program is located in `/bin`. |
+
+
 **Print working directory**
 - `pwd`
 
