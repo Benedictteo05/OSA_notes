@@ -87,11 +87,15 @@
 	- Security keys
 - Also known as Process Control Block (PCB)
 
+### Queues of PCBs
+![[Pasted image 20240116234613.png]]
+
 ### Context Switching
 - In a multiple process environment, each thread of execution is a context.
 - When the CPU switches between two processes/threads, it is called a **context switch**.
 - A context switch can only occur when the OS gets control of the CPU through [[L2 - Operating System Organization#^d743ab|trap]] or [[L3 - Computer Organization#^e0e780|interrupt]]. 
 
+	![[Pasted image 20240116234648.png]]
 ### Process States
 - As a process executes, it changes state:
 	- Running: Instructions are being executed.
