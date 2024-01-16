@@ -15,15 +15,21 @@
 | `/proc` | Contains special files pertaining to the state of the running Linux system. These files are virtual files. |
 | `/mnt` | Contains temporarily mounted file systems. |
 | `/usr` | Contains programs that can be run any users of the system. |
-|  |  |
-
-
+| `/var` | Contains variable data files pertaining to the on-going system status such as log files of system activities. |
+| `/home` | Contains sub-directories of user accounts to store personal data files. |
+| `/tmp` | Contains temporary files. |
+| `/root` | This is the home directory of the root user. |
+| `/opt` | Contains software packages for installation. Packages are stored in sub-directories under the `/opt` |
 
 **Print working directory**
 - `pwd`
 
 **List directory contents**
 - `ls`
+- `ls -Rl` - List all files including files in sub-directories.
+
+**Copy files**
+- `cp`
 
 **VIM**
 - **Quit** 
@@ -65,9 +71,7 @@
 - Repeat last command:
 	- `!!`
 
-**File permissions**
-
-|Permissions|command|
+|File Permissions |command|
 |---|--|
 |Read|r|
 |Write|w|
