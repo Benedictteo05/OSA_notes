@@ -10,6 +10,8 @@
 	- Enqueuer
 	- Dispatcher
 	- Context switcher
+### The Scheduler
+![[Pasted image 20240116235008.png]]
 
 **Enqueuer**
 - When a process/thread is changed into the ready state, the enqueuer enqueues the corresponding descriptor into a list of processes that are waiting for the CPU (or the ready list). The enqueuer may place the new process anywhere in the list, depending on the scheduling policy.
@@ -24,6 +26,8 @@
 - Scheduler and its scheduling policy can have a dramatic effect on the performance of a multi-programmed computer.
 - The time a process takes to finish execution is dependent on how often it gets to execute on the CPU as dispatched by the scheduler.
 - Aim is to decrease average time a process takes to execute in the computer and to increase the throughput of a computer in terms of the number of processes that gets executed per unit time.
+
+### Scheduling 
 
 ### Policy Considerations
 - Policy can control/influence:
