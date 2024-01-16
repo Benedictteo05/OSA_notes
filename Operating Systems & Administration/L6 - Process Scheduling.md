@@ -27,7 +27,9 @@
 - The time a process takes to finish execution is dependent on how often it gets to execute on the CPU as dispatched by the scheduler.
 - Aim is to decrease average time a process takes to execute in the computer and to increase the throughput of a computer in terms of the number of processes that gets executed per unit time.
 
-### Scheduling 
+### Scheduling Evaluation
+- W(pi) = Total time Pi spend waiting in ready list (wait time).
+- Let TTRnd (pi) = Time from pi first enter ready to last exit ready (turnaround time)
 
 ### Policy Considerations
 - Policy can control/influence:
