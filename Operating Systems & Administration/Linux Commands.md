@@ -4,10 +4,19 @@
 **Display text**
 - `echo`
 
-**Standard sub-directories**
-| Sub-directory|Description |
-| --- | --- |
+| Sub-directory | Description |
+| ---- | ---- |
 | `/bin` | Contains user executable programs. For example, the `ls` program is located in `/bin`. |
+| `/sbin` | Contains system executable programs used by the root user and the system. For example, the **clock** program is located in `/sbin`. |
+| `/lib` | Contains shared library files used by `/bin` and `/sbin`. |
+| `/dev` | Contains special file system entries for devices attached to the system. |
+| `/boot` | Contains the Linux kernel and bootloader programs. The Linux kernel program is typically known as "vmlinuz" |
+| `/etc` | Contains system configuration files. Files contain user account information are located here. |
+| `/proc` | Contains special files pertaining to the state of the running Linux system. These files are virtual files. |
+| `/mnt` | Contains temporarily mounted file systems. |
+| `/usr` | Contains programs that can be run any users of the system. |
+|  |  |
+
 
 
 **Print working directory**
