@@ -21,12 +21,13 @@
 | `/root` | This is the home directory of the root user. |
 | `/opt` | Contains software packages for installation. Packages are stored in sub-directories under the `/opt` |
 
-**Print working directory**
+**Current Directory**
 - `pwd`
 
 **List directory contents**
 - `ls`
 - `ls -Rl` - List all files including files in sub-directories.
+- `ls -l` - List current directory in long format.
 
 **Copy files**
 - `cp`
