@@ -27,7 +27,7 @@
 	- [[L7 - Deadlocks#^e9ba08|Prevention]]
 		- Design the system so that deadlock is impossible.
 	- [[L7 - Deadlocks#^5837c5|Avoidance]]
-		- Construct a model of system states, then choose a strategy that will not allow the system to go a deadlock state.
+		- Construct a model of system states, then choose a strategy that will not allow the system to go a deadlock state. Disallow process if predicts a deadlock.
 	- [[L7 - Deadlocks#^8bbd82|Detection & Recovery]]
 		- Check for deadlock (periodically or sporadically), then recover.
 	- Manual intervention
