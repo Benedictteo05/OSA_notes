@@ -28,6 +28,7 @@
 - `ls`
 - `ls -Rl` - List all files including files in sub-directories.
 - `ls -l` - List current directory in long format.
+- `ls -a` - List hidden files.
 
 **Copy files**
 - `cp`
