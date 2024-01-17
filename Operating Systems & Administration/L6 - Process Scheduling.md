@@ -109,7 +109,13 @@
 ### Contemporary Scheduling
 - Modern OS usually include the following in their schedulers:
 	- Involuntary CPU sharing - timer interrupts
-		- Time quantum determined by interval timer. Usually
+		- Time quantum determined by interval timer. Usually fixed for every process using the system.
+		- Sometimes called the time slice length
+	- Priority-based process (job) selection
+		- Select the highest priority process
+		- Priority reflects policy
+	- With preemption
+	- Usually a variant of [[L6 - Process Scheduling#Multilevel Queue|Multi-Level Queues]]
 
 ### CPU Schedules
 - There is no practical way to determine which policy is the best.
