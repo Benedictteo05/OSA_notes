@@ -71,6 +71,9 @@
 	- This scheme is also known as the Shortest-Remaining-Time-First (SRTF).
 - SJF is optimal 
 	- It gives minimum average waiting time for a given set of processes.
+- Minimizes wait time
+- May starve large jobs
+- Must know service times
 
 ### Priority Scheduling
 - Concept:
