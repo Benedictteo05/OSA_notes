@@ -44,7 +44,7 @@
 **Remove Files & Directories**
 - `rm`
 - `rmdir`
-- `rmdir -R [directory Name]`
+- `rmdir -R [Directory Name]` - Remove recursively
 
 **Switch user**
 - `su`
@@ -57,6 +57,9 @@
 
 **Date**
 - `date`
+
+**Calendar**
+- `cal`
 
 | Commands| Description|
 |-------------|---------|
