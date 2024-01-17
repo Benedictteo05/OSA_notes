@@ -41,6 +41,11 @@
 **Move/Rename**
 - `mv`
 
+**Remove Files & Directories**
+- `rm`
+- `rmdir`
+- `rmdir -R [directory Name]`
+
 **Switch user**
 - `su`
 
