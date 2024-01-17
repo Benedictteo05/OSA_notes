@@ -8,8 +8,11 @@
 ### Scheduling Mechanisms
 - The scheduling mechanism is composed of three logical parts:
 	- Enqueuer
+		- Enqueuing the corresponding process descriptor into a list of processes that are waiting for the CPU (Ready list)
 	- Dispatcher
 	- Context switcher
+		- Saves the contents of al
+
 ### The Scheduler
 ![[Pasted image 20240116235008.png]]
 
