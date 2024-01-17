@@ -49,6 +49,9 @@
 **Switch user**
 - `su`
 
+**Create user**
+- `useradd [User Name]`
+
 **Change password**
 - `passwd`
 
