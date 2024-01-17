@@ -112,10 +112,10 @@ Finds our how much resources is needed, then allocate enough resource for it. If
 	- For partial termination method, a policy must be defined as to which process to terminate.
 
 **Factors to determine which process is chosen:**
-- The priority of process.
-- How long the process has computed and how much longer to go.
-- How many and what type of resources the process has used.
-- How many more resources the process needs in order to complete.
+- The priority of process (Kill lower in priority).
+- How long the process has computed and how much longer to go (Kill just started).
+- How many and what type of resources the process has used (Kill less important).
+- How many more resources the process needs in order to complete (Avoid killing interactive process).
 - How many processes will need to be terminated.
 - Whether the process is interactive or batch.
 
