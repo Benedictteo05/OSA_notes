@@ -66,7 +66,7 @@
 
 ### Avoidance
 ^5837c5
-- Manage deadlocks by allowing resource allocation only if it satisfied that deadlock will not occur.
+- Manage deadlocks by allowing resource allocation only if it satisfied that deadlock will not occur (safe state).
 - The mechanism is [[L7 - Deadlocks#^2f8e26|Banker's algorithm]].
 
 ### Banker's algorithm
