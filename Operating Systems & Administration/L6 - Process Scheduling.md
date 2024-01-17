@@ -113,9 +113,9 @@
 	- Average waiting and turnaround time.
 
 **Gantt Chart**
-- A 'chart' showing the actual execution of a series of processes by the CPU.
+- A 'chart' showing the actual execution of a series of processes in order by the CPU.
 	- It shows the start and end of execution of each processes.
--  Waiting time is defined as the total time which a process spends waiting for the CPU in the ready list.
+- Waiting time is defined as the total time which a process spends waiting for the CPU in the ready list.
 - Turnaround time is the time from the arrival of the process to its completion by the CPU.
 	- It includes the time it spends waiting for the CPU.
  
