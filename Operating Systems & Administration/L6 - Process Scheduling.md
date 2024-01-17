@@ -106,6 +106,11 @@
 	- RR for foreground queue.
 	- FCFS for background queue.
 
+### Contemporary Scheduling
+- Modern OS usually include the following in their schedulers:
+	- Involuntary CPU sharing - timer interrupts
+		- Time quantum determined by interval timer. Usually
+
 ### CPU Schedules
 - There is no practical way to determine which policy is the best.
 - To study policy performance, we need to consider simplified model, based on a fixed order of processes, which reflect the actual kind of processes a computer can expect.
