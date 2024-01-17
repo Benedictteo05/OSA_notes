@@ -10,8 +10,11 @@
 	- Enqueuer
 		- Enqueuing the corresponding process descriptor into a list of processes that are waiting for the CPU (Ready list)
 	- Dispatcher
+		- Is Invoked after the current process is removed from the CPU. 
+		- The dispatcher removes one of the threads from the ready list and then allocates it to the CPU by loading its CPU registers into the thread's descriptor into the CPU.
 	- Context switcher
-		- Saves the contents of al
+		- Switch the CPU from executing one process to another.
+		- Saves the contents of all CPU registers for the thread being removed into its process descriptor (or PCB).
 
 ### The Scheduler
 ![[Pasted image 20240116235008.png]]
