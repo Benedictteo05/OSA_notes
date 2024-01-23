@@ -160,10 +160,11 @@ open class Rectangle(var height: Double, var length: Double,){
 ## Intent
 **`StartActivity()`**
 ```
-var myIntent = Intent(this, NextActivity::class:java)
+var myIntent = Intent(this, NextActivity::class.java)
 
 // pass data to the next activity
-myIntent.putExtra("Fruits", "apple)
+myIntent.putExtra("Fruits", "apple and orange")
+myIntent.putSerializable("Movies", Movies) // Movies is an object and must be serializable
 ```
 
 
