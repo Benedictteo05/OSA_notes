@@ -54,6 +54,9 @@
 **Create user**
 - `useradd [User Name]`
 
+**Modify user account**
+- `usermod`
+
 **Change password**
 - `passwd`
 
