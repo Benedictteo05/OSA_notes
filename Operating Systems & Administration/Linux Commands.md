@@ -143,4 +143,6 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 **Translate**
 - `tr`
 - Usage:
-- `tr []
+- `tr ":" "\n" // Replaces ":" with "new line"
+
+
