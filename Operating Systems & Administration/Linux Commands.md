@@ -139,3 +139,8 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 **Soft Link (Symbolic Link)**
 - Pointer to the file 
 - `ln -s`
+
+**Translate**
+- `tr`
+- Usage:
+- `tr []
