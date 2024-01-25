@@ -145,11 +145,14 @@ drwx---r-x. 2 student student 40 Aug 24 2019 Desktop
 - Usage:
 - `tr ":" "\n" // Replaces ":" with "new line"
 
+**Edits `sudoers` file**
+- `visudo`
+
 #### `/etc/*`
 | Command | Explanation |
 | ---- | ---- |
-| `/etc/passwd` | User account records |
-| `/etc/shadow` | Shadowed passwords file |
-| `/etc/sudoers` | Permitted user to execute a command as root or another user  |
-
+| `/etc/passwd` | User account records. |
+| `/etc/shadow` | Shadowed passwords file. |
+| `/etc/sudoers` | Permitted user to execute a command as root or another user in the file. |
+|  |  |
 
