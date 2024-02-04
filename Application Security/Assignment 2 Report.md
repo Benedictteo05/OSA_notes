@@ -6,7 +6,11 @@
 	- `userManager.FindByEmailAsync(emailAddress)`
 
 ### Securing credential
-- Through Identity system, we can include 
+- Through Identity system, we can include validation for the backend.
+	- `RequireNonAlphanumeric`, `RequireDigit`, `RequireUppercase`, `RequireLength`, `MaxFailedAccessAttempts`, `DefaultLockoutTimeSpan`
+- For the frontend, I chose a progress bar in addition to feedback message to indicate visually how secure a user password is, this allows for a smoother and pleasant experience for user. 
+- Reason for both backend and frontend validation is because penetration testing works only on server side, therefore we need to have server side validation.
+
 
 ### Validating passwords against top 100 common passwords
 - `builder.AddTop100PasswordValidator<ApplicationUser>();`
