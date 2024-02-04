@@ -34,4 +34,9 @@
  - To decrypt crucial user data, it works similar as to encrypt it,  making use of `DataProtectionProvider` to `Unprotect` the credentials.
 
 ### Anti-bot
-- Going to google's page to create 
+- Register reCAPTCHA v3 keys on the reCAPTCHA admin console. 
+	- https://www.google.com/recaptcha/admin/create
+- Saving both the secret key and the site key to use them.
+- By reading the response from the `ReCaptcha`, we can determine whether to authenticate a user or not.
+	- Whether it is not a success or if the score is below 0.5 (varies from 0.0 to 1.0).
+- S
