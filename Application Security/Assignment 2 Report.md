@@ -30,5 +30,8 @@
 ### Login/Logout
  - Using Identity classes `MaxFailedAccessAttempts` and  `DefaultLockoutTimeSpan` for rate limiting and defining time that it locks out.
  - To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
- - Using `PasswordSignInAsync`, it helps to compare passwords of users with their email without needing to hash it and compare between the saved password manu
- 
+ - Using `PasswordSignInAsync`, it helps to compare passwords of users with their email without needing to hash it and compare between the saved password manually.
+ - To decrypt crucial user data, it works similar as to encrypt it,  making use of `DataProtectionProvider` to `Unprotect` the credentials.
+
+### Anti-bot
+- Going to google's page to create 
