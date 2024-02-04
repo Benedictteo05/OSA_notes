@@ -25,10 +25,7 @@
 - In `program.cs` we can implement secure session using `IServiceCollection AddSession`.
 	- Specifying fields such as `IdleTimeout`, `HttpOnly`, `SecurePolicy` and `isEssential`
 - To use session inside login, through `IHttpContextAccessor`, the Session property provides access to allow developers to `setString()` in users' sessions.
-- To timeout, the `Clear()` property allows 
-
-### Max Failed Access Attempts 
-- Limit is 3 failed attempts.
-- Default lockout Time: 10 mins.
-
+- To detect multiple logins from different devices. I stored the session Id 
+- 
+ To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
  
