@@ -6,12 +6,14 @@
 	- `userManager.FindByEmailAsync(emailAddress)`
 
 ### Securing credential
+**Strong Password**
 - Through Identity system, we can include validation for the backend.
 	- `RequireNonAlphanumeric`, `RequireDigit`, `RequireUppercase`, `RequireLength`, `MaxFailedAccessAttempts`, `DefaultLockoutTimeSpan`
 - For the frontend, I chose a progress bar in addition to feedback message to indicate visually how secure a user password is, this allows for a smoother and pleasant experience for user. 
 - Reason for both backend and frontend validation is because penetration testing works only on server side, therefore we need to have server side validation.
-
-
+**Securing user data and passwords**
+- From nuGet packages we can install a package to validate passwords against the top 100 or 5000 common passwords, this enhances the effectiveness user's passwords.
+- Using `DataProtectionProvider` we can create a secret key to create a secret key. This secret key can be used to encrypt user data 
 ### Validating passwords against top 100 common passwords
 - `builder.AddTop100PasswordValidator<ApplicationUser>();`
 - Source: https://github.com/andrewlock/CommonPasswordsValidator
