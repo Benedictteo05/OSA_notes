@@ -6,7 +6,7 @@
 	- `userManager.FindByEmailAsync(emailAddress)`
 
 ### Securing credential
-- 
+- Through Identity system, we can include 
 
 ### Validating passwords against top 100 common passwords
 - `builder.AddTop100PasswordValidator<ApplicationUser>();`
