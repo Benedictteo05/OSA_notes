@@ -21,9 +21,11 @@
 - Source: https://github.com/andrewlock/CommonPasswordsValidator
 
 ### Session
+- We can generate a session Id using `Guid`, and storing with our user's data.
 - In `program.cs` we can implement secure session using `IServiceCollection AddSession`.
 	- Specifying fields such as `IdleTimeout`, `HttpOnly`, `SecurePolicy` and `isEssential`
-- To use session inside login, through `IHttpContextAccessor`, the Session propert
+- To use session inside login, through `IHttpContextAccessor`, the Session property provides access to allow developers to `setString()` in users' sessions.
+- To timeout, the `Clear()` property allows 
 
 ### Max Failed Access Attempts 
 - Limit is 3 failed attempts.
