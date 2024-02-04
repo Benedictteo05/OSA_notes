@@ -39,4 +39,7 @@
 - Saving both the secret key and the site key to use them.
 - By reading the response from the `ReCaptcha`, we can determine whether to authenticate a user or not.
 	- Whether it is not a success or if the score is below 0.5 (varies from 0.0 to 1.0).
-- S
+
+## Proper Error handling
+- Create an error page, `Error.cshtml`
+- In `program.cs`, use `app.UseStatusCodePagesWithRedirects("/errors/{0}");`
