@@ -9,7 +9,7 @@
 **Strong Password**
 - Through Identity system, we can include validation for the backend.
 	- `RequireNonAlphanumeric`, `RequireDigit`, `RequireUppercase`, `RequireLength`,
-- For the frontend, I chose a progress bar in addition to feedback message to indicate visually how secure a user password is, this allows for a smoother and pleasant experience for user. 
+- For the frontend, I check using regex and chose a progress bar in addition to feedback message to indicate visually how secure a user password is, this allows for a smoother and pleasant experience for user. 
 - Reason for both backend and frontend validation is because penetration testing works only on server side, therefore we need to have server side validation.
 **Securing user data and passwords**
 - From nuGet packages we can install a package to validate passwords against the top 100 or 5000 common passwords, this enhances the effectiveness user's passwords.
@@ -40,6 +40,11 @@
 - By reading the response from the `ReCaptcha`, we can determine whether to authenticate a user or not.
 	- Whether it is not a success or if the score is below 0.5 (varies from 0.0 to 1.0).
 
+### Proper Input validation
+- Used regex to validate validate user inputs.
+- Display using feedback to user using `ModelState.AddModelError`.
+- Used html encoding to prevent SQLi attacks.
+
 ## Proper Error handling
 - Create an error page `404.cshtml`, under a folder `errors`.
 - In `program.cs`, use `app.UseStatusCodePagesWithRedirects("/errors/{0}");`
@@ -56,4 +61,6 @@
 - I created a new email services: `EmailService.cs`, inheriting from `IEmailSender` I used my credentials stored in User Secrets, and defined the SMTP client.
 	- `SmtpClient client = new("smtp-mail.outlook.com", 587)`
 	- Enabling ssl, using SMTP to deliver the message, and specifying my credentials.
-- To set minimum and maximum password age, I saved a `LastPasswordChange` with my user
+- To set minimum and maximum password age, I saved a `LastPasswordChange` with my user data to check against the current time and the time it was changed or created.
+**Authentication/Authorization**
+- Making use of the email server, users that 
