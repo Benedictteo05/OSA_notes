@@ -29,4 +29,5 @@
 
 ### Login/Logout
  - To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
+ - 
  
