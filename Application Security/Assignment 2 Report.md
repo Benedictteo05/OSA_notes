@@ -63,4 +63,4 @@
 	- Enabling ssl, using SMTP to deliver the message, and specifying my credentials.
 - To set minimum and maximum password age, I saved a `LastPasswordChange` with my user data to check against the current time and the time it was changed or created.
 **Authentication/Authorization**
-- Making use of the email server, users that 
+- Making use of the email server, users that registered for the first time will be sent a 6 digit code to their registered email address.
