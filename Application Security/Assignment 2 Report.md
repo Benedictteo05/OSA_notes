@@ -25,7 +25,8 @@
 - In `program.cs` we can implement secure session using `IServiceCollection AddSession`.
 	- Specifying fields such as `IdleTimeout`, `HttpOnly`, `SecurePolicy` and `isEssential`
 - To use session inside login, through `IHttpContextAccessor`, the Session property provides access to allow developers to `setString()` in users' sessions.
-- To detect multiple logins from different devices. I stored the session Id 
-- 
- To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
+- To detect multiple logins from different devices. I stored the session Id with the user's data, so by checking if it exists when user login, I can tell if there is a already a session for the current user.
+
+### Login/Logout
+ - To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
  
