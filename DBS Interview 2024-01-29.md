@@ -1,4 +1,5 @@
 What would a typical day at work look like & how would you describe the culture in the team?
+- Autonomy on what they want to do.
 what are some KPIs or performance review that I should take not of to measure my performance?
 - KPIs based on what you want to learn.
 How would you describe working in DBS bank?
