@@ -13,11 +13,17 @@
 - Reason for both backend and frontend validation is because penetration testing works only on server side, therefore we need to have server side validation.
 **Securing user data and passwords**
 - From nuGet packages we can install a package to validate passwords against the top 100 or 5000 common passwords, this enhances the effectiveness user's passwords.
-- Using `DataProtectionProvider` we can create a secret key to create a secret key. This secret key can be used to encrypt user data 
+- Using `DataProtectionProvider` we can create a secret key to create a secret key. This secret key can be used to encrypt crucial user data such as NRIC. 
+- With the same key generated, we can use it to decrypt user's data to display it back to them.
+
 ### Validating passwords against top 100 common passwords
 - `builder.AddTop100PasswordValidator<ApplicationUser>();`
 - Source: https://github.com/andrewlock/CommonPasswordsValidator
 
+### Session
+- In `program.cs` we can implement secure session using `IServiceCollection AddSession`.
+	- Specifying fields such as `IdleTimeout`, `HttpOnly`, `SecurePolicy` and `isEssential`
+- To use session inside login, through `IHttpContextAccessor`, the Session propert
 
 ### Max Failed Access Attempts 
 - Limit is 3 failed attempts.
