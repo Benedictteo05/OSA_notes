@@ -53,4 +53,7 @@
 - `DefaultLockoutTimeSpan` to specify time to recover from a lockout.
 - I have two extra attributes in my user database to store past passwords, by comparing the hashes, I'm able to check if user needs to change to a different password.
 - To reset password, I created a new email account "AceJobAgency_220437M@outlook.com".
-- I created a new class for 
+- I created a new email services: `EmailService.cs`, inheriting from `IEmailSender` I used my credentials stored in User Secrets, and defined the SMTP client.
+	- `SmtpClient client = new("smtp-mail.outlook.com", 587)`
+	- Enabling ssl, using SMTP to deliver the message, and specifying my credentials.
+- To set minimum and maximum password age, I saved a `LastPasswordChange` with my user
