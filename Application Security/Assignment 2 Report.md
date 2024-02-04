@@ -8,7 +8,7 @@
 ### Securing credential
 **Strong Password**
 - Through Identity system, we can include validation for the backend.
-	- `RequireNonAlphanumeric`, `RequireDigit`, `RequireUppercase`, `RequireLength`, `MaxFailedAccessAttempts`, `DefaultLockoutTimeSpan`
+	- `RequireNonAlphanumeric`, `RequireDigit`, `RequireUppercase`, `RequireLength`,
 - For the frontend, I chose a progress bar in addition to feedback message to indicate visually how secure a user password is, this allows for a smoother and pleasant experience for user. 
 - Reason for both backend and frontend validation is because penetration testing works only on server side, therefore we need to have server side validation.
 **Securing user data and passwords**
@@ -28,6 +28,7 @@
 - To detect multiple logins from different devices. I stored the session Id with the user's data, so by checking if it exists when user login, I can tell if there is a already a session for the current user.
 
 ### Login/Logout
+ - Using Identity classes `MaxFailedAccessAttempts` and  `DefaultLockoutTimeSpan` for rate limiting and defining time that it locks out.
  - To timeout, the `Clear()` property allows for what was stored inside the user's session to be cleared.
- - 
+ - Using `PasswordSignInAsync`, it helps to compare passwords of users with their email without needing to hash it and compare between the saved password manu
  
