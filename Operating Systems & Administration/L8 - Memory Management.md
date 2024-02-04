@@ -87,7 +87,7 @@
 		- Requires run-time address binding to resolve fragmentation problems.
 
 ### Fragmentation
-- The perpetuation of small memory fragment.
+- The perpetuation (the continuation) of small memory fragment.
 - Ideally, the memory manager could allocate every single byte of memory to a process if any process needs memory. However, in practical terms, parts of the memory, called **memory fragment**, cannot be used at any given time because memory manager is unable to allocate these parts in an efficient manner.
 - Two types of fragmentation:
 	- [[L8 - Memory Management#Internal fragmentation|Internal fragmentation]]
