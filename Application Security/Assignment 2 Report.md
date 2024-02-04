@@ -41,5 +41,8 @@
 	- Whether it is not a success or if the score is below 0.5 (varies from 0.0 to 1.0).
 
 ## Proper Error handling
-- Create an error page, `Error.cshtml`
+- Create an error page `404.cshtml`, under a folder `errors`.
 - In `program.cs`, use `app.UseStatusCodePagesWithRedirects("/errors/{0}");`
+
+### Software Testing 
+- Making use of GitHub's internal tool, under security to enable 
