@@ -45,4 +45,12 @@
 - In `program.cs`, use `app.UseStatusCodePagesWithRedirects("/errors/{0}");`
 
 ### Software Testing 
-- Making use of GitHub's internal tool, under security to enable 
+- Firstly, make the repo public.
+- Then, making use of GitHub's internal tool, under security to enable code scanning alerts.
+
+### Advanced Features
+**Account policies and recovery**
+- `DefaultLockoutTimeSpan` to specify time to recover from a lockout.
+- I have two extra attributes in my user database to store past passwords, by comparing the hashes, I'm able to check if user needs to change to a different password.
+- To reset password, I created a new email account "AceJobAgency_220437M@outlook.com".
+- I created a new class for 
