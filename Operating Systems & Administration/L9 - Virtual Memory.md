@@ -77,5 +77,18 @@
 
 ### Performance of Demand Paging
 - Page Fault Rate $0\le p \le1.0$
-	- If 
+	- If p = 0, no page faults.
+	- If p = 1, every reference is a fault.
+- Effective Access Time (EAT)
+	- EAT = $(1 - p) *$memory access time + p (page fault overhead + \[swap page out] + swap page in + restart overhead)
 
+### Demand Paging Example
+- Memory access time = 1 microsecond
+- Average page fault service time = 10 milliseconds or 10,000 microseconds
+- EAT = (1 - p) * 1 + p * (10000)
+	- 1 + 9999p (in microseconds)
+- EAT is directly proportional to page-fault rate.
+
+### Page Replacement
+- Locate the demand page in the disk.
+- Find a free frame:
