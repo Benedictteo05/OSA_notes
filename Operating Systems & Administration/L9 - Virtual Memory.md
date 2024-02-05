@@ -109,4 +109,5 @@
 		- Process migrates from one locality to another.
 		- Localities may overlap.
 - Why does thrashing occur?
-	- $
+	- $\sum$ size of locality $\gt$ total memory size
+
