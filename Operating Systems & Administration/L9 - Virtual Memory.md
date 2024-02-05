@@ -19,5 +19,10 @@
 	- Initialization, main, error handle
 - Different parts have different reference patterns:
 	- Initialization code (used once)
-	- Code of 1
-	- Code of 
+	- Code for phase 1
+	- Code for phase 2
+	- Code for phase 3
+	- Code for error 1
+	- Code for error 2
+	- Code for error 3
+	- Data & stack
