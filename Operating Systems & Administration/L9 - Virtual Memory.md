@@ -26,3 +26,7 @@
 	- Code for error 2
 	- Code for error 3
 	- Data & stack
+
+### Addresses
+- To support virtual memory, we need to implement an additional layer of abstraction.
+- Need to 
