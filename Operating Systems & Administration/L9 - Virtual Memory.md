@@ -69,10 +69,13 @@
 ### Page Table
 - Page table is a hardware mechanism implemented to map the logical page of the program to the physical page frame where the page is loaded.
 - It translate the logical page number to the physical page frame number.
-**Valid-Invalid Bit**
+**[[L9 - Virtual Memory (Valid-Invalid Bit)|Valid-Invalid Bit]]**
 - The valid-invalid scheme is used to distinguished between those pages that are in memory and those that are on the disk.
 - Each page table entry is associated with a bit (1 - in memory, 0 - not in memory).
 - If the bit is set to "valid", the page is both legal and in memory. Otherwise, the page is either not valid or is valid but is on disk.
 - Access to page marked invalid causes a page-fault trap.
 
+### Performance of Demand Paging
+- Page Fault Rate $0\le p \le1.0$
+	- If 
 
