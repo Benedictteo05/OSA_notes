@@ -92,3 +92,21 @@
 ### Page Replacement
 - Locate the demand page in the disk.
 - Find a free frame:
+	1. If there is a free frame, use it.
+	2. Otherwise, use a page replacement algorithm to select a victim frame and write it to the disk. then change the page and frame tables accordingly.
+- Read the desired page into the newly freed frame and change the page and frame tables.
+- Restart the user program.
+- A modify (dirty) bit is used to reduce overhead of page transfers. Only modified pages are written to disk.
+
+### Thrashing 
+- If a process does not have "enough" pages, the page fault is very high.
+- A process is thrashing if it is spending more time paging than execution.
+	- The CPU utilization is low.
+	- The operating system thinks that it needs to increase the degree of multiprogramming.
+- The effects of thrashing can be limited by using a local (or priority) replacement algorithm.
+- Why does paging works?
+	- Locality model
+		- Process migrates from one locality to another.
+		- Localities may overlap.
+- Why does thrashing occur?
+	- $
