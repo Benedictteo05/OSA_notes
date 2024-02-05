@@ -52,4 +52,27 @@
 - A page frame is a fixed size, $2^h$, block of physical memory (the same size as a page).
 - Size of a page is an exponent of 2 to minimize translation time between virtual and physical addresses.
 
-### Demand Pagi
+### Demand Paging
+- In demand paging, the pager brings the necessary pages into memory.
+- Avoid reading in memory pages that will not be used, decreasing the swap time and the amount of physical memory needed.
+- In a pure demand paging scheme, the system never bring a page into the memory until it is needed.
+
+### Benefits
+- Programs no longer constrained by the amount of physical memory.
+- Each program takes less physical memory, allowing more to run at the same time, increasing CPU utilization/throughput.
+
+### Page Fault
+- What happens when a page is required but that page is not in memory but in the virtual memory.
+- A page fault occurs.
+- A page fault is an event when a page is required but is not found in the primary memory, but is in virtual memory.
+
+### Page Table
+- Page table is a hardware mechanism implemented to map the logical page of the program to the physical page frame where the page is loaded.
+- It translate the logical page number to the physical page frame number.
+**Valid-Invalid Bit**
+- The valid-invalid scheme is used to distinguished between those pages that are in memory and those that are on the disk.
+- Each page table entry is associated with a bit (1 - in memory, 0 - not in memory).
+- If the bit is set to "valid", the page is both legal and in memory. Otherwise, the page is either not valid or is valid but is on disk.
+- Access to page marked invalid causes a page-fault trap.
+
+### Valid-Invalid Bit
