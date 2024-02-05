@@ -75,4 +75,4 @@
 - If the bit is set to "valid", the page is both legal and in memory. Otherwise, the page is either not valid or is valid but is on disk.
 - Access to page marked invalid causes a page-fault trap.
 
-### Valid-Invalid Bit
+
