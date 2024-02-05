@@ -29,4 +29,27 @@
 
 ### Addresses
 - To support virtual memory, we need to implement an additional layer of abstraction.
-- Need to 
+- Need to implement:
+	- Virtual address
+		- Every program loaded into memory has a virtual address space.
+		- Each space starts from 0x000000.
+	- Physical address
+		- Actual location in physical memory.
+		- Virtual addresses need to be translated into physical addresses in order to access the contents of that memory location.
+
+### Size of Blocks of Memory
+- To support virtual memory, the computer system needs to manage memory in "blocks".
+- Virtual memory system transfers "blocks" of the address space to/from primary memory.
+- **Fixed size blocks (paging):**
+	- System-defined pages are moved back and forth between primary and secondary memory.
+- **Variable size blocks (segmentation)**:
+	- Programmer-defined segments 
+		- Corresponding to logical fragments - Are the unit of movement.
+- Demand paging is the commercially dominant form of virtual memory today.
+
+### Paging
+- A page is a fixed size, $2^h$, block of virtual addresses, where h is an integer.
+- A page frame is a fixed size, $2^h$, block of physical memory (the same size as a page).
+- Size of a page is an exponent of 2 to minimize translation time between virtual and physical addresses.
+
+### Demand Pagi
