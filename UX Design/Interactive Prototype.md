@@ -17,9 +17,12 @@
 - Events that are related are also related visually.
 
 
-### Cart
+### Checkout Process
 - Error prevention
 	- Disable Checkout button if there is nothing in cart.
 	- Only if an item is checked, then make the Checkout button clickable.
+- Visibility of system status
+	- Progress stepper.
+- 
 
 **Gestalt Principles**
