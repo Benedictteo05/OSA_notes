@@ -18,6 +18,8 @@
 - It shows that the banner is a different content then the other pages.
 **Orange Colored Banner**
 - Gives off enthusiasm, energy and excitement.
+**Flexibility of use**
+- "PlayGPT"
 **Whitespace**
 - Focus on the text field and the suggested prompts.
 **Visual Hierarchy**
@@ -35,6 +37,6 @@
 - Visibility of system status
 	- Progress stepper.
 - User control and freedom
-	- Able to click cart to 
+	- Able to click cart to return back to cart page.
 
 **Gestalt Principles**
