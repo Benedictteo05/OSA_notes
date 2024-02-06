@@ -34,6 +34,7 @@
 	- Only if an item is checked, then make the Checkout button clickable.
 - Visibility of system status
 	- Progress stepper.
-- 
+- User control and freedom
+	- Able to click cart to 
 
 **Gestalt Principles**
