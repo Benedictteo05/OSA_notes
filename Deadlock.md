@@ -25,6 +25,22 @@ Prevent deadlock
 		1. Invoke each time a request of allocation cannot be granted immediately.
 			- Able to identify the specific process that is causing the deadlock.
 			- Overhead in computational time.
-		2. Invoke a regular t
+		2. Invoke a regular time intervals.
+		3. Invoke when CPU utilization drops below 40%.
+	- Recovery
+		- Inform operator to deal with deadlock manually.
+		- Two options to break automatically:
+			1. Process termination
+				- Priority of process
+				- How long and how much longer to go
+				- How many and what type
+				- How many more resources to complete
+				- How many needs to be terminated.
+				- interactive or batch
+			1. Resource preemption
+				- Selective a victim
+				- Rollback
+				- Starvation
 - Manual intervention
+	- 
 
