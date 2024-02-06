@@ -17,6 +17,14 @@ Prevent deadlock
 	- Preemption
 		- If a process is required and cannot be fulfilled, the OS is able to preempt the resource
 - Avoidance
+	- Manage deadlock by allowing resource allocation only if it determines that a deadlock will not occur. (safe state)
+	- Banker's algorithm
 - Detection and Recovery
+	- Disregards deadlock, but aims to detect when it does occur and takes additional steps to remove it.
+	- banker's algorithm for detection
+		1. Invoke each time a request of allocation cannot be granted immediately.
+			- Able to identify the specific process that is causing the deadlock.
+			- Overhead in computational time.
+		2. Invoke a regular t
 - Manual intervention
 
