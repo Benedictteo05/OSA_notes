@@ -12,7 +12,7 @@
 
 ### AI Chat Bot
 **Gutenberg diagram**
-- F - Pattern, let user scan easily.
+- F - Pattern, let user scan events easily.
 **Disrupts the Continuity**
 - The banner and colors disrupts the continuity of the page. 
 - It shows that the banner is a different content then the other pages.
