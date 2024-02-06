@@ -10,7 +10,7 @@
 9. Help Users Recognize, Diagnose, and Recover from Errors
 10. Help and Documentation
 
-### Design principles used
+### PlayGPT
 **Disrupts the Continuity**
 - The banner and colors disrupts the continuity of the page. 
 - It shows that the banner is a different content then the other pages.
