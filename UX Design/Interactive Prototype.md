@@ -10,7 +10,7 @@
 9. Help Users Recognize, Diagnose, and Recover from Errors
 10. Help and Documentation
 
-### PlayGPT
+### AI Chat Bot
 **Disrupts the Continuity**
 - The banner and colors disrupts the continuity of the page. 
 - It shows that the banner is a different content then the other pages.
@@ -22,6 +22,8 @@
 - Placed description of Chat Bot at the top of the page.
 - This improves the visual hierarchy as it is more prominent than the element in the navbar.
 - Events that are related are also related visually.
+
+**Send Button only activates when **
 
 
 ### Checkout Process
