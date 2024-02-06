@@ -18,5 +18,8 @@
 
 
 ### Cart
-- Error p
+- Error prevention
+	- Disable Checkout button if there is nothing in cart.
+	- Only if an item is checked, then make the Checkout button clickable.
+
 **Gestalt Principles**
