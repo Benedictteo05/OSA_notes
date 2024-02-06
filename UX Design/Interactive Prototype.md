@@ -27,9 +27,6 @@
 - This improves the visual hierarchy as it is more prominent than the element in the navbar.
 - Events that are related are also related visually.
 
-**Send Button only activates when **
-
-
 ### Checkout Process
 - Error prevention
 	- Disable Checkout button if there is nothing in cart.
