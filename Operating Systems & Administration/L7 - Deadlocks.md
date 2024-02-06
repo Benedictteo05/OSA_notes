@@ -62,7 +62,7 @@
 	- If new resource is not in the correct order, release all currently held resources and re-obtain them in the correct order.
 
 **Allow Preemption**
-- If a process requests for a resource and the resource is not available, its currently held resources can be preempted by the OS and given to other resources.
+- If a process requests for a resource and the resource is not available, its currently held resources can be preempted by the OS and given to other processes.
 
 ### Avoidance
 ^5837c5
