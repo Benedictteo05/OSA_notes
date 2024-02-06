@@ -38,5 +38,4 @@
 	- Progress stepper.
 - User control and freedom
 	- Able to click cart to return back to cart page.
-
-**Gestalt Principles**
+- Check box for affordance
