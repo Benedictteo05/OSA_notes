@@ -16,4 +16,7 @@
 - This improves the visual hierarchy as it is more prominent than the element in the navbar.
 - Events that are related are also related visually.
 
+
+### Cart
+- Error p
 **Gestalt Principles**
