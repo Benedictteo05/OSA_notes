@@ -19,7 +19,7 @@
 **Orange Colored Banner**
 - Gives off enthusiasm, energy and excitement.
 **Flexibility of use**
-- "PlayGPT"
+- "PlayGPT" in the navbar for advanced users who already know the chat bot.
 **Whitespace**
 - Focus on the text field and the suggested prompts.
 **Visual Hierarchy**
