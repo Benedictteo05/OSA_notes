@@ -2,7 +2,7 @@
 - Memory in a computer system is divided into primary and secondary memory.
 - Primary memory holds information (data and programs) while the CPU is using it.
 - Secondary memory refers to storage devices that stores information when the CPU is not using it.
-- Memory manager is responsible for allocating and deallocating  primary memory.
+- Memory manager is responsible for allocating and deallocating primary memory.
 - It ensures that the memory is not abused and is used efficiently.
 
 ### Memory Manager
