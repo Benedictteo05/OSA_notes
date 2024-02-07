@@ -75,7 +75,9 @@
 - Extract headers and put them in an index.
 - Simplify seeks.
 - May link indices together (for large files).
-![[Pasted image 20240207133800.png]]
+
+- **Example of Indexed Allocation**
+	![[Pasted image 20240207133800.png]]
 
 ### Index Allocation Advantages
 - Support direct access.
@@ -86,3 +88,31 @@
 	- The pointer overhead of index block is generally greater than the pointer overhead of linked allocation.
 	- An entire index block is allocated to a file even if only one or two pointers are used.
 	- Inevitably, we have to decide on the size of the index block (If index block is too large, space are wasted. Too small an index block will not be able to hold enough pointers for large file).
+
+### File Descriptors
+- The file manager, in addition to storing the files, also manages the various information that describe the files. (file descriptors).
+- External name
+- Current state
+- Sharable
+- Owner
+- User
+- Locks
+- Protection settings
+- Length
+- Time of creation
+- Time of last modification
+- Time of last access
+- Reference count
+- Storage device details
+
+### Directories
+- File manager not only needs to provide mechanisms for applications to create, write, read files, it also needs to provide ways to manage *collections* of files.
+- A file directory is a set of logically associated files and other sub-directories of files.
+- We use directories to help use organize logically the different files that we may handle.
+- For e.g. We can store the files associated with a project in one direct and those with another project in another directory.
+- The file manager provides a set of commands to allow users to administer directories, including:
+	- Enumerate: Returns a list of all the files and nested directories. E.g. `dir` in Windows, or `ls` in Unix/Linux.
+	- Copy: Create a duplicate of an existing file. `cp`
+	- Rename: Changes the name of the file. `mv`
+	- Delete: Removes the file from the directory. Can also be used to delete directories. `rm`
+	- Traverse: 
