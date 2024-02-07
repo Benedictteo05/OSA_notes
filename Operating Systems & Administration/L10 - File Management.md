@@ -31,4 +31,15 @@
 ### Contiguous Allocation Advantages
 - Support both sequential and direct access
 	- For sequential access, the file system remembers the disk address of the last block referenced, and, when necessary, reads the next block.
-	- For direct access to block i of a file that stars at block b
+	- For direct access to block i of a file that stars at block b, we can immediately access block b+i.
+- Minimal disk seek time
+	- As disk addresses are defined in a linear ordering on the disk, accessing block b+1 after block b normally requires no head movement. Moreover, when head movement is needed (from the last sector of one cylinder to the first sector of the next cylinder) it is only one track. Thus the number of disk seeks required for accessing contiguously allocated files is minimal.
+
+### Contiguous Allocation Disadvantages
+- External Fragmentation
+	- As files are allocated and deleted, the free disk space is broken into little pieces thus resulting in non-contiguous blocks.
+	- The solution to this problem is to perform compaction on the disk blocks. All the free space is compacted into one large hole. However, the cost of compaction is time.
+- Unknown file size 
+	- When a file is created, the total amount of space it needs must be allocated, but in some cases, example, output file, the size is not known and may be difficult to extend later.
+- Known file size
+	- Even if the file size is known in advance, pre-allocation may be insufficient because file will grow over a long 
