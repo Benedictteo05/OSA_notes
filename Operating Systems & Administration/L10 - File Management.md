@@ -42,4 +42,12 @@
 - Unknown file size 
 	- When a file is created, the total amount of space it needs must be allocated, but in some cases, example, output file, the size is not known and may be difficult to extend later.
 - Known file size
-	- Even if the file size is known in advance, pre-allocation may be insufficient because file will grow over a long 
+	- Even if the file size is known in advance, pre-allocation may be insufficient because file will grow over a long period of time.
+
+### Linked Allocation
+- Linked allocation solves all problems of contiguous allocation. With linked allocation, each file is a linked list of blocks; the disk blocks may be scattered anywhere on the disk.
+- The directory contains a pointer to the first and last blocks of the file. Each block contains a pointer to the next block. 
+- To create a file, we simply create a new entry in the directory and the pointer to the first disk block of the file is initialized to nil (the end-of-list pointer value) to signify an empty file.
+- A write to a file removes the first free block from the free-space list and linked to the end of the file.
+- To read a file, simply follow the pointers from block to block.
+- 
