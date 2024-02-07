@@ -22,7 +22,6 @@
 
 ### Contiguous Allocation
 - This method requires each file to occupy a set of contiguous blocks on the disk.
-- Disk addresses define a linear ordering on the disk.
 - Disk addresses define a linear ordering on the disk
 - Contiguous allocation of a file is defined by the disk address and length (in block units) of the file.
 - Directory entry for each file indicates the address of starting block and length of the area allocated to this file.
