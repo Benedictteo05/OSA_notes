@@ -30,7 +30,7 @@
 ### Contiguous Allocation Advantages
 - Support both sequential and direct access
 	- For sequential access, the file system remembers the disk address of the last block referenced, and, when necessary, reads the next block.
-	- For direct access to block i of a file that stars at block b, we can immediately access block b+i.
+	- For direct access to block i of a file that starts at block b, we can immediately access block b+i.
 - Minimal disk seek time
 	- As disk addresses are defined in a linear ordering on the disk, accessing block b+1 after block b normally requires no head movement. Moreover, when head movement is needed (from the last sector of one cylinder to the first sector of the next cylinder) it is only one track. Thus the number of disk seeks required for accessing contiguously allocated files is minimal.
 
