@@ -14,4 +14,21 @@
 ![[Pasted image 20240207004906.png]]
 
 ### Block Management
-- In an actual storage systen
+- In an actual storage system, data is stored in blocks, usually of equal size.
+- Three well-known techniques of organizing these blocks:
+	- As a contiguous set of blocks.
+	- As a list of blocks interconnected with links.
+	- As a collection of blocks interconnected by a **file index**
+
+### Contiguous Allocation
+- This method requires each file to occupy a set of contiguous blocks on the disk.
+- Disk addresses define a linear ordering on the disk.
+- Disk addresses define a linear ordering on the disk
+- Contiguous allocation of a file is defined by the disk address and length (in block units) of the file.
+- Directory entry for each file indicates the address of starting block and length of the area allocated to this file.
+- If the file is n blocks long and start at location b, then it occupies b, b+1, b+2,.., b+n-1.
+
+### Contiguous Allocation Advantages
+- Support both sequential and direct access
+	- For sequential access, the file system remembers the disk address of the last block referenced, and, when necessary, reads the next block.
+	- For direct access to block i of a file that stars at block b
