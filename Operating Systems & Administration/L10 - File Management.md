@@ -50,4 +50,8 @@
 - To create a file, we simply create a new entry in the directory and the pointer to the first disk block of the file is initialized to nil (the end-of-list pointer value) to signify an empty file.
 - A write to a file removes the first free block from the free-space list and linked to the end of the file.
 - To read a file, simply follow the pointers from block to block.
-- 
+
+### Linked Allocation Advantages
+- Disk space need not be contiguous.
+- No external fragmentation
+	- Any free block on the fre
