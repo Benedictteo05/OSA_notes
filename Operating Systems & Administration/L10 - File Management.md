@@ -69,4 +69,20 @@
 ### Index Allocation
 - Linked allocation does not support efficient direct access, since the pointers to the blocks are scattered with the blocks themselves all over the disk and need to be retrieved in order. Indexed allocation solves this problem by bringing all the pointers together into one location: The Index block.
 - Each file has its own index block, which is an array of disk-block addresses. The $ith$ entry in the entry in the index block points to the $ith$ block of the file. The directory contains the address of the index block.
-- To read the $ith$ block
+- To read the $ith$ block, use the pointer in the $ith$ index block entry to find and read the desired block.
+- When the file is created, all pointers in the index block are set to nil. When the $ith$ block is first written, a block is removed from the free-space list and its address is put in the $ith$ index-block entry.
+**How it works**
+- Extract headers and put them in an index.
+- Simplify seeks.
+- May link indices together (for large files).
+![[Pasted image 20240207133800.png]]
+
+### Index Allocation Advantages
+- Support direct access.
+- No external fragmentation as any free block on the disk may satisfy a request for more space.
+
+### Index Allocation Disadvantages
+- Wasted space
+	- The pointer overhead of index block is generally greater than the pointer overhead of linked allocation.
+	- An entire index block is allocated to a file even if only one or two pointers are used.
+	- Inevitably, we have to decide on the size of the index block (If index block is too large, space are wasted. Too small an index block will not be able to hold enough pointers for large file).
