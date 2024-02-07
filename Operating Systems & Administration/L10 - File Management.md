@@ -14,3 +14,4 @@
 ![[Pasted image 20240207004906.png]]
 
 ### Block Management
+- In an actual storage systen
