@@ -115,4 +115,28 @@
 	- Copy: Create a duplicate of an existing file. `cp`
 	- Rename: Changes the name of the file. `mv`
 	- Delete: Removes the file from the directory. Can also be used to delete directories. `rm`
-	- Traverse: 
+	- Traverse: Allows a user to explore the directories by 'moving' into or out directory structures. `cd` `pwd`
+- In a directory, files can be sorted by their various **attributes**, including:
+	- Name
+	- Size
+	- Last access time
+	- Owner, among many others
+
+### Directory Structures
+- How should files be organized within directory?
+	- Flat name space
+		- All files appear in a single directory
+		- Not good once number of files get too large, or exceed a threshold, say 20 files.
+	- Hierarchical name space
+		- Directory contains files and subdirectories
+		- Each file/directory appears as an entry in exactly one other directory -- a tree.
+		- Popular variant: All directories form a tree, but a file can have multiple parents.
+		- Popular as it allows users to subdivide files into multiple directories, which themselves may be nested.
+
+### Hierarchical Directories
+- Files can be stored in directories, and so can directories.
+- Directories can be stored into a 'super' directory of directories.
+- Files can be ordered within the directory and so can sub-directories.
+
+**Linux**
+[[Linux Commands#^dd3621|Sub-directories]]

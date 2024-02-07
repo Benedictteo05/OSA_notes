@@ -21,6 +21,8 @@
 | `/root` | This is the home directory of the root user. |
 | `/opt` | Contains software packages for installation. Packages are stored in sub-directories under the `/opt` |
 
+^dd3621
+
 **Current Directory**
 - `pwd`
 
