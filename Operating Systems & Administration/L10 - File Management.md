@@ -54,4 +54,19 @@
 ### Linked Allocation Advantages
 - Disk space need not be contiguous.
 - No external fragmentation
-	- Any free block on the fre
+	- Any free block on the free-space list can be used to satisfy a request, since all blocks are linked together.
+	- There is no necessity to compact disk space.
+- No need to declare the size of file
+	- The size of a file can grow as long as there are free blocks.
+
+### Linked Allocation Disadvantages
+- Inefficient for direct access
+	- To find the $ith$ block of a file, we must start at the beginning of that file, and follow the pointers until we get to the $ith$ block.
+- Pointer space
+	- Extra space in each block is required to store the pointers. Thus, each file would require slightly more space.
+- Reliability problem
+	- As the files are linked together by pointers scattered all over the disk, consider what would happen if a pointer was lost of damaged. A bug in the OS or disk hardware failure might result in picking up the wrong pointer thus accessing wrong block.
+### Index Allocation
+- Linked allocation does not support efficient direct access, since the pointers to the blocks are scattered with the blocks themselves all over the disk and need to be retrieved in order. Indexed allocation solves this problem by bringing all the pointers together into one location: The Index block.
+- Each file has its own index block, which is an array of disk-block addresses. The $ith$ entry in the entry in the index block points to the $ith$ block of the file. The directory contains the address of the index block.
+- To read the $ith$ block
